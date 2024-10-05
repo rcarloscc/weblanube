@@ -1,0 +1,648 @@
+:root{
+  --color-dark-bg: 23, 38, 58;
+  --color-extra-dark-bg: 18, 20, 20;
+}
+.mode-switcher a.layout:first-child{
+  background: var(--color-white) !important;
+  color: var(--color-primary) !important;
+}
+
+.mode-switcher a.layout:last-child{
+  background: var(--color-primary)  !important;
+  color: var(--color-white)  !important;
+}
+
+
+body{
+  background: rgba(var(--color-dark-bg), 1.0);
+}
+
+
+
+.section-bg .section-header h2 {
+  color: var(--color-white);
+}
+
+.section-bg  .section-header p {
+  color: var(--color-white);
+}
+
+.section-header h2 {
+  color: var(--color-secondary);
+}
+
+.section-header p {
+  color: var(--color-info-dark);
+}
+
+.offcanvas .offcanvas-inner{
+background: rgba(var(--color-dark-bg), 1);
+}
+
+.offcanvas-header h5 {
+  color: var(--color-white);
+}
+
+.offcanvas-header .style-swicher-close {
+color: var(--color-white) !important;
+}
+
+.switcher-style-head {
+
+  color: var(--color-white) !important;
+}
+
+#switcher-canvas .canvas-footer {
+background: rgba(var(--color-extra-dark-bg), 1);
+}
+
+.switch-select .form-check-label {
+    color: var(--color-white) !important;
+}
+
+
+#banner h1 {
+color: var(--color-white);
+}
+
+#banner p {
+color: var(--color-white);
+}
+
+.btn-primary {
+  font-size: 16px;
+  color: var(--color-white) !important;
+  background: var(--color-secondary) !important;
+  padding: 8px 23px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-family: var(--font-primary);
+  border-color: var(--color-secondary) !important;
+  border: 2px solid;
+}
+
+/*.btn-outline-primary-two {
+  font-size: 16px;
+  font-weight: 600 !important;
+  color: var(--color-white) !important;
+  background: none;
+  padding: 8px 23px;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-family: var(--font-primary) !important;
+  border-color: var(--color-white) !important;
+  border: 2px solid;
+}*/
+
+.section-header h2 {
+  color: var(--color-white);
+}
+
+.features3 h3 {
+  color: var(--color-white);
+}
+
+.features3 p {
+  color: var(--color-white);
+}
+
+.features3 .bg-color {
+  background: var(--color-secondary);
+}
+
+.features4 h3 {
+  color: var(--color-white);
+}
+
+.features4 p {
+  color: var(--color-white);
+}
+
+.features6 .section-header h2 {
+  color: var(--color-secondary);
+}
+
+.features7 .section-header h2{
+  color: var(--color-white);
+}
+
+.features5 {
+  background: #17263a;
+}
+
+.features5 .section-header h2{
+  color: var(--color-white);
+}
+
+.suport {
+  background: #17263a;
+}
+
+.suport h2 {
+  margin-bottom: 0px;
+  color: var(--color-white);
+  font-weight: 700;
+}
+
+.suport h4 {
+  margin-bottom: 0px;
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.suport p {
+  margin-bottom: 0px;
+  color: var(--color-white);
+}
+
+.domain-search {
+  background: #17263a;
+}
+
+.domain-search .section-header h2 {
+  color: var(--color-white);
+  text-align: center;
+}
+
+.domain-search .section-header p {
+  color: var(--color-secondary);
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.plan-three {
+  background: #17263a;
+}
+
+.plan-three .section-header h2 {
+  color: var(--color-white);
+}
+
+.plan-three .section-header p {
+  color: var(--color-secondary);
+}
+
+.custom-tabings .customtab .tablinks.active {
+  background-color: var(--color-white);
+  color: var(--color-secondary);
+}
+
+.custom-tabings .customtab .tablinks {
+  padding: 13px 25px;
+  color: var(--color-white);
+  border: 1px solid;
+  border-color: var(--color-white);
+}
+
+.plan-for {
+  background: #17263a;
+}
+
+.plan-for .section-header h2 {
+  color: var(--color-white);
+}
+
+.plan-for .section-header p {
+  color: var(--color-secondary);
+}
+
+.plan-three .plan-name .doller-price {
+  background: var(--color-secondary);
+}
+
+.features9 {
+  background: #17263a;
+}
+
+.features9 .section-header h2 {
+  color: var(--color-white);
+}
+
+.features10 {
+  background: #17263a;
+}
+
+.features11 {
+  background: #17263a;
+}
+
+.features11 .section-header h2 {
+  color: var(--color-white);
+}
+
+.features11 .section-header p {
+  font-size: ;
+  color: var(--color-white);
+}
+
+.features12 {
+  background: #17263a;
+}
+
+.features12 .section-header h2 {
+  color: var(--color-white);
+}
+
+.features12 .section-header p {
+  font-size: ;
+  color: var(--color-white);
+}
+
+.plan-three {
+  background: #17263a !important;
+}
+
+.features9 {
+  background-color: #17263a !important;
+}
+
+.faq {
+  background-color: #17263a;
+}
+
+.faq .card {
+  border-color: #17263a;
+  background: #17263a;
+}
+
+.suport {
+  background: var(--color-info);
+}
+
+.suport h2{
+  color: var(--color-primary);
+}
+
+.suport h4{
+  color: var(--color-primary);
+}
+
+.suport p{
+  color: var(--color-primary);
+}
+
+.domain-search form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner3 h1 {
+  color: var(--color-white) !important;
+}
+
+.banner3 p {
+  color: var(--color-white) !important;
+}
+
+.banner3 ul.list-tick1 li{
+  color: var(--color-secondary) !important;
+}
+
+.banner3 ul.list-tick1 li::before {
+  color: var(--color-secondary) !important;
+}
+
+.banner4 ul.list-tick2 li::before{
+  color: var(--color-secondary);
+}
+
+.banner4 ul.list-tick2 li {
+  color: var(--color-secondary);
+}
+
+.banner5 {
+  background-color: #17263a;
+}
+
+.banner5 h1{
+  color: var(--color-white);
+}
+
+.banner5 p{
+  color: var(--color-white);
+}
+
+.banner5 ul.list-tick3 li {
+  color: var(--color-secondary);
+}
+
+.banner5 ul.list-tick3 li::before{
+  color: var(--color-secondary);
+}
+
+.banner7 {
+  background-color: #17263a;
+}
+
+.banner7 ul.list-tick7 li::before {
+  color: var(--color-secondary)
+}
+
+.banner7 ul.list-tick7 li {
+  color: var(--color-secondary);
+}
+
+#plans .section-header h2 {
+  color: var(--color-white);
+}
+
+#plans .section-header p {
+  color: var(--color-white);
+}
+
+.table-plans tbody th.tbale-titles {
+  background: var(--color-secondary);
+}
+
+.banner6 ul.list-tick6 li::before {
+  color: var(--color-secondary);
+}
+
+.banner6 ul.list-tick6 li{
+  color: var(--color-white);
+}
+
+.banner7.bg-white{
+  background-color: #17263a !important;
+}
+
+.features3 ul.list-tick li::before {
+  color: var(--color-secondary);
+}
+
+.features3 ul.list-tick li{
+  color: var(--color-white);
+}
+
+.features4.bg-infoe{
+  background-color: #17263a;
+}
+
+.features4 ul.list-tick li::before{
+  color: var(--color-secondary);
+}
+
+.features4 ul.list-tick li{
+  color: var(--color-white);
+}
+
+.features6 .section-header p{
+  color: var(--color-white);
+}
+
+.features6 .section-header h2{
+  color: var(--color-white);
+}
+
+.banner21 {
+  background: #17263a !important;
+}
+
+.banner21 .domain-lists li p{
+  color: var(--color-primary);
+}
+
+.banner22 {
+  background: #17263a !important;
+}
+
+.banner22 .domain-lists li p{
+  color: var(--color-primary);
+}
+
+.features11.bg-white{
+  background: #17263a !important;
+}
+
+.banner23 {
+  background: #17263a;
+}
+
+.banner23 .premium-domain-range-bar .numberbar .currency-icon span.icon {
+  color: var(--color-white);
+  border-color: var(--color-white);
+}
+
+.banner23 form .currency-icon span.icon {
+  color: var(--color-white) !important;
+}
+
+.banner23 .premium-domain-range-bar input[type="number"] {
+    color: var(--color-white);
+}
+
+.banner24 {
+  background: #17263a;
+}
+
+.banner25 {
+  background: #17263a;
+}
+
+.bulk-paragraph{
+  background: #17263a;
+}
+
+.bulk-paragraph h2{
+  color: var(--color-secondary);
+}
+
+.bulk-paragraph ul li{
+  color: var(--color-white);
+}
+
+.bulk-paragraph .list-tick-eight li::before {
+    color: var(--color-secondary);
+}
+
+.banner26{
+  background: #17263a;
+}
+
+.banner27{
+  background: #17263a !important;
+}
+
+.banner29{
+  background: #17263a !important;
+}
+
+.support-two{
+  background: #17263a;
+}
+
+.privacypolcy{
+  background: #17263a;
+}
+
+.privacypolcy h4{
+  color: var(--color-secondary);
+}
+
+.privacypolcy p span{
+  color: var(--color-secondary);
+}
+
+.banner31 {
+  background: #17263a;
+}
+
+.banner23 form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner21 form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner22 form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner25 form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner27 form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner28 form input[type="submit"] {
+  background: var(--color-secondary) !important;
+}
+
+.banner28 {
+  background: #17263a !important;
+}
+
+.features3{
+  background: #17263a !important;
+}
+
+.sunrice-domains{
+  background-color: #17263a;
+}
+
+.sunrice-domains .section-header h2 {
+  color: var(--color-white);
+}
+
+.sunrice-domains .section-header p {
+  color: var(--color-white);
+}
+
+.domain-pricing {
+  background-color: #17263a;
+}
+
+.tabings .tabs .tabbutton.active {
+  background-color: var(--color-secondary);
+  color: var(--color-white);
+}
+
+.tabings .tabs .tabbutton {
+  border-color: var(--color-secondary);
+}
+
+.table-style-three thead {
+  background: var(--color-secondary);
+}
+
+.form-control {
+  border-color: var(--color-secondary);
+}
+
+.table-style-three tbody tr td:first-child {
+  border-left: 3px solid var(--color-secondary);
+  border-radius: 2px 0 0 2px;
+  border-right: 3px solid var(--color-secondary);
+}
+
+.table td, .table th {
+  border-top: 3px solid var(--color-secondary);
+  border-bottom: 3px solid var(--color-secondary);
+  border-right: 3px solid var(--color-secondary);
+}
+
+.promos.bg-infoe{
+  background-color: #17263a !important;
+}
+
+.promos .domian-contant:hover {
+    background-color: var(--color-secondary);
+}
+
+.horizontal-plan{
+  background: #17263a;
+}
+
+.login-now{
+  background: #17263a;
+}
+
+.register-page{
+  background: #17263a;
+}
+
+.forgot-password{
+  background: #17263a;
+}
+
+.contact-us-pages{
+  background: #17263a;
+}
+
+.contact-us-pages .section-header h2{
+  color: var(--color-white);
+}
+
+.contact-us-pages .section-header p{
+  color: var(--color-white);
+}
+
+#team{
+  background: #17263a;
+}
+
+.features5{
+  background: #17263a !important;
+}
+
+.about-sec1{
+  background: #17263a !important;
+}
+
+.about-sec2{
+  background: #17263a !important;
+}
+
+.blogsec1 {
+  background: #17263a !important;
+}
+
+.blogdetailssec .blogdetailssec1 {
+  background: var(--color-white);
+}
+
+.blogdetailssec .sidebar-content{
+  background: var(--color-white);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.horizontal-plan{
+  background: #17263a !important;
+}
+
+.network{
+  background-color: var(--color-white);
+}
+
+.wintersal h3 {
+  color: var(--color-white);
+}
+
+.christmassale h3{
+  color: var(--color-white);
+}

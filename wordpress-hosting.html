@@ -1,0 +1,980 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="description" content="Buy a hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="author" content="RedCheap Theme">
+<title>Digital Host | Web Hosting Templates, WHMCS Themes</title>
+<link href="images/favicon.png" rel="icon">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" type="text/css" href="css/style.css" id="style">
+<link rel="stylesheet" type="text/css" href="css/color/default.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="color">
+<link rel="stylesheet" href="css/style.css" data-name="mode">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+</head>
+<body>
+<a class="switcher-icon" role="button" onClick="tooggleSidebar()"> <i class="bi bi-gear-fill spin"></i> </a>
+<div class="offcanvas" id="switcher-canvas">
+  <div class="offcanvas-inner">
+    <div class="offcanvas-header border-bottom">
+      <h5>Switcher</h5>
+      <a role="button" onClick="tooggleSidebar()" class="style-swicher-close"> <i class="bi bi-x"></i> </a> </div>
+    <div class="offcanvas-body">
+      <div class="">
+        <p class="switcher-style-head">Directions:</p>
+        <div class="row switcher-style">
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-ltr"> LTR </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-ltr" checked="">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-rtl"> RTL </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-rtl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="theme-colors">
+        <div class="switcher"></div>
+      </div>
+      <div class="m-3 mt-2">
+        <div class="switcher-style bg-light">
+          <h6 class="fs-18"> <span class="color-secondary-dark">WHMCS - Latest Version</span> </h6>
+          <a href="https://www.rctheme.com/whmcsdemo/index.php?systpl=hostgrid" class="mb-0 color-primary fs-16">WHMCS Demo <i class="bi bi-arrow-right mx-2"></i> </a> </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between canvas-footer"> <a href="" role="button" class="btn btn-primary-two">Buy Now</a>
+      <button id="reset-all" class="btn btn-danger">Reset Now</button>
+    </div>
+  </div>
+</div>
+<div id="topbar" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="contact-info d-flex align-items-center"> <i class="bi bi-envelope d-flex align-items-center"> <a href="mailto:info@yourdemo.com">info@yourdemo.com</a> </i> <i class="bi bi-phone d-flex align-items-center ms-4"> <a href="tel:+911230001234" class="social-item"> <span>+91 123-000-1234</span> </a> </i> </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex justify-content-end">
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> Account</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0"> <a href="login.html" class="dropdown-item"> Login</a> </li>
+              <li class="m-0"> <a href="register.html" class="dropdown-item"> Register</a> </li>
+              <li class="m-0"> <a href="forgot-password.html" class="dropdown-item"> Forgot Password</a> </li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> INR</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0"> <a class="dropdown-item"> AUD</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> CAD</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> CNY</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> EUR</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> GBP</a> </li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="lang-on" id="current_selected_language">English (English)</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Languages" id="change_language_header">
+              <li class="m-0"> <a class="dropdown-item">English (English)</a> </li>
+              <li class="m-0"> <a class="dropdown-item">العربية (Arabic)</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between"> <a href="index.html" class="logo"> <img src="images/logo.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </a>
+    <nav id="navbar" class="navbar ">
+      <ul class="mainmenu">
+        <li class="dropdown"> <a href="#"> <span>Home</span> </a>
+          <ul class="before">
+            <li> <a href="index.html"> <span> <i class="bi bi-house"></i>Home Default Page </span> </a> </li>
+            <li> <a href="home2.html"> <span> <i class="bi bi-snow2"></i>Winter Sale Page </span> </a> </li>
+            <li> <a href="home3.html"> <span> <i class="bi bi-tree"></i>Christmas Sale Page </span> </a> </li>
+            <li> <a href="home4.html"> <span> <i class="bi bi-moon-stars"></i>New Year Sale Page </span> </a> </li>
+            <li> <a href="home5.html"> <span> <i class="bi bi-sliders"></i>Home Content Slider </span> </a> </li>
+            <li> <a href="home6.html"> <span> <i class="bi bi-cloud-sun"></i>Home Black Friday </span> </a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Domain</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-journal-bookmark"></i>Registration </span> </a>
+              <ul>
+                <li> <a href="domain-search.html"> <span> <i class="bi bi-hdd-stack"></i>Register A Domain </span> </a> </li>
+                <li> <a href="bulk-domain-search.html"> <span> <i class="bi bi-hdd-network"></i>Bulk Domain Registration </span> </a> </li>
+                <li> <a href="new-gtlds.html"> <span> <i class="bi bi-database-gear"></i>New Domain Extensions </span> </a> </li>
+                <li> <a href="sunrise-domain.html"> <span> <i class="bi bi-brightness-high"></i>Sunrise Domains </span> </a> </li>
+                <li> <a href="premium-domain.html"> <span> <i class="bi bi-gem"></i>Premium Domains </span> </a> </li>
+                <li> <a href="javascript:void(0)"> <span> <i class="bi bi-lightbulb"></i>IDN Domain Registration </span> </a> </li>
+                <li> <a href="domain-pricing.html"> <span> <i class="bi bi-tags"></i>View Domain Pricing </span> </a> </li>
+                <li> <a href="domain-promo.html"> <span> <i class="bi bi-hdd"></i>Domain Promos </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-router"></i>Transfer </span> </a>
+              <ul>
+                <li> <a href="transfer-domain.html"> <span> <i class="bi bi-send-check-fill"></i>Transfer your Domain </span> </a> </li>
+                <li> <a href="bulk-transfer-domain.html"> <span> <i class="bi bi-menu-button"></i>Bulk Domain Transfer </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-database-add"></i>Add-ons </span> </a>
+              <ul>
+                <li> <a href="free-ads-one.html"> <span> <i class="bi bi-life-preserver"></i>Free with every domain </span> </a> </li>
+                <li> <a href="domain-suggest.html"> <span> <i class="bi bi-gear"></i>Name suggestion tool </span> </a> </li>
+                <li> <a href="whois.html"> <span> <i class="bi bi-file-lock"></i>Whois lookup </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Hosting</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-hdd-rack"></i>Shared Hosting </span> </a>
+              <ul>
+                <li> <a href="shared-hosting.html"> <span> <i class="bi bi-share-fill"></i>Linux Shared Hosting </span> </a> </li>
+                <li> <a href="windows-shared-hosting.html"> <span> <i class="bi bi-windows"></i>Windows Shared Hosting </span> </a> </li>
+                <li> <a href="wordpress-hosting.html"> <span> <i class="bi bi-wordpress"></i>WordPress Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-box2"></i>Server </span> </a>
+              <ul>
+                <li> <a href="vps-server.html"> <span> <i class="bi bi-database-down"></i>Linux KVM VPS </span> </a> </li>
+                <li> <a href="dedicated-server.html"> <span> <i class="bi bi-wifi"></i>Dedicated Servers </span> </a> </li>
+                <li> <a href="windows-dedicated-server.html"> <span> <i class="bi bi-microsoft"></i>Windows Dedicated Servers </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-window-stack"></i>Reseller Hosting </span> </a>
+              <ul>
+                <li> <a href="reseller-hosting.html"> <span> <i class="bi bi-window-plus"></i>Linux Reseller Hosting </span> </a> </li>
+                <li> <a href="windows-reseller-hosting.html"> <span> <i class="bi bi-windows"></i>Windows Reseller Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-gear-wide-connected"></i>Tools </span> </a>
+              <ul>
+                <li> <a href="sitelock.html"> <span> <i class="bi bi-shield-lock"></i>SiteLock </span> </a> </li>
+                <li> <a href="acronis-backup.html"> <span> <i class="bi bi-incognito"></i>Acronis Cyber Backup </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Security &amp; Website</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-shield-lock"></i>Security </span> </a>
+              <ul>
+                <li> <a href="ssl-certificates.html"> <span> <i class="bi bi-file-earmark-lock2"></i>SSL Certificates </span> </a> </li>
+                <li> <a href="codeguard.html"> <span> <i class="bi bi-cloud-download"></i>Codeguard </span> </a> </li>
+                <li> <a href="cloud-hosting.html"> <span> <i class="bi bi-cloud-check"></i>Cloud Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-envelope-at"></i>Email </span> </a>
+              <ul>
+                <li> <a href="business-email.html"> <span> <i class="bi bi-envelope-check-fill"></i>Business Email </span> </a> </li>
+                <li> <a href="enterprise-email.html"> <span> <i class="bi bi-envelope-open"></i>Enterprise Email </span> </a> </li>
+                <li> <a href="google-workspace.html"> <span> <i class="bi bi-google"></i>Google Workspace </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-laptop"></i>Website </span> </a>
+              <ul>
+                <li> <a href="weebly.html"> <span> <i class="bi bi-browser-chrome"></i> Weebly </span> </a> </li>
+                <li> <a href="website-builder.html"> <span> <i class="bi bi-webcam"></i> Website Builder </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Pages</span> </a>
+          <ul class="before">
+            <li> <a href="affiliates.html"> <span> <i class="bi bi-person-badge"></i>Affiliates </span> </a> </li>
+            <li> <a href="aboutus.html"> <span> <i class="bi bi-person-lines-fill"></i>About us </span> </a> </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-building-add"></i>Blog </span> </a>
+              <ul>
+                <li> <a href="bloggrid.html"> <span> <i class="bi bi-newspaper"></i>Blog Grid </span> </a> </li>
+                <li> <a href="blogdetails.html"> <span> <i class="bi bi-quote"></i>Blog Details </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-bank"></i>Princing </span> </a>
+              <ul>
+                <li> <a href="pricingdefault.html"> <span> <i class="bi bi-tags"></i>Pricing Default </span> </a> </li>
+                <li> <a href="pricingpackages.html"> <span> <i class="bi bi-box-seam"></i>Pricing Packages </span> </a> </li>
+                <li> <a href="webhostingpackage.html"> <span> <i class="bi bi-person-workspace"></i>Web Hosting Packages </span> </a> </li>
+                <li> <a href="pricingcomparision.html"> <span> <i class="bi bi-award"></i>Pricing Comparison </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-trophy"></i>Specialty </span> </a>
+              <ul>
+                <li> <a href="coverpage.html"> <span> <i class="bi bi-file-earmark-break"></i>Cover Page </span> </a> </li>
+                <li> <a href="comingsoon.html"> <span> <i class="bi bi-bus-front-fill"></i>Coming Soon </span> </a> </li>
+                <li> <a href="thanks.html"> <span> <i class="bi bi-balloon-heart"></i>Thank You </span> </a> </li>
+                <li> <a href="404.html"> <span> <i class="bi bi-file-earmark-easel"></i>404 Page </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-buildings"></i>Company </span> </a>
+              <ul>
+                <li> <a href="contact.html"> <span> <i class="bi bi-person-rolodex"></i>Contact Us </span> </a> </li>
+                <li> <a href="ourpartner.html"> <span> <i class="bi bi-people"></i>Our Partner </span> </a> </li>
+                <li> <a href="network.html"> <span> <i class="bi bi-reception-4"></i>Network </span> </a> </li>
+                <li> <a href="ourteam.html"> <span> <i class="bi bi-microsoft-teams"></i>Our Team </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Cloud</span> </a>
+          <ul class="before">
+            <li> <a href="cloud-hosting.html"> <span> <i class="bi bi-cloud-check"></i> Cloud </span> </a> </li>
+            <li> <a href="professional-cloud.html"> <span> <i class="bi bi-cloud-plus"></i> Professional Cloud </span> </a> </li>
+          </ul>
+        </li>
+        <li class="get-started right-sider"> <a class="nav-link scrollto" href="combo-offer.html">Combo Offer</a> </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+  </div>
+</header>
+<section id="banner" class="banner4">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-7 col-12">
+        <h1>WordPress powered by our <span>Cloud Hosting</span> </h1>
+        <p class="mb-0">A secure, reliable and powerful platform crafted for WordPress</p>
+        <ul class="list-tick2">
+          <li>Auto-Setup</li>
+          <li>Auto-Updates</li>
+          <!-- <li>Auto-Backups</li> -->
+        </ul>
+        <a href="#plans" class="btn btn-primary mt-3"> <i class="bi bi-eye"></i> View Plans </a> </div>
+      <div class="col-lg-5 col-12 elem-move"> <img src="images/banner4.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+    </div>
+  </div>
+</section>
+<main>
+  <section class="features12">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-12 m-auto">
+          <div class="section-header">
+            <h2 class="text-center">It just works <span>Auto-magically</span> </h2>
+            <p class="text-center">Check These Features</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-stretch gap-y-25 bg-color p-2 p-lg-5">
+        <div class="col-lg-4">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"> 
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M320 376.4l.1-.1 26.4 14.1 85.2 45.5-16.5-97.6-4.8-28.7 20.7-20.5 70.1-69.3-96.1-14.2-29.3-4.3-12.9-26.6L320.1 86.9l-.1 .3V376.4zm175.1 98.3c2 12-3 24.2-12.9 31.3s-23 8-33.8 2.3L320.1 439.8 191.8 508.3C181 514 167.9 513.1 158 506s-14.9-19.3-12.9-31.3L169.8 329 65.6 225.9c-8.6-8.5-11.7-21.2-7.9-32.7s13.7-19.9 25.7-21.7L227 150.3 291.4 18c5.4-11 16.5-18 28.8-18s23.4 7 28.8 18l64.3 132.3 143.6 21.2c12 1.8 22 10.2 25.7 21.7s.7 24.2-7.9 32.7L470.5 329l24.6 145.7z"></path>
+              </svg>
+            </div>
+            <div class="">
+              <h4>Auto-Setup</h4>
+              <p>No need for any legwork - Your WordPress hosting comes pre-configured with the latest version of WordPress and is ready-to-use the moment you buy it.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"> 
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-217c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l39-39V392c0 13.3 10.7 24 24 24s24-10.7 24-24V257.9l39 39c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9l-80-80c-9.4-9.4-24.6-9.4-33.9 0l-80 80z"></path>
+              </svg>
+            </div>
+            <div class="">
+              <h4>Auto-Updates</h4>
+              <p>Any patches or version upgrades released by WordPress are automatically installed for your packages, not only making your sites future-proof but also more secure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> 
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"></path>
+              </svg>
+            </div>
+            <div class="">
+              <h4>Auto-Caching</h4>
+              <p>Get the best-performing WordPress sites with our Cloud Hosting. With cache and CDN auto-configured on all your packages, pages load much faster with the least amount of resources.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-hourglass-split" viewBox="0 0 16 16">
+                <path d="M2.5 15a.5.5 0 1 1 0-1h1v-1a4.5 4.5 0 0 1 2.557-4.06c.29-.139.443-.377.443-.59v-.7c0-.213-.154-.451-.443-.59A4.5 4.5 0 0 1 3.5 3V2h-1a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-1v1a4.5 4.5 0 0 1-2.557 4.06c-.29.139-.443.377-.443.59v.7c0 .213.154.451.443.59A4.5 4.5 0 0 1 12.5 13v1h1a.5.5 0 0 1 0 1h-11zm2-13v1c0 .537.12 1.045.337 1.5h6.326c.216-.455.337-.963.337-1.5V2h-7zm3 6.35c0 .701-.478 1.236-1.011 1.492A3.5 3.5 0 0 0 4.5 13s.866-1.299 3-1.48V8.35zm1 0v3.17c2.134.181 3 1.48 3 1.48a3.5 3.5 0 0 0-1.989-3.158C8.978 9.586 8.5 9.052 8.5 8.351z" />
+              </svg>
+            </div>
+            <div class="">
+              <h4>Auto-Backups</h4>
+              <p>Get a time machine for all your WordPress sites. With CodeGuard automatically set up for any site you create, your data is always protected and regularly backed up.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shield-fill-check" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 0c-.69 0-1.843.265-2.928.56-1.11.3-2.229.655-2.887.87a1.54 1.54 0 0 0-1.044 1.262c-.596 4.477.787 7.795 2.465 9.99a11.777 11.777 0 0 0 2.517 2.453c.386.273.744.482 1.048.625.28.132.581.24.829.24s.548-.108.829-.24a7.159 7.159 0 0 0 1.048-.625 11.775 11.775 0 0 0 2.517-2.453c1.678-2.195 3.061-5.513 2.465-9.99a1.541 1.541 0 0 0-1.044-1.263 62.467 62.467 0 0 0-2.887-.87C9.843.266 8.69 0 8 0zm2.146 5.146a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7.5 7.793l2.646-2.647z" />
+              </svg>
+            </div>
+            <div class="">
+              <h4>Auto-Secured</h4>
+              <p>No need to worry about viruses or hacking attempts. All your WordPress sites will be regularly scanned for malware with SiteLock's advanced security tools.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features11">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9 col-12 m-auto">
+          <div class="section-header">
+            <h2 class="text-center">WordPress powers 27% of websites on the <span>Internet</span> </h2>
+            <p class="text-center">Build anything - a blog, a static website or an ecommerce shop</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center align-items-stretch gap-y-25">
+        <div class="col-lg-6">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-earmark" viewBox="0 0 16 16">
+                <path d="M14 4.5V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2h5.5L14 4.5zm-3 0A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h8a1 1 0 0 0 1-1V4.5h-2z"></path>
+              </svg>
+              <span class="dots"> <i class="dot dot1"></i> <i class="dot dot2"></i> <i class="dot dot3"></i> </span> </div>
+            <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+              <h4>Ready-made Themes</h4>
+              <p>Choose from over 25,000+ themes available for any type of business, portfolio, or blog.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tree" viewBox="0 0 16 16">
+                <path d="M8.416.223a.5.5 0 0 0-.832 0l-3 4.5A.5.5 0 0 0 5 5.5h.098L3.076 8.735A.5.5 0 0 0 3.5 9.5h.191l-1.638 3.276a.5.5 0 0 0 .447.724H7V16h2v-2.5h4.5a.5.5 0 0 0 .447-.724L12.31 9.5h.191a.5.5 0 0 0 .424-.765L10.902 5.5H11a.5.5 0 0 0 .416-.777l-3-4.5zM6.437 4.758A.5.5 0 0 0 6 4.5h-.066L8 1.401 10.066 4.5H10a.5.5 0 0 0-.424.765L11.598 8.5H11.5a.5.5 0 0 0-.447.724L12.69 12.5H3.309l1.638-3.276A.5.5 0 0 0 4.5 8.5h-.098l2.022-3.235a.5.5 0 0 0 .013-.507z" />
+              </svg>
+              <span class="dots"> <i class="dot dot1"></i> <i class="dot dot2"></i> <i class="dot dot3"></i> </span> </div>
+            <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+              <h4>SEO-friendly</h4>
+              <p>With pre-integrated SEO friendly module, drive maximum traffic to your site through search engines.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plugin" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a7 7 0 1 1 2.898 5.673c-.167-.121-.216-.406-.002-.62l1.8-1.8a3.5 3.5 0 0 0 4.572-.328l1.414-1.415a.5.5 0 0 0 0-.707l-.707-.707 1.559-1.563a.5.5 0 1 0-.708-.706l-1.559 1.562-1.414-1.414 1.56-1.562a.5.5 0 1 0-.707-.706l-1.56 1.56-.707-.706a.5.5 0 0 0-.707 0L5.318 5.975a3.5 3.5 0 0 0-.328 4.571l-1.8 1.8c-.58.58-.62 1.6.121 2.137A8 8 0 1 0 0 8a.5.5 0 0 0 1 0Z" />
+              </svg>
+              <span class="dots"> <i class="dot dot1"></i> <i class="dot dot2"></i> <i class="dot dot3"></i> </span> </div>
+            <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+              <h4>Diversified Plugins</h4>
+              <p>Add features to your websites by installing plugins in a few clicks.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="card-style-one p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-phone-flip" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M11 1H5a1 1 0 0 0-1 1v6a.5.5 0 0 1-1 0V2a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v6a.5.5 0 0 1-1 0V2a1 1 0 0 0-1-1Zm1 13a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1v-2a.5.5 0 0 0-1 0v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2v-2a.5.5 0 0 0-1 0v2ZM1.713 7.954a.5.5 0 1 0-.419-.908c-.347.16-.654.348-.882.57C.184 7.842 0 8.139 0 8.5c0 .546.408.94.823 1.201.44.278 1.043.51 1.745.696C3.978 10.773 5.898 11 8 11c.099 0 .197 0 .294-.002l-1.148 1.148a.5.5 0 0 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2a.5.5 0 1 0-.708.708l1.145 1.144L8 10c-2.04 0-3.87-.221-5.174-.569-.656-.175-1.151-.374-1.47-.575C1.012 8.639 1 8.506 1 8.5c0-.003 0-.059.112-.17.115-.112.31-.242.6-.376Zm12.993-.908a.5.5 0 0 0-.419.908c.292.134.486.264.6.377.113.11.113.166.113.169 0 .003 0 .065-.13.187-.132.122-.352.26-.677.4-.645.28-1.596.523-2.763.687a.5.5 0 0 0 .14.99c1.212-.17 2.26-.43 3.02-.758.38-.164.713-.357.96-.587.246-.229.45-.537.45-.919 0-.362-.184-.66-.412-.883-.228-.223-.535-.411-.882-.571ZM7.5 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1Z" />
+              </svg>
+              <span class="dots"> <i class="dot dot1"></i> <i class="dot dot2"></i> <i class="dot dot3"></i> </span> </div>
+            <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+              <h4>Mobile Compatible</h4>
+              <p>Create and even edit your site on any mobile device seamlessly.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plan-for" id="plans">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-12 m-auto">
+          <div class="section-header">
+            <h2 class="text-center">Check our Pricing</h2>
+            <p class="text-center">99% uptime for rock-solid performance</p>
+          </div>
+        </div>
+      </div>
+      <div class="row alig-items-strech gap-y-25">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="plan-name h-100">
+            <h4>Starter Lite</h4>
+            <p>Starting at</p>
+            <div class="doller-price"> <sup>$</sup>7.96 <sub>/Mo</sub>
+              <select class="w-100 m-auto form-control mt-3">
+                <option>1 Month at $ 7.96/mo</option>
+              </select>
+            </div>
+            <div class="plan-btn"> <a href="" class="btn btn-primary-two w-100">Buy Now</a> </div>
+            <ul class="list-tick-seven">
+              <li>1 WordPress Installation</li>
+              <li>Dual Core CPU Core</li>
+              <li>2 GB RAM</li>
+              <li>5 GB Storage</li>
+              <li>Unlimited Email Accounts</li>
+              <li> <a href="" onclick="return false;" class="free-ssl-tooltip-txt"> Free SSL Certificate <span class="free-ssl-tooltip color-white">All our Shared Hosting servers now come with a pre-installed SSL by Let's Encrypt. <br>
+                This means your site will automatically be flagged as 'SECURE' and will ensure all information sent over the site is fully encrypted. </span> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12 mt-5 mt-md-0">
+          <div class="plan-name h-100 plan-featured"> <span class="featured">Most Popular</span>
+            <h4>Performance Lite</h4>
+            <p>Starting at</p>
+            <div class="doller-price"> <sup>$</sup>8.84 <sub>/Mo</sub>
+              <select class="w-100 m-auto form-control mt-3">
+                <option>1 Month at $ 8.84/mo</option>
+              </select>
+            </div>
+            <div class="plan-btn"> <a href="" class="btn btn-primary-two w-100">Buy Now</a> </div>
+            <ul class="list-tick-seven">
+              <li>2 WordPress Installation</li>
+              <li>Quad Core CPU Core</li>
+              <li>4 GB RAM</li>
+              <li>20 GB Storage</li>
+              <li>Unlimited Email Accounts</li>
+              <li> <a href="" onclick="return false;" class="free-ssl-tooltip-txt"> Free SSL Certificate <span class="free-ssl-tooltip color-white">All our Shared Hosting servers now come with a pre-installed SSL by Let's Encrypt. <br>
+                This means your site will automatically be flagged as 'SECURE' and will ensure all information sent over the site is fully encrypted. </span> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="plan-name h-100">
+            <h4>Business Lite</h4>
+            <p>Starting at</p>
+            <div class="doller-price"> <sup>$</sup>10.61 <sub>/Mo</sub>
+              <select class="w-100 m-auto form-control mt-3">
+                <option>1 Month at $ 10.61/mo</option>
+              </select>
+            </div>
+            <div class="plan-btn"> <a href="" class="btn btn-primary-two w-100">Buy Now</a> </div>
+            <ul class="list-tick-seven">
+              <li>3 WordPress Installation</li>
+              <li>Hexa Core CPU Core</li>
+              <li>6 GB RAM</li>
+              <li>40 GB Storage</li>
+              <li>Unlimited Email Accounts</li>
+              <li> <a href="" onclick="return false;" class="free-ssl-tooltip-txt"> Free SSL Certificate <span class="free-ssl-tooltip color-white">All our Shared Hosting servers now come with a pre-installed SSL by Let's Encrypt. <br>
+                This means your site will automatically be flagged as 'SECURE' and will ensure all information sent over the site is fully encrypted. </span> </a> </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="plan-name h-100">
+            <h4>Professional Lite</h4>
+            <p>Starting at</p>
+            <div class="doller-price"> <sup>$</sup>12.38 <sub>/Mo</sub>
+              <select class="w-100 m-auto form-control mt-3">
+                <option>1 Month at $ 12.38/mo</option>
+              </select>
+            </div>
+            <div class="plan-btn"> <a href="" class="btn btn-primary-two w-100">Buy Now</a> </div>
+            <ul class="list-tick-seven">
+              <li>5 WordPress Installation</li>
+              <li>Hexa Core CPU Core</li>
+              <li>6 GB RAM</li>
+              <li>40 GB Storage</li>
+              <li>Unlimited Email Accounts</li>
+              <li> <a href="" onclick="return false;" class="free-ssl-tooltip-txt"> Free SSL Certificate <span class="free-ssl-tooltip color-white">All our Shared Hosting servers now come with a pre-installed SSL by Let's Encrypt. <br>
+                This means your site will automatically be flagged as 'SECURE' and will ensure all information sent over the site is fully encrypted. </span> </a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-header">
+          <h2 class="text-center">Your WordPress Site - powered by our Cloud Hosting</h2>
+        </div>
+      </div>
+      <div class="row align-items-stretch justify-content-center gap-y-25">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-browser-firefox" viewBox="0 0 16 16">
+                <path d="M13.384 3.408c.535.276 1.22 1.152 1.556 1.963a7.98 7.98 0 0 1 .503 3.897l-.009.077a8.533 8.533 0 0 1-.026.224A7.758 7.758 0 0 1 .006 8.257v-.04c.016-.363.055-.724.114-1.082.01-.074.075-.42.09-.489l.01-.051a6.551 6.551 0 0 1 1.041-2.35c.217-.31.46-.6.725-.87.233-.238.487-.456.758-.65a1.5 1.5 0 0 1 .26-.137c-.018.268-.04 1.553.268 1.943h.003a5.744 5.744 0 0 1 1.868-1.443 3.597 3.597 0 0 0 .021 1.896c.07.047.137.098.2.152.107.09.226.207.454.433l.068.066.009.009a1.933 1.933 0 0 0 .213.18c.383.287.943.563 1.306.741.201.1.342.168.359.193l.004.008c-.012.193-.695.858-.933.858-2.206 0-2.564 1.335-2.564 1.335.087.997.714 1.839 1.517 2.357a3.72 3.72 0 0 0 .439.241c.076.034.152.065.228.094.325.115.665.18 1.01.194 3.043.143 4.155-2.804 3.129-4.745v-.001a3.005 3.005 0 0 0-.731-.9 2.945 2.945 0 0 0-.571-.37l-.003-.002a2.679 2.679 0 0 1 1.87.454 3.915 3.915 0 0 0-3.396-1.983c-.078 0-.153.005-.23.01l-.042.003V4.31h-.002a3.882 3.882 0 0 0-.8.14 6.454 6.454 0 0 0-.333-.314 2.321 2.321 0 0 0-.2-.152 3.594 3.594 0 0 1-.088-.383 4.88 4.88 0 0 1 1.352-.289l.05-.003c.052-.004.125-.01.205-.012C7.996 2.212 8.733.843 10.17.002l-.003.005.003-.001.002-.002h.002l.002-.002a.028.028 0 0 1 .015 0 .02.02 0 0 1 .012.007 2.408 2.408 0 0 0 .206.48c.06.103.122.2.183.297.49.774 1.023 1.379 1.543 1.968.771.874 1.512 1.715 2.036 3.02l-.001-.013a8.06 8.06 0 0 0-.786-2.353Z" />
+              </svg>
+            </div>
+            <div class="numbring">
+              <h3>01</h3>
+            </div>
+            <div>
+              <h4>Blazing-Fast Load Time</h4>
+              <p>With top-of-the-line hardware and caching - which stores your site’s most used pages, and a globally distributed CDN, your site is served upto 2x faster.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-graph-up-arrow" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0Zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5Z" />
+              </svg>
+            </div>
+            <div class="numbring">
+              <h3>02</h3>
+            </div>
+            <div>
+              <h4>Instant Scaling</h4>
+              <p>No need to move your hosting as your traffic grows. Ramp up your resources at the click of a button - instantly add RAM and CPU without a reboot.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"> 
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M32 96l320 0V32c0-12.9 7.8-24.6 19.8-29.6s25.7-2.2 34.9 6.9l96 96c6 6 9.4 14.1 9.4 22.6s-3.4 16.6-9.4 22.6l-96 96c-9.2 9.2-22.9 11.9-34.9 6.9s-19.8-16.6-19.8-29.6V160L32 160c-17.7 0-32-14.3-32-32s14.3-32 32-32zM480 352c17.7 0 32 14.3 32 32s-14.3 32-32 32H160v64c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-96-96c-6-6-9.4-14.1-9.4-22.6s3.4-16.6 9.4-22.6l96-96c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 64H480z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Your Data - Safeguarded</h4>
+              <p>Our industry-leading Ceph-based storage system stores your website data across 3 distinct devices to ensure redundancy and safety.</p>
+            </div>
+            <div class="numbring">
+              <h3>03</h3>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"> 
+                <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm320 96c0-26.9-16.5-49.9-40-59.3V88c0-13.3-10.7-24-24-24s-24 10.7-24 24V292.7c-23.5 9.5-40 32.5-40 59.3c0 35.3 28.7 64 64 64s64-28.7 64-64zM144 176a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm-16 80a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm288 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64zM400 144a32 32 0 1 0 -64 0 32 32 0 1 0 64 0z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Automatic Failover</h4>
+              <p>If we detect a hardware issue, we automatically move your site to another server, ensuring that your site is always up and you never lose traffic.</p>
+            </div>
+            <div class="numbring">
+              <h3>04</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq">
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-8 col-12">
+          <div class="section-header">
+            <h2>Frequently Asked <span>Questions</span> </h2>
+            <p>Don’t find your answer here? just send us a message for any query.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+          <div id="accordion w-100">
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading1">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"> <i class="bi bi-question-lg question-icon"></i> Can I upgrade my WordPress Hosting plan? </button>
+                  </h5>
+                </div>
+                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No, You cannot change upgrade or downgrade plans, however the amount of RAM and CPU cores for your plan can be upgraded. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"> <i class="bi bi-question-lg question-icon"></i> Can I add more WordPress installations to an existing plan? </button>
+                  </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No, you cannot add more WordPress installations to any plan. The number of WordPress installations will remain fixed. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"> <i class="bi bi-question-lg question-icon"></i> Can SiteLock and CodeGuard packages be upgraded? </button>
+                  </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Currently, the included SiteLock and CodeGuard plans cannot be upgraded. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading4">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"> <i class="bi bi-question-lg question-icon"></i> Can I use an external email service with WordPress Hosting? </button>
+                  </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Yes, you can use any 3rd party email service for your domain. In case you are using the default name servers provided with WordPress Hosting, please contact our Support team to update the relevant DNS records for your blog. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading5">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"> <i class="bi bi-question-lg question-icon"></i> Can I use an existing certificate with my blog? </button>
+                  </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No, you cannot use an existing certificate. You will need to generate a CSR from the WordPress Hosting panel and get a certificate issued which can be installed from the panel. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading6">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"> <i class="bi bi-question-lg question-icon"></i> Will WordPress be updated automatically? </button>
+                  </h5>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Yes, WordPress core updates will be enabled by default. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading7">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"> <i class="bi bi-question-lg question-icon"></i> Is there a money back period for WordPress Hosting? </button>
+                  </h5>
+                </div>
+                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No, WordPress Hosting does not have a money back period. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading8">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8"> <i class="bi bi-question-lg question-icon"></i> Is Multisite supported with WordPress Hosting? </button>
+                  </h5>
+                </div>
+                <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No, Multisite is not supported. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading9">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9"> <i class="bi bi-question-lg question-icon"></i> Can I access the cPanel for my hosting plan? </button>
+                  </h5>
+                </div>
+                <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No, cPanel access is not provided with WordPress Hosting. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading10">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse10" aria-expanded="false" aria-controls="collapse10"> <i class="bi bi-question-lg question-icon"></i> Is an SSL Certificate included with the plan? </button>
+                  </h5>
+                </div>
+                <div id="collapse10" class="collapse" aria-labelledby="heading10" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Yes. When you purchase a WordPress Hosting order, Free SSL powered by Let's Encrypt, is automatically generated and installed for all domains associated with the package </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading11">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse11" aria-expanded="false" aria-controls="collapse11"> <i class="bi bi-question-lg question-icon"></i> What is the difference between "WordPress Hosting" and "WordPress Hosting + Security Suite" plans? </button>
+                  </h5>
+                </div>
+                <div id="collapse11" class="collapse" aria-labelledby="heading11" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> WordPress Hosting plans are economical plans without automatic backups and anti-malware. WordPress Hosting + Security plans have the same specifications as that of the WordPress hosting plans, including automatic cloud backups and anti-malware at a cost difference. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container customerslove p-3 p-lg-5">
+      <div class="row align-items-center gap-y-25">
+        <div class="col-lg-3 col-md-6">
+          <div class="text-md-start text-center">
+            <h4 class="mb-4">Customers love Digital Host</h4>
+            <img src="images/rating1.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid img-center">
+            <h6>31,000 reviews (4.9 out of 5)</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div>
+            <div>
+              <h4 class="mb-0 my-2 text-center"> <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="3" class="purecounter"></span>K+ </h4>
+              <p class="text-center">Customers served</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div>
+            <div>
+              <h4 class="mb-0 my-2 text-center"> <span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="3" class="purecounter"></span>K+ </h4>
+              <p class="text-center">Work Completed</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div>
+            <div class="">
+              <h4 class="mb-0 my-2 text-center "> <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="3" class="purecounter"></span>+ </h4>
+              <p class="text-center">Years In Business</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container testmonil p-3 p-lg-5">
+      <div class="swiper swiper-tesimonials-slider">
+        <div class="swiper-wrapper  pointer">
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"> <img src="images/clinte1.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+                  <h5 class="mt-3 mb-0">William Anderson</h5>
+                  <p>DHPenguin</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"> <img src="images/clinte2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+                  <h5 class="mt-3 mb-0">Amanda Jepson</h5>
+                  <p>TeamBuildr</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"> <img src="images/clinte3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+                  <h5 class="mt-3 mb-0">William Anderson</h5>
+                  <p>Ceo.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"> <img src="images/clinte4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+                  <h5 class="mt-3 mb-0">Saul Goodman</h5>
+                  <p>Chief Executive Officer</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-navigation z-index-5 translate-middle position-absolute top-50 start-50 "> <a href="#" onclick="return false;" class="navigation-arrow swiper-custom-prev"> <i class="bi bi-chevron-left"></i> </a> <a href="#" onclick="return false;" class="navigation-arrow swiper-custom-next"> <i class="bi bi-chevron-right"></i> </a> </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <div class="row gap-y-25">
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <div class="mb-3"> <a href="index.html" class="logo"> <img src="images/logo2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </a> </div>
+          <p>We are a web hosting company with a mission to help everyone who goes online succeed.</p>
+          <div class="my-3">
+            <form class="shadow">
+              <input type="text" placeholder="eg. example.com" class="example">
+              <input type="submit" value="Search">
+            </form>
+            <p class="mt-3">Your email is safe with us. We don't spam.</p>
+          </div>
+          <h5>Follow Us on</h5>
+          <ul class="sosil-linl">
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-twitter"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-linkedin"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-skype"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-pinterest"></i> </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Domain</h4>
+          <ul class="list-tick-six">
+            <li> <a href="domain-search.html" class="text-link">Register a Domain</a> </li>
+            <li> <a href="bulk-domain-search.html" class="text-link">Bulk Domain Registration</a> </li>
+            <li> <a href="new-gtlds.html" class="text-link">New Domain Extensions</a> </li>
+            <li> <a href="sunrise-domain.html" class="text-link">Sunrise Domains</a> </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Link</h4>
+          <ul class="list-tick-six">
+            <li> <a href="datacenter-details.html" class="text-link">Datacenter Details</a> </li>
+            <li> <a href="hosting-security.html" class="text-link">Hosting Security</a> </li>
+            <li> <a href="sever-monitroing.html" class="text-link">24 x 7 Servers Monitoring</a> </li>
+            <li> <a href="backup&recover.html" class="text-link">Backup and Recovery</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Hosting</h4>
+          <ul class="list-tick-six">
+            <li> <a href="shared-hosting.html" class="text-link">Linux Shared Hosting</a> </li>
+            <li> <a href="vps-server.html" class="text-link">Linux KVM VPS</a> </li>
+            <li> <a href="windows-shared-hosting.html" class="text-link">Windows Hosting</a> </li>
+            <li> <a href="wordpress-hosting.html" class="text-link">WordPress Hosting</a> </li>
+            <li> <a href="reseller-hosting.html" class="text-link">Linux Reseller Hosting</a> </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Security</h4>
+          <ul class="list-tick-six">
+            <li> <a href="ssl-certificates.html" class="text-link">SSL Certificates</a> </li>
+            <li> <a href="sitelock.html" class="text-link">Sitelock</a> </li>
+            <li> <a href="codeguard.html" class="text-link">Codeguard</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Support</h4>
+          <ul class="list-tick-six">
+            <li> <a href="jawascript:void(0)" class="text-link">View Knowledge Base</a> </li>
+            <li> <a href="contact.html" class="text-link">Contact us</a> </li>
+            <li> <a href="contact.html" class="text-link">Report Abuse </a> </li>
+            <li> <a href="javascript:void(0)" class="text-link">Join Reseller Program</a> </li>
+            <li> <a href="legal-agreement.html" class="text-link">Term &amp; Condition</a> </li>
+            <li> <a href="privacy-policy.html" class="text-link">Privacy Policy</a> </li>
+            <li> <a href="blog-grid.html" class="text-link"> Our Blog</a> </li>
+            <li> <a href="affiliate.html" class="text-link"> Affiliate</a> </li>
+            <li> <a href="legal-agreement.html" class="text-link"> Cancellation &amp; Refund Policy</a> </li>
+            <li> <a href="payment.html" class="text-link"> Payment Options</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<section class="bootom-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12">
+        <div class="payement text-center text-lg-start">
+          <ul class="d-flex">
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 64 64">
+                <g data-name="Paypal card">
+                  <path fill="#fff" d="M47 25.23a2.91 2.91 0 0 0-1-1.1 4.63 4.63 0 0 0-1.63-.59 12.57 12.57 0 0 0-2.19-.17H38.3a1 1 0 0 0-.88.71L34.8 35.47a.56.56 0 0 0 .57.71h1.86a1 1 0 0 0 .89-.7l.63-2.77a1 1 0 0 1 .9-.7h.53a8.9 8.9 0 0 0 5.32-1.4 4.41 4.41 0 0 0 1.88-3.69 3.67 3.67 0 0 0-.38-1.69ZM43 29a4 4 0 0 1-2.35.61h-.45a.57.57 0 0 1-.57-.71l.57-2.41a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.26 1.26 0 0 1 .55 1.11A2.09 2.09 0 0 1 43 29Zm19.4-5.49h-1.65A1 1 0 0 0 60 24l-.09.15-.08.37-2.38 10.61-.08.33a.53.53 0 0 0 .46.67h1.77a.93.93 0 0 0 .8-.57l.1-.14L63 24.17a.54.54 0 0 0-.58-.7ZM56 26.82a7.12 7.12 0 0 0-3.32-.59 14.22 14.22 0 0 0-2.25.18c-.56.08-.61.1-1 .17a1.08 1.08 0 0 0-.81.87l-.23.93c-.13.59.21.57.37.52a9.45 9.45 0 0 1 1.1-.32 8.23 8.23 0 0 1 1.75-.24 4.66 4.66 0 0 1 1.69.24.86.86 0 0 1 .56.84v.27l-.27.16a33.3 33.3 0 0 0-2.74.3 9 9 0 0 0-2.37.65 3.73 3.73 0 0 0-1.6 1.26 3.5 3.5 0 0 0-.52 1.94 2.33 2.33 0 0 0 .76 1.78 2.89 2.89 0 0 0 2 .66 5.12 5.12 0 0 0 1.17-.1l.9-.31.77-.42.69-.47-.06.3a.54.54 0 0 0 .49.7h1.76a1 1 0 0 0 .79-.7L57 29.59l.07-.48v-.45A2 2 0 0 0 56 26.82Zm-3 6.61-.3.39-.72.37a2.66 2.66 0 0 1-1 .21 2.19 2.19 0 0 1-1-.2l-.37-.69a1.44 1.44 0 0 1 .27-.92 1.84 1.84 0 0 1 .8-.53 6.5 6.5 0 0 1 1.22-.28c.42-.05 1.27-.15 1.37-.15l.13.23c-.04.14-.28 1.14-.4 1.57Z"></path>
+                  <path fill="#fff" d="M34.86 26.37h-2.23a1.63 1.63 0 0 0-1.18.7s-2.66 4.58-2.92 5h-.31l-.83-5a1 1 0 0 0-1-.73h-1.68a.54.54 0 0 0-.55.71s1.26 7.2 1.51 8.9c.12.94 0 1.1 0 1.1L24 40c-.24.39-.11.71.29.71h1.93a1.55 1.55 0 0 0 1.16-.7l7.42-12.59s.72-1.07.06-1.05Zm-12.65.45a7 7 0 0 0-3.32-.59 14.42 14.42 0 0 0-2.26.17 8.18 8.18 0 0 0-.95.18 1.08 1.08 0 0 0-.82.86l-.22.93c-.13.6.22.58.35.52a10.88 10.88 0 0 1 1.12-.32 7.58 7.58 0 0 1 1.74-.23 4.47 4.47 0 0 1 1.7.24.83.83 0 0 1 .55.84v.26l-.27.17a27 27 0 0 0-2.74.3 8.7 8.7 0 0 0-2.36.64 3.63 3.63 0 0 0-1.6 1.27 3.38 3.38 0 0 0-.57 1.94 2.28 2.28 0 0 0 .77 1.77 2.83 2.83 0 0 0 2 .67 4.87 4.87 0 0 0 1.16-.11l.91-.31.76-.42.7-.47-.06.29a.55.55 0 0 0 .5.69H21a1 1 0 0 0 .8-.69l1.36-5.88.07-.47v-.45a2 2 0 0 0-1.02-1.8Zm-3 6.6-.3.38-.73.38a2.62 2.62 0 0 1-1 .21 2.17 2.17 0 0 1-1.06-.2l-.36-.7a1.4 1.4 0 0 1 .27-.9l.79-.54a7.54 7.54 0 0 1 1.23-.28c.42-.05 1.26-.15 1.38-.15l.12.22c.02.16-.22 1.16-.33 1.58Zm-6-8.23a2.71 2.71 0 0 0-1-1.09 4.54 4.54 0 0 0-1.62-.6 13.86 13.86 0 0 0-2.2-.17H4.53a1 1 0 0 0-.9.71L1 35.42a.55.55 0 0 0 .56.71h1.88a.94.94 0 0 0 .89-.71L5 32.66a.93.93 0 0 1 .88-.7h.52a8.88 8.88 0 0 0 5.3-1.4 4.38 4.38 0 0 0 1.9-3.69 3.42 3.42 0 0 0-.36-1.68Zm-4 3.72a3.91 3.91 0 0 1-2.35.62h-.44a.55.55 0 0 1-.56-.71l.56-2.42a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.24 1.24 0 0 1 .54 1.11 2 2 0 0 1-.84 1.75Z"></path>
+                </g>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 24 24">
+                <path fill="#FF5F00" d="M15.245 17.831h-6.49V6.168h6.49v11.663z"></path>
+                <path fill="#EB001B" d="M9.167 12A7.404 7.404 0 0 1 12 6.169 7.417 7.417 0 0 0 0 12a7.417 7.417 0 0 0 11.999 5.831A7.406 7.406 0 0 1 9.167 12z"></path>
+                <path fill="#F79E1B" d="M24 12a7.417 7.417 0 0 1-12 5.831c1.725-1.358 2.833-3.465 2.833-5.831S13.725 7.527 12 6.169A7.417 7.417 0 0 1 24 12z"></path>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 48 48" viewBox="0 0 48 48">
+                <polygon fill="#fff" points="17.202 32.269 21.087 32.269 23.584 16.732 19.422 16.732"></polygon>
+                <path fill="#fff" d="M13.873 16.454l-3.607 11.098-.681-3.126c-1.942-4.717-5.272-6.659-5.272-6.659l3.456 14.224h4.162l5.827-15.538H13.873zM44.948 16.454h-4.162l-6.382 15.538h3.884l.832-2.22h4.994l.555 2.22H48L44.948 16.454zM39.954 26.997l2.22-5.826 1.11 5.826H39.954zM28.855 20.893c0-.832.555-1.665 2.497-1.665 1.387 0 2.775 1.11 2.775 1.11l.832-3.329c0 0-1.942-.832-3.607-.832-4.162 0-6.104 2.22-6.104 4.717 0 4.994 5.549 4.162 5.549 6.659 0 .555-.277 1.387-2.497 1.387s-3.884-.832-3.884-.832l-.555 3.329c0 0 1.387.832 4.162.832 2.497.277 6.382-1.942 6.382-5.272C34.405 23.113 28.855 22.836 28.855 20.893z"></path>
+                <path fill="#fff" d="M9.711,25.055l-1.387-6.936c0,0-0.555-1.387-2.22-1.387c-1.665,0-6.104,0-6.104,0
+                                        S8.046,19.229,9.711,25.055z"></path>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-md-2 me-0 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                <path fill="#fff" d="M3.093,14.964c1.18,0,2.55-0.431,2.79-1.711h-1.24c-0.213,0.625-0.85,0.923-1.568,0.923c-1.035,0-1.788-0.64-1.853-1.726h4.83v1.042c0,0.387-0.02,0.848-0.04,1.235h1.18c0.025-0.238,0.04-0.49,0.04-0.728c0.506,0.61,1.33,0.923,2.2,0.923c1.407,0,2.467-0.833,2.767-2.069c-0.022,0.12-0.037,0.253-0.037,0.402c0,0.908,0.792,1.682,2.272,1.682c1,0,1.717-0.224,2.32-0.952c0,0.253,0.016,0.506,0.046,0.759h1.114c-0.03-0.313-0.04-0.654-0.04-0.997v-2.44c0-0.372-0.07-0.67-0.2-0.923l2.33,4.345l-1.07,2.024h1.346L24,9.503h-1.243l-2.055,4.093l-2.055-4.092h-1.41l0.436,0.833c-0.42-0.744-1.351-1.012-2.415-1.012c-1.186,0-2.55,0.327-2.686,1.607h1.275c0.06-0.506,0.585-0.804,1.305-0.804c0.974,0,1.53,0.356,1.53,1.234v0.134c-0.465,0-1.05,0-1.56,0.018c-1.622,0.039-2.656,0.388-2.896,1.333c0.045-0.209,0.06-0.432,0.06-0.663c0-1.936-1.488-2.832-2.828-2.832c-0.8,0-1.612,0.201-2.202,0.899V7.25h-1.2v4.876c-0.01-1.904-1.252-2.783-2.94-2.783C0.982,9.343,0,10.49,0,12.23C0,13.808,0.95,14.985,3.093,14.964z M15.193,12.313l-0.002-0.002h-0.012c0.494-0.016,1.034-0.022,1.484-0.022v0.129c0,1.115-0.675,1.8-1.935,1.8c-0.945,0-1.305-0.501-1.305-0.962C13.423,12.544,14.098,12.346,15.193,12.313z M9.116,10.165c1.125,0,1.893,0.8,1.893,2.004c0,1.204-0.766,2.004-1.876,2.004H9.131h-0.03c-1.11,0-1.875-0.8-1.875-2.004C7.226,10.964,8.006,10.165,9.116,10.165z M3.058,10.145c0.871,0,1.681,0.418,1.725,1.534h-3.54C1.364,10.615,2.114,10.145,3.058,10.145z"></path>
+              </svg>
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="text-center text-lg-end">
+          <p>Copyright 2024 All Right Reserved. Design By<a href="#">RedCheap</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"> <i class="bi bi-airplane-engines"></i> </a> 
+<script src="js/jquery-3.2.1.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/purecounter_vanilla.js"></script> 
+<script src="js/main.js"></script> 
+<script src="js/aos.js"></script> 
+<script src="js/vanilla-tilt.min.js"></script> 
+<script src="js/cookies.js"></script> 
+<script src="js/custom-switcher.js"></script> 
+<script src="js/styleswitch.js"></script> 
+<script src="js/jquery.cookie.js"></script>
+</body>
+</html>

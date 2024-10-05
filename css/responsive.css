@@ -1,0 +1,263 @@
+@media only screen and (max-width: 2000px) {}
+@media only screen and (min-width: 1200px) and (max-width: 2000px) {}
+@media only screen and (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: 1275px !important;
+    }
+}
+@media only screen and (max-width: 1199px) {}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    #banner h1, #banner span {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .navbar .dropdown.megamenu > ul.row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media only screen and (max-width: 991px) {
+    #banner {
+        padding: 120px 0px 0px 0px;
+    }
+    .christmassale {
+        padding: 80px 0px 30px 0px !important;
+    }
+    #notfound h1 {
+        font-size: 150px;
+        font-weight: 600;
+    }
+    #notfound h2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    #notfound {
+        padding: 80px 0px 50px 0px;
+    }
+    #thanks {
+        padding: 80px 0px 50px 0px;
+    }
+    #comingsoon {
+        padding: 80px 0px 50px 0px;
+    }
+    .comingsoonpages h2 {
+        font-size: 35px;
+    }
+    .banner31 {
+        padding: 120px 0 20px 0 !important;
+    }
+    .banner30 {
+        padding: 120px 0 20px 0 !important;
+    }
+    .banner29 {
+        padding: 120px 0 20px 0 !important;
+    }
+    .banner28 {
+        padding: 120px 0 20px 0 !important;
+    }
+    .banner27 {
+        padding: 120px 0 20px 0 !important;
+    }
+    .banner26 {
+        padding: 120px 0 20px 0 !important;
+    }
+    .banner6 {
+        padding: 100px 0 10px 0 !important;
+        background-color: var(--color-info);
+    }
+    .swiper-navigation .navigation-arrow {
+        display: none;
+    }
+    .features2 .features2-image {
+        height: 300px;
+    }
+    .testmonil .reviews {
+        margin-left: 0;
+        padding-left: 0;
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+    [dir="rtl"] .testmonil .reviews {
+        margin-right: 0;
+        padding-right: 0;
+        padding-top: 20px;
+        margin-top: 10px;
+    }
+    .testmonil .reviews:before {
+        top: -0px;
+        left: 0;
+    }
+    [dir="rtl"] .testmonil .reviews:before {
+        top: -0px;
+        left: unset;
+        right: 0;
+    }
+    .testmonil .reviews:before {
+        content: '';
+        background: url(../images/clintetext.svg);
+        background-size: 26px 23px;
+        position: absolute;
+        left: 16px;
+        top: 0;
+        z-index: 99;
+        width: 26px;
+        height: 23px;
+    }
+    [dir="rtl"] .testmonil .reviews:before {
+        content: '';
+        background: url(../images/clintetext.svg);
+        background-size: 26px 23px;
+        position: absolute;
+        left: unset;
+        right: 16px;
+        top: 0;
+        z-index: 99;
+        width: 26px;
+        height: 23px;
+    }
+    .features5 .features5-bg-sec-color .numbring {
+        top: 30px;
+    }
+    .features5 .features5-bg-pri-color .numbring {
+        top: 30px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .christmassale {
+        padding: 110px 0px 30px 0px !important;
+    }
+    .banner21 {
+        padding: 130px 0 50px 0 !important;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .wintersal h3 {
+        font-size: 28px;
+    }
+    .christmassale h3 {
+        font-size: 28px;
+    }
+    .de-spot span {
+        position: absolute;
+        display: inline-block;
+        background: var(--color-secondary);
+        padding: 0px 10px 0px 10px;
+        font-size: 10px;
+        font-weight: bold;
+        left: auto;
+        right: 0px;
+        line-height: 1.8em;
+        color: var(--color-white);
+        border-radius: 30px;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+    }
+    .data-protection h4 {
+        font-size: 21px;
+    }
+    .data-protection h2 {
+        font-size: 25px;
+    }
+    .banner31 {
+        padding: 80px 0 20px 0 !important;
+    }
+    .banner30 {
+        padding: 80px 0 20px 0 !important;
+    }
+    .banner29 {
+        padding: 80px 0 20px 0 !important;
+    }
+    .banner28 {
+        padding: 80px 0 20px 0 !important;
+    }
+    .banner27 {
+        padding: 80px 0 20px 0 !important;
+    }
+    .banner23 .premium-domain-range-bar {
+        display: inline-block !important;
+    }
+    .support-two .section-header h2 {
+        font-size: 28px;
+    }
+    .banner21 {
+        padding: 75px 0 50px 0 !important;
+    }
+    .table-style-two tbody tr:hover {
+        background-color: var(--color-info);
+        color: var(--color-primary);
+        transform: unset;
+    }
+    .table-style-two tbody tr:hover td {
+        color: var(--color-primary);
+    }
+    .table-style-two tbody tr:hover h4 {
+        color: var(--color-primary);
+    }
+    .banner3 {
+        padding: 90px 0px 30px !important;
+    }
+    .banner2 {
+        padding: 90px 0px 30px !important;
+    }
+    .features11 .card-style-one {
+        display: block;
+    }
+    .two-buttons a:last-child {
+        margin-left: unset;
+        margin-top: 10px;
+    }
+    #header {
+        height: 60px;
+    }
+    .domain-lists {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .domain-lists li {
+        width: 45%;
+    }
+    .testmonil .reviews h4 {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .customerslove img.img-center {
+        margin: auto;
+    }
+    .features7 h4 {
+        font-size: 22px;
+    }
+    .custom-tabings .customtab .tablinks {
+        margin-bottom: 0px;
+    }
+    .custom-tabings .customtab .tablinks {
+        margin-top: 0px;
+    }
+    .elem-move {
+        animation: unset;
+    }
+    #banner {
+        padding: 80px 0px 0px 0px;
+    }
+    #banner h1 {
+        font-size: 32px;
+        line-height: 45px;
+        font-weight: 600;
+    }
+    #banner span {
+        color: var(--color-secondary);
+        font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+    }
+}
+@media only screen and (min-width: 600px) and (max-width: 767px) {}
+@media only screen and (min-width: 601px) {}
+@media only screen and (max-width: 600px) {}
+@media only screen and (min-width: 480px) and (max-width: 600px) {}
+@media only screen and (min-width: 481px) {}
+@media only screen and (max-width: 480px) {}
+@media only screen and (min-width: 218px) and (max-width: 480px) {}
+@media only screen and (max-device-width: 218px) and (max-device-height: 281px) {}

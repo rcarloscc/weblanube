@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="description" content="Buy a hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="author" content="RedCheap Theme">
+<title>Digital Host | Web Hosting Templates, WHMCS Themes</title>
+<link href="images/favicon.png" rel="icon">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" type="text/css" href="css/style.css" id="style">
+<link rel="stylesheet" type="text/css" href="css/color/default.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="color">
+<link rel="stylesheet" href="css/style.css" data-name="mode">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+</head>
+<body>
+<a class="switcher-icon" role="button" onClick="tooggleSidebar()"> <i class="bi bi-gear-fill spin"></i> </a>
+<div class="offcanvas" id="switcher-canvas">
+  <div class="offcanvas-inner">
+    <div class="offcanvas-header border-bottom">
+      <h5>Switcher</h5>
+      <a role="button" onClick="tooggleSidebar()" class="style-swicher-close"> <i class="bi bi-x"></i> </a> </div>
+    <div class="offcanvas-body">
+      <div class="">
+        <p class="switcher-style-head">Directions:</p>
+        <div class="row switcher-style">
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-ltr"> LTR </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-ltr" checked="">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-rtl"> RTL </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-rtl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="theme-colors">
+        <div class="switcher"></div>
+      </div>
+      <div class="m-3 mt-2">
+        <div class="switcher-style bg-light">
+          <h6 class="fs-18"> <span class="color-secondary-dark">WHMCS - Latest Version</span> </h6>
+          <a href="https://www.rctheme.com/whmcsdemo/index.php?systpl=hostgrid" class="mb-0 color-primary fs-16">WHMCS Demo <i class="bi bi-arrow-right mx-2"></i> </a> </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between canvas-footer"> <a href="" role="button" class="btn btn-primary-two">Buy Now</a>
+      <button id="reset-all" class="btn btn-danger">Reset Now</button>
+    </div>
+  </div>
+</div>
+<div id="topbar" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="contact-info d-flex align-items-center"> <i class="bi bi-envelope d-flex align-items-center"> <a href="mailto:info@yourdemo.com">info@yourdemo.com</a> </i> <i class="bi bi-phone d-flex align-items-center ms-4"> <a href="tel:+911230001234" class="social-item"> <span>+91 123-000-1234</span> </a> </i> </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex justify-content-end">
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> Account</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0"> <a href="login.html" class="dropdown-item"> Login</a> </li>
+              <li class="m-0"> <a href="register.html" class="dropdown-item"> Register</a> </li>
+              <li class="m-0"> <a href="forgot-password.html" class="dropdown-item"> Forgot Password</a> </li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> INR</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0"> <a class="dropdown-item"> AUD</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> CAD</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> CNY</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> EUR</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> GBP</a> </li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="lang-on" id="current_selected_language">English (English)</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Languages" id="change_language_header">
+              <li class="m-0"> <a class="dropdown-item">English (English)</a> </li>
+              <li class="m-0"> <a class="dropdown-item">العربية (Arabic)</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between"> <a href="index.html" class="logo"> <img src="images/logo.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </a>
+    <nav id="navbar" class="navbar ">
+      <ul class="mainmenu">
+        <li class="dropdown"> <a href="#"> <span>Home</span> </a>
+          <ul class="before">
+            <li> <a href="index.html"> <span> <i class="bi bi-house"></i>Home Default Page </span> </a> </li>
+            <li> <a href="home2.html"> <span> <i class="bi bi-snow2"></i>Winter Sale Page </span> </a> </li>
+            <li> <a href="home3.html"> <span> <i class="bi bi-tree"></i>Christmas Sale Page </span> </a> </li>
+            <li> <a href="home4.html"> <span> <i class="bi bi-moon-stars"></i>New Year Sale Page </span> </a> </li>
+            <li> <a href="home5.html"> <span> <i class="bi bi-sliders"></i>Home Content Slider </span> </a> </li>
+            <li> <a href="home6.html"> <span> <i class="bi bi-cloud-sun"></i>Home Black Friday </span> </a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Domain</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-journal-bookmark"></i>Registration </span> </a>
+              <ul>
+                <li> <a href="domain-search.html"> <span> <i class="bi bi-hdd-stack"></i>Register A Domain </span> </a> </li>
+                <li> <a href="bulk-domain-search.html"> <span> <i class="bi bi-hdd-network"></i>Bulk Domain Registration </span> </a> </li>
+                <li> <a href="new-gtlds.html"> <span> <i class="bi bi-database-gear"></i>New Domain Extensions </span> </a> </li>
+                <li> <a href="sunrise-domain.html"> <span> <i class="bi bi-brightness-high"></i>Sunrise Domains </span> </a> </li>
+                <li> <a href="premium-domain.html"> <span> <i class="bi bi-gem"></i>Premium Domains </span> </a> </li>
+                <li> <a href="javascript:void(0)"> <span> <i class="bi bi-lightbulb"></i>IDN Domain Registration </span> </a> </li>
+                <li> <a href="domain-pricing.html"> <span> <i class="bi bi-tags"></i>View Domain Pricing </span> </a> </li>
+                <li> <a href="domain-promo.html"> <span> <i class="bi bi-hdd"></i>Domain Promos </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-router"></i>Transfer </span> </a>
+              <ul>
+                <li> <a href="transfer-domain.html"> <span> <i class="bi bi-send-check-fill"></i>Transfer your Domain </span> </a> </li>
+                <li> <a href="bulk-transfer-domain.html"> <span> <i class="bi bi-menu-button"></i>Bulk Domain Transfer </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-database-add"></i>Add-ons </span> </a>
+              <ul>
+                <li> <a href="free-ads-one.html"> <span> <i class="bi bi-life-preserver"></i>Free with every domain </span> </a> </li>
+                <li> <a href="domain-suggest.html"> <span> <i class="bi bi-gear"></i>Name suggestion tool </span> </a> </li>
+                <li> <a href="whois.html"> <span> <i class="bi bi-file-lock"></i>Whois lookup </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Hosting</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-hdd-rack"></i>Shared Hosting </span> </a>
+              <ul>
+                <li> <a href="shared-hosting.html"> <span> <i class="bi bi-share-fill"></i>Linux Shared Hosting </span> </a> </li>
+                <li> <a href="windows-shared-hosting.html"> <span> <i class="bi bi-windows"></i>Windows Shared Hosting </span> </a> </li>
+                <li> <a href="wordpress-hosting.html"> <span> <i class="bi bi-wordpress"></i>WordPress Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-box2"></i>Server </span> </a>
+              <ul>
+                <li> <a href="vps-server.html"> <span> <i class="bi bi-database-down"></i>Linux KVM VPS </span> </a> </li>
+                <li> <a href="dedicated-server.html"> <span> <i class="bi bi-wifi"></i>Dedicated Servers </span> </a> </li>
+                <li> <a href="windows-dedicated-server.html"> <span> <i class="bi bi-microsoft"></i>Windows Dedicated Servers </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-window-stack"></i>Reseller Hosting </span> </a>
+              <ul>
+                <li> <a href="reseller-hosting.html"> <span> <i class="bi bi-window-plus"></i>Linux Reseller Hosting </span> </a> </li>
+                <li> <a href="windows-reseller-hosting.html"> <span> <i class="bi bi-windows"></i>Windows Reseller Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-gear-wide-connected"></i>Tools </span> </a>
+              <ul>
+                <li> <a href="sitelock.html"> <span> <i class="bi bi-shield-lock"></i>SiteLock </span> </a> </li>
+                <li> <a href="acronis-backup.html"> <span> <i class="bi bi-incognito"></i>Acronis Cyber Backup </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Security &amp; Website</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-shield-lock"></i>Security </span> </a>
+              <ul>
+                <li> <a href="ssl-certificates.html"> <span> <i class="bi bi-file-earmark-lock2"></i>SSL Certificates </span> </a> </li>
+                <li> <a href="codeguard.html"> <span> <i class="bi bi-cloud-download"></i>Codeguard </span> </a> </li>
+                <li> <a href="cloud-hosting.html"> <span> <i class="bi bi-cloud-check"></i>Cloud Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-envelope-at"></i>Email </span> </a>
+              <ul>
+                <li> <a href="business-email.html"> <span> <i class="bi bi-envelope-check-fill"></i>Business Email </span> </a> </li>
+                <li> <a href="enterprise-email.html"> <span> <i class="bi bi-envelope-open"></i>Enterprise Email </span> </a> </li>
+                <li> <a href="google-workspace.html"> <span> <i class="bi bi-google"></i>Google Workspace </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-laptop"></i>Website </span> </a>
+              <ul>
+                <li> <a href="weebly.html"> <span> <i class="bi bi-browser-chrome"></i> Weebly </span> </a> </li>
+                <li> <a href="website-builder.html"> <span> <i class="bi bi-webcam"></i> Website Builder </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Pages</span> </a>
+          <ul class="before">
+            <li> <a href="affiliates.html"> <span> <i class="bi bi-person-badge"></i>Affiliates </span> </a> </li>
+            <li> <a href="aboutus.html"> <span> <i class="bi bi-person-lines-fill"></i>About us </span> </a> </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-building-add"></i>Blog </span> </a>
+              <ul>
+                <li> <a href="bloggrid.html"> <span> <i class="bi bi-newspaper"></i>Blog Grid </span> </a> </li>
+                <li> <a href="blogdetails.html"> <span> <i class="bi bi-quote"></i>Blog Details </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-bank"></i>Princing </span> </a>
+              <ul>
+                <li> <a href="pricingdefault.html"> <span> <i class="bi bi-tags"></i>Pricing Default </span> </a> </li>
+                <li> <a href="pricingpackages.html"> <span> <i class="bi bi-box-seam"></i>Pricing Packages </span> </a> </li>
+                <li> <a href="webhostingpackage.html"> <span> <i class="bi bi-person-workspace"></i>Web Hosting Packages </span> </a> </li>
+                <li> <a href="pricingcomparision.html"> <span> <i class="bi bi-award"></i>Pricing Comparison </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-trophy"></i>Specialty </span> </a>
+              <ul>
+                <li> <a href="coverpage.html"> <span> <i class="bi bi-file-earmark-break"></i>Cover Page </span> </a> </li>
+                <li> <a href="comingsoon.html"> <span> <i class="bi bi-bus-front-fill"></i>Coming Soon </span> </a> </li>
+                <li> <a href="thanks.html"> <span> <i class="bi bi-balloon-heart"></i>Thank You </span> </a> </li>
+                <li> <a href="404.html"> <span> <i class="bi bi-file-earmark-easel"></i>404 Page </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-buildings"></i>Company </span> </a>
+              <ul>
+                <li> <a href="contact.html"> <span> <i class="bi bi-person-rolodex"></i>Contact Us </span> </a> </li>
+                <li> <a href="ourpartner.html"> <span> <i class="bi bi-people"></i>Our Partner </span> </a> </li>
+                <li> <a href="network.html"> <span> <i class="bi bi-reception-4"></i>Network </span> </a> </li>
+                <li> <a href="ourteam.html"> <span> <i class="bi bi-microsoft-teams"></i>Our Team </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Cloud</span> </a>
+          <ul class="before">
+            <li> <a href="cloud-hosting.html"> <span> <i class="bi bi-cloud-check"></i> Cloud </span> </a> </li>
+            <li> <a href="professional-cloud.html"> <span> <i class="bi bi-cloud-plus"></i> Professional Cloud </span> </a> </li>
+          </ul>
+        </li>
+        <li class="get-started right-sider"> <a class="nav-link scrollto" href="combo-offer.html">Combo Offer</a> </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+  </div>
+</header>
+<section id="banner" class="banner21 bg-white mt-2 mt-lg-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-center gap-y-25">
+      <div class="col-lg-7 col-12">
+        <h1>Find the perfect <span>domain</span> name </h1>
+        <p class="mb-0">Your domain helps people find you online and makes a first impression. Find one that represents you perfectly.</p>
+        <p class="mb-0">If you are a trademark-holder, you get the first shot at procuring your desired Domain Names. Simply enter your SMD file to claim your trademark in your chosen extensions!</p>
+        <a href="#plans" class="btn btn-primary my-3"><i class="bi bi-eye"></i> Get Started Now</a> </div>
+      <div class="col-lg-5 col-12"> <img src="images/banner9.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+    </div>
+  </div>
+</section>
+<main>
+  <section class="bg-infoe sunrice-domains">
+    <div class="container">
+      <div class="section-header center">
+        <h2>Sunrise Domain Name <span>Registration</span></h2>
+        <p>Register your trademark name with any of the new domain extensions!</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 sunricedomains">
+          <form>
+            <label>Step 1: Specify a Domain Name for which you hold a Trademark</label>
+            <input type="text" class="sunriceinput" placeholder="Enter a name you would like to register">
+            <label class="mt-3">Step 2: Enter your SMD file <a href="" class="tootips-plans">What is an SMD file? <span class="text-transform-capitalize"> To register Domains in Sunrise, you must first register your Trademark with the Trademark Clearing House (TMCH). <br>
+              Once successfully verified, you will receive an SMD file that you can use to claim your desired Domain Names. </span></a> | <a href="">Get your SMD file</a> </label>
+            <textarea class="sunriceinput" rows="6">
+          </textarea>
+            <label class="mt-3">Step 3: Select Your Extensions</label>
+            <a href="" class="btn btn-outline-primary-two">Get Started Now</a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="faq my-0">
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-8 col-12">
+          <div class="section-header">
+            <h2>Frequently Asked <span>Questions</span> </h2>
+            <p>Don’t find your answer here? just send us a message for any query.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+          <div id="accordion w-100">
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading1">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"> <i class="bi bi-question-lg question-icon"></i> What is Sunrise? </button>
+                  </h5>
+                </div>
+                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> When a new generic top-level domain (gTLD) extension launches, there's a short period where domain names can not be registered by everyone, but only by those who have a trademark for the term they wish to register. This ensures that trademark holders can secure their names and safeguard them against malicious registrations. The Sunrise period for a new TLD lasts from 30 to 60 days, after which all names in that TLD are available for anyone to register. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"> <i class="bi bi-question-lg question-icon"></i> How do I register my trademark domain name in Sunrise? </button>
+                  </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> To register your trademark as a domain name with any new gTLD, you must first submit your trademark to the Trademark Clearinghouse (TMCH). On doing so, your trademark will be verified and you will be assigned a signed mark-data (SMD) file, which can be used to register your trademark against any of the new gTLDs. To register your trademark now, please visit <a href="https://secure.trademark-clearinghouse.com">https://secure.trademark-clearinghouse.com</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"> <i class="bi bi-question-lg question-icon"></i> What is the Trademark Clearinghouse? </button>
+                  </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> The trademark clearinghouse (TMCH) is a database of verified trademarks that are already registered with the appropriate trademark offices. It provides trademark holders a single point of access to be able to register their domain name with any new gTLDs that launch in the future. Apart from offering Sunrise registration support, the TMCH also offers a trademark claims service that helps trademark holders monitor any attempts to register domain names that may contain their trademark. To know more about the trademark clearinghouse, please visit <a href="http://www.trademark-clearinghouse.com">http://www.trademark-clearinghouse.com</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading4">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"> <i class="bi bi-question-lg question-icon"></i> How can I get my trademark registered in the TMCH? </button>
+                  </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> To register your trademark with the TMCH, please visit <a href="https://secure.trademark-clearinghouse.com">https://secure.trademark-clearinghouse.com</a> Alternatively, you can register your trademark through any of the TMCH authorized agents, listed here <a href="http://www.trademark-clearinghouse.com/agents">http://www.trademark-clearinghouse.com/agents</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading5">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"> <i class="bi bi-question-lg question-icon"></i> What are the costs for registering domain names in the Sunrise period? </button>
+                  </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> The fees for registering your trademark with the TMCH are described <a href="http://www.trademark-clearinghouse.com/sites/default/files/files/downloads/TrademarkClearinghouse_fee_structure_131010_SCREEN_2.pdf">here.</a> These fees are not included in the price of the domain name being registered. The registration price may vary depending on the domain name, and may include a non-refundable application fee. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading6">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6"> <i class="bi bi-question-lg question-icon"></i> Is Sunrise registration the same as pre-ordering? </button>
+                  </h5>
+                </div>
+                <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> No. Unlike pre-ordering, Sunrise is a definitive registration process which assures the trademark holder that their domain name registration request will be taken up before any one else without a trademark attempts to register the name. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading7">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse7" aria-expanded="false" aria-controls="collapse7"> <i class="bi bi-question-lg question-icon"></i> What happens if someone else also places a registration request during Sunrise? </button>
+                  </h5>
+                </div>
+                <div id="collapse7" class="collapse" aria-labelledby="heading7" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> If multiple trademark-holders place a request for the same domain name, the registry may put the domain name to an auction, where the highest bidder will be allowed to register the name. Placing your Sunrise registration request is essential to take your place in the auction. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading8">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapse8"> <i class="bi bi-question-lg question-icon"></i> Can I register my trademark domain name after the Sunrise period for an extension is over? </button>
+                  </h5>
+                </div>
+                <div id="collapse8" class="collapse" aria-labelledby="heading8" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> After the Sunrise phase is over, trademark holders do not get any preferential treatment for registration of their domain name. So, you may not be able to register the name if anyone else beats you to it, even if they don't have a trademark. If you would like to secure your name against a particular TLD or TLDs, you should do so in the Sunrise period itself. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading9">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapse9"> <i class="bi bi-question-lg question-icon"></i> I've paid for my Sunrise domain name and completed the process. When can I start using my domain name? </button>
+                  </h5>
+                </div>
+                <div id="collapse9" class="collapse" aria-labelledby="heading9" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Most registries tend to allocate Sunrise domain names at the end of the Sunrise period, typically before general availability begins for the gTLD. As soon as the registry allocates the domain name, we shall alert you about it and you can then begin using the name. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="suport">
+    <div class="container p-3 p-lg-5">
+      <div class="row align-items-center justify-content-center gap-y-25">
+        <div class="col-lg-4 clint">
+          <div class=""> <img src="images/suport.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="">
+            <h2>Our Staff are Available 24/7 <span>Help to You.</span> </h2>
+            <h4 class="my-2">Support and Guidance</h4>
+            <p>We are available 24/7 to help you with your queries, Our servers include semi-managed support.</p>
+            <div class="mt-3 two-buttons"> <a href="javascript:void(Tawk_API.toggle())" class="btn btn btn-primary"> <i class="bi bi-chat-left-dots-fill"></i> Chat With an Expert </a> <a href="contact.html" class="btn btn-outline-primary-two"> <i class="bi bi-telephone"></i> Contact Us </a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <div class="row gap-y-25">
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <div class="mb-3"> <a href="index.html" class="logo"> <img src="images/logo2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </a> </div>
+          <p>We are a web hosting company with a mission to help everyone who goes online succeed.</p>
+          <div class="my-3">
+            <form class="shadow">
+              <input type="text" placeholder="eg. example.com" class="example">
+              <input type="submit" value="Search">
+            </form>
+            <p class="mt-3">Your email is safe with us. We don't spam.</p>
+          </div>
+          <h5>Follow Us on</h5>
+          <ul class="sosil-linl">
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-twitter"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-linkedin"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-skype"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-pinterest"></i> </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Domain</h4>
+          <ul class="list-tick-six">
+            <li> <a href="domain-search.html" class="text-link">Register a Domain</a> </li>
+            <li> <a href="bulk-domain-search.html" class="text-link">Bulk Domain Registration</a> </li>
+            <li> <a href="new-gtlds.html" class="text-link">New Domain Extensions</a> </li>
+            <li> <a href="sunrise-domain.html" class="text-link">Sunrise Domains</a> </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Link</h4>
+          <ul class="list-tick-six">
+            <li> <a href="datacenter-details.html" class="text-link">Datacenter Details</a> </li>
+            <li> <a href="hosting-security.html" class="text-link">Hosting Security</a> </li>
+            <li> <a href="sever-monitroing.html" class="text-link">24 x 7 Servers Monitoring</a> </li>
+            <li> <a href="backup&recover.html" class="text-link">Backup and Recovery</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Hosting</h4>
+          <ul class="list-tick-six">
+            <li> <a href="shared-hosting.html" class="text-link">Linux Shared Hosting</a> </li>
+            <li> <a href="vps-server.html" class="text-link">Linux KVM VPS</a> </li>
+            <li> <a href="windows-shared-hosting.html" class="text-link">Windows Hosting</a> </li>
+            <li> <a href="wordpress-hosting.html" class="text-link">WordPress Hosting</a> </li>
+            <li> <a href="reseller-hosting.html" class="text-link">Linux Reseller Hosting</a> </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Security</h4>
+          <ul class="list-tick-six">
+            <li> <a href="ssl-certificates.html" class="text-link">SSL Certificates</a> </li>
+            <li> <a href="sitelock.html" class="text-link">Sitelock</a> </li>
+            <li> <a href="codeguard.html" class="text-link">Codeguard</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Support</h4>
+          <ul class="list-tick-six">
+            <li> <a href="jawascript:void(0)" class="text-link">View Knowledge Base</a> </li>
+            <li> <a href="contact.html" class="text-link">Contact us</a> </li>
+            <li> <a href="contact.html" class="text-link">Report Abuse </a> </li>
+            <li> <a href="javascript:void(0)" class="text-link">Join Reseller Program</a> </li>
+            <li> <a href="legal-agreement.html" class="text-link">Term &amp; Condition</a> </li>
+            <li> <a href="privacy-policy.html" class="text-link">Privacy Policy</a> </li>
+            <li> <a href="blog-grid.html" class="text-link"> Our Blog</a> </li>
+            <li> <a href="affiliate.html" class="text-link"> Affiliate</a> </li>
+            <li> <a href="legal-agreement.html" class="text-link"> Cancellation &amp; Refund Policy</a> </li>
+            <li> <a href="payment.html" class="text-link"> Payment Options</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<section class="bootom-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12">
+        <div class="payement text-center text-lg-start">
+          <ul class="d-flex">
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 64 64">
+                <g data-name="Paypal card">
+                  <path fill="#fff" d="M47 25.23a2.91 2.91 0 0 0-1-1.1 4.63 4.63 0 0 0-1.63-.59 12.57 12.57 0 0 0-2.19-.17H38.3a1 1 0 0 0-.88.71L34.8 35.47a.56.56 0 0 0 .57.71h1.86a1 1 0 0 0 .89-.7l.63-2.77a1 1 0 0 1 .9-.7h.53a8.9 8.9 0 0 0 5.32-1.4 4.41 4.41 0 0 0 1.88-3.69 3.67 3.67 0 0 0-.38-1.69ZM43 29a4 4 0 0 1-2.35.61h-.45a.57.57 0 0 1-.57-.71l.57-2.41a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.26 1.26 0 0 1 .55 1.11A2.09 2.09 0 0 1 43 29Zm19.4-5.49h-1.65A1 1 0 0 0 60 24l-.09.15-.08.37-2.38 10.61-.08.33a.53.53 0 0 0 .46.67h1.77a.93.93 0 0 0 .8-.57l.1-.14L63 24.17a.54.54 0 0 0-.58-.7ZM56 26.82a7.12 7.12 0 0 0-3.32-.59 14.22 14.22 0 0 0-2.25.18c-.56.08-.61.1-1 .17a1.08 1.08 0 0 0-.81.87l-.23.93c-.13.59.21.57.37.52a9.45 9.45 0 0 1 1.1-.32 8.23 8.23 0 0 1 1.75-.24 4.66 4.66 0 0 1 1.69.24.86.86 0 0 1 .56.84v.27l-.27.16a33.3 33.3 0 0 0-2.74.3 9 9 0 0 0-2.37.65 3.73 3.73 0 0 0-1.6 1.26 3.5 3.5 0 0 0-.52 1.94 2.33 2.33 0 0 0 .76 1.78 2.89 2.89 0 0 0 2 .66 5.12 5.12 0 0 0 1.17-.1l.9-.31.77-.42.69-.47-.06.3a.54.54 0 0 0 .49.7h1.76a1 1 0 0 0 .79-.7L57 29.59l.07-.48v-.45A2 2 0 0 0 56 26.82Zm-3 6.61-.3.39-.72.37a2.66 2.66 0 0 1-1 .21 2.19 2.19 0 0 1-1-.2l-.37-.69a1.44 1.44 0 0 1 .27-.92 1.84 1.84 0 0 1 .8-.53 6.5 6.5 0 0 1 1.22-.28c.42-.05 1.27-.15 1.37-.15l.13.23c-.04.14-.28 1.14-.4 1.57Z"></path>
+                  <path fill="#fff" d="M34.86 26.37h-2.23a1.63 1.63 0 0 0-1.18.7s-2.66 4.58-2.92 5h-.31l-.83-5a1 1 0 0 0-1-.73h-1.68a.54.54 0 0 0-.55.71s1.26 7.2 1.51 8.9c.12.94 0 1.1 0 1.1L24 40c-.24.39-.11.71.29.71h1.93a1.55 1.55 0 0 0 1.16-.7l7.42-12.59s.72-1.07.06-1.05Zm-12.65.45a7 7 0 0 0-3.32-.59 14.42 14.42 0 0 0-2.26.17 8.18 8.18 0 0 0-.95.18 1.08 1.08 0 0 0-.82.86l-.22.93c-.13.6.22.58.35.52a10.88 10.88 0 0 1 1.12-.32 7.58 7.58 0 0 1 1.74-.23 4.47 4.47 0 0 1 1.7.24.83.83 0 0 1 .55.84v.26l-.27.17a27 27 0 0 0-2.74.3 8.7 8.7 0 0 0-2.36.64 3.63 3.63 0 0 0-1.6 1.27 3.38 3.38 0 0 0-.57 1.94 2.28 2.28 0 0 0 .77 1.77 2.83 2.83 0 0 0 2 .67 4.87 4.87 0 0 0 1.16-.11l.91-.31.76-.42.7-.47-.06.29a.55.55 0 0 0 .5.69H21a1 1 0 0 0 .8-.69l1.36-5.88.07-.47v-.45a2 2 0 0 0-1.02-1.8Zm-3 6.6-.3.38-.73.38a2.62 2.62 0 0 1-1 .21 2.17 2.17 0 0 1-1.06-.2l-.36-.7a1.4 1.4 0 0 1 .27-.9l.79-.54a7.54 7.54 0 0 1 1.23-.28c.42-.05 1.26-.15 1.38-.15l.12.22c.02.16-.22 1.16-.33 1.58Zm-6-8.23a2.71 2.71 0 0 0-1-1.09 4.54 4.54 0 0 0-1.62-.6 13.86 13.86 0 0 0-2.2-.17H4.53a1 1 0 0 0-.9.71L1 35.42a.55.55 0 0 0 .56.71h1.88a.94.94 0 0 0 .89-.71L5 32.66a.93.93 0 0 1 .88-.7h.52a8.88 8.88 0 0 0 5.3-1.4 4.38 4.38 0 0 0 1.9-3.69 3.42 3.42 0 0 0-.36-1.68Zm-4 3.72a3.91 3.91 0 0 1-2.35.62h-.44a.55.55 0 0 1-.56-.71l.56-2.42a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.24 1.24 0 0 1 .54 1.11 2 2 0 0 1-.84 1.75Z"></path>
+                </g>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 24 24">
+                <path fill="#FF5F00" d="M15.245 17.831h-6.49V6.168h6.49v11.663z"></path>
+                <path fill="#EB001B" d="M9.167 12A7.404 7.404 0 0 1 12 6.169 7.417 7.417 0 0 0 0 12a7.417 7.417 0 0 0 11.999 5.831A7.406 7.406 0 0 1 9.167 12z"></path>
+                <path fill="#F79E1B" d="M24 12a7.417 7.417 0 0 1-12 5.831c1.725-1.358 2.833-3.465 2.833-5.831S13.725 7.527 12 6.169A7.417 7.417 0 0 1 24 12z"></path>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 48 48" viewBox="0 0 48 48">
+                <polygon fill="#fff" points="17.202 32.269 21.087 32.269 23.584 16.732 19.422 16.732"></polygon>
+                <path fill="#fff" d="M13.873 16.454l-3.607 11.098-.681-3.126c-1.942-4.717-5.272-6.659-5.272-6.659l3.456 14.224h4.162l5.827-15.538H13.873zM44.948 16.454h-4.162l-6.382 15.538h3.884l.832-2.22h4.994l.555 2.22H48L44.948 16.454zM39.954 26.997l2.22-5.826 1.11 5.826H39.954zM28.855 20.893c0-.832.555-1.665 2.497-1.665 1.387 0 2.775 1.11 2.775 1.11l.832-3.329c0 0-1.942-.832-3.607-.832-4.162 0-6.104 2.22-6.104 4.717 0 4.994 5.549 4.162 5.549 6.659 0 .555-.277 1.387-2.497 1.387s-3.884-.832-3.884-.832l-.555 3.329c0 0 1.387.832 4.162.832 2.497.277 6.382-1.942 6.382-5.272C34.405 23.113 28.855 22.836 28.855 20.893z"></path>
+                <path fill="#fff" d="M9.711,25.055l-1.387-6.936c0,0-0.555-1.387-2.22-1.387c-1.665,0-6.104,0-6.104,0
+                                        S8.046,19.229,9.711,25.055z"></path>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-md-2 me-0 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                <path fill="#fff" d="M3.093,14.964c1.18,0,2.55-0.431,2.79-1.711h-1.24c-0.213,0.625-0.85,0.923-1.568,0.923c-1.035,0-1.788-0.64-1.853-1.726h4.83v1.042c0,0.387-0.02,0.848-0.04,1.235h1.18c0.025-0.238,0.04-0.49,0.04-0.728c0.506,0.61,1.33,0.923,2.2,0.923c1.407,0,2.467-0.833,2.767-2.069c-0.022,0.12-0.037,0.253-0.037,0.402c0,0.908,0.792,1.682,2.272,1.682c1,0,1.717-0.224,2.32-0.952c0,0.253,0.016,0.506,0.046,0.759h1.114c-0.03-0.313-0.04-0.654-0.04-0.997v-2.44c0-0.372-0.07-0.67-0.2-0.923l2.33,4.345l-1.07,2.024h1.346L24,9.503h-1.243l-2.055,4.093l-2.055-4.092h-1.41l0.436,0.833c-0.42-0.744-1.351-1.012-2.415-1.012c-1.186,0-2.55,0.327-2.686,1.607h1.275c0.06-0.506,0.585-0.804,1.305-0.804c0.974,0,1.53,0.356,1.53,1.234v0.134c-0.465,0-1.05,0-1.56,0.018c-1.622,0.039-2.656,0.388-2.896,1.333c0.045-0.209,0.06-0.432,0.06-0.663c0-1.936-1.488-2.832-2.828-2.832c-0.8,0-1.612,0.201-2.202,0.899V7.25h-1.2v4.876c-0.01-1.904-1.252-2.783-2.94-2.783C0.982,9.343,0,10.49,0,12.23C0,13.808,0.95,14.985,3.093,14.964z M15.193,12.313l-0.002-0.002h-0.012c0.494-0.016,1.034-0.022,1.484-0.022v0.129c0,1.115-0.675,1.8-1.935,1.8c-0.945,0-1.305-0.501-1.305-0.962C13.423,12.544,14.098,12.346,15.193,12.313z M9.116,10.165c1.125,0,1.893,0.8,1.893,2.004c0,1.204-0.766,2.004-1.876,2.004H9.131h-0.03c-1.11,0-1.875-0.8-1.875-2.004C7.226,10.964,8.006,10.165,9.116,10.165z M3.058,10.145c0.871,0,1.681,0.418,1.725,1.534h-3.54C1.364,10.615,2.114,10.145,3.058,10.145z"></path>
+              </svg>
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="text-center text-lg-end">
+          <p>Copyright 2024 All Right Reserved. Design By<a href="#">RedCheap</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"> <i class="bi bi-airplane-engines"></i> </a> 
+<script src="js/jquery-3.2.1.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/purecounter_vanilla.js"></script> 
+<script src="js/main.js"></script> 
+<script src="js/aos.js"></script> 
+<script src="js/vanilla-tilt.min.js"></script> 
+<script src="js/cookies.js"></script> 
+<script src="js/custom-switcher.js"></script> 
+<script src="js/styleswitch.js"></script> 
+<script src="js/jquery.cookie.js"></script> 
+<script src="js/isotope.pkgd.js"></script> 
+<script src="js/isotope.pkgd.min.js"></script>
+</body>
+</html>

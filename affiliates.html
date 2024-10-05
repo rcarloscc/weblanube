@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+    <meta name="description" content="Buy a hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+    <meta name="author" content="RedCheap Theme">
+    <title>Digital Host | Web Hosting Templates, WHMCS Themes</title>
+    <link href="images/favicon.png" rel="icon">
+    <link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css" id="style">
+    <link rel="stylesheet" type="text/css" href="css/color/default.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="color">
+    <link rel="stylesheet" href="css/style.css" data-name="mode">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+  </head>
+  <body>
+    <a class="switcher-icon" role="button" onClick="tooggleSidebar()">
+      <i class="bi bi-gear-fill spin"></i>
+    </a>
+    <div class="offcanvas" id="switcher-canvas">
+      <div class="offcanvas-inner">
+        <div class="offcanvas-header border-bottom">
+          <h5>Switcher</h5>
+          <a role="button" onClick="tooggleSidebar()" class="style-swicher-close">
+            <i class="bi bi-x"></i>
+          </a>
+        </div>
+        <div class="offcanvas-body">
+          <div class="">
+            <p class="switcher-style-head">Directions:</p>
+            <div class="row switcher-style">
+              <div class="col-4">
+                <div class="form-check switch-select">
+                  <label class="form-check-label user-select-none" for="switcher-ltr"> LTR </label>
+                  <input class="form-check-input" type="radio" name="direction" id="switcher-ltr" checked="">
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="form-check switch-select">
+                  <label class="form-check-label user-select-none" for="switcher-rtl"> RTL </label>
+                  <input class="form-check-input" type="radio" name="direction" id="switcher-rtl">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="theme-colors">
+            <div class="switcher"></div>
+          </div>
+          <div class="m-3 mt-2">
+            <div class="switcher-style bg-light">
+              <h6 class="fs-18">
+                <span class="color-secondary-dark">WHMCS - Latest Version</span>
+              </h6>
+              <a href="https://www.rctheme.com/whmcsdemo/index.php?systpl=hostgrid" class="mb-0 color-primary fs-16">WHMCS Demo <i class="bi bi-arrow-right mx-2"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between canvas-footer">
+          <a href="" role="button" class="btn btn-primary-two">Buy Now</a>
+          <button id="reset-all" class="btn btn-danger">Reset Now</button>
+        </div>
+      </div>
+    </div>
+    <div id="topbar" class="d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="contact-info d-flex align-items-center">
+              <i class="bi bi-envelope d-flex align-items-center">
+                <a href="mailto:info@yourdemo.com">info@yourdemo.com</a>
+              </i>
+              <i class="bi bi-phone d-flex align-items-center ms-4">
+                <a href="tel:+911230001234" class="social-item">
+                  <span>+91 123-000-1234</span>
+                </a>
+              </i>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="d-flex justify-content-end">
+              <div class="dropdown my-custom-dropdown ms-3">
+                <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span id="current_selected_currency"> Account</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+                  <li class="m-0">
+                    <a href="login.html" class="dropdown-item"> Login</a>
+                  </li>
+                  <li class="m-0">
+                    <a href="register.html" class="dropdown-item"> Register</a>
+                  </li>
+                  <li class="m-0">
+                    <a href="forgot-password.html" class="dropdown-item"> Forgot Password</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown my-custom-dropdown ms-3">
+                <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span id="current_selected_currency"> INR</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+                  <li class="m-0">
+                    <a class="dropdown-item"> AUD</a>
+                  </li>
+                  <li class="m-0">
+                    <a class="dropdown-item"> CAD</a>
+                  </li>
+                  <li class="m-0">
+                    <a class="dropdown-item"> CNY</a>
+                  </li>
+                  <li class="m-0">
+                    <a class="dropdown-item"> EUR</a>
+                  </li>
+                  <li class="m-0">
+                    <a class="dropdown-item"> GBP</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="dropdown my-custom-dropdown ms-3">
+                <button class="btn  dropdown-toggle" type="button" id="Languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <span class="lang-on" id="current_selected_language">English (English)</span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Languages" id="change_language_header">
+                  <li class="m-0">
+                    <a class="dropdown-item">English (English)</a>
+                  </li>
+                  <li class="m-0">
+                    <a class="dropdown-item">العربية (Arabic)</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header id="header" class="d-flex align-items-center">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo">
+          <img src="images/logo.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+        </a>
+        <nav id="navbar" class="navbar ">
+          <ul class="mainmenu">
+            <li class="dropdown">
+              <a href="#">
+                <span>Home</span>
+              </a>
+              <ul class="before">
+                <li>
+                  <a href="index.html">
+                    <span>
+                      <i class="bi bi-house"></i>Home Default Page </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="home2.html">
+                    <span>
+                      <i class="bi bi-snow2"></i>Winter Sale Page </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="home3.html">
+                    <span>
+                      <i class="bi bi-tree"></i>Christmas Sale Page </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="home4.html">
+                    <span>
+                      <i class="bi bi-moon-stars"></i>New Year Sale Page </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="home5.html">
+                    <span>
+                      <i class="bi bi-sliders"></i>Home Content Slider </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="home6.html">
+                    <span>
+                      <i class="bi bi-cloud-sun"></i>Home Black Friday </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <span>Domain</span>
+              </a>
+              <ul class="before">
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-journal-bookmark"></i>Registration </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="domain-search.html">
+                        <span>
+                          <i class="bi bi-hdd-stack"></i>Register A Domain </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="bulk-domain-search.html">
+                        <span>
+                          <i class="bi bi-hdd-network"></i>Bulk Domain Registration </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="new-gtlds.html">
+                        <span>
+                          <i class="bi bi-database-gear"></i>New Domain Extensions </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="sunrise-domain.html">
+                        <span>
+                          <i class="bi bi-brightness-high"></i>Sunrise Domains </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="premium-domain.html">
+                        <span>
+                          <i class="bi bi-gem"></i>Premium Domains </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:void(0)">
+                        <span>
+                          <i class="bi bi-lightbulb"></i>IDN Domain Registration </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="domain-pricing.html">
+                        <span>
+                          <i class="bi bi-tags"></i>View Domain Pricing </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="domain-promo.html">
+                        <span>
+                          <i class="bi bi-hdd"></i>Domain Promos </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-router"></i>Transfer </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="transfer-domain.html">
+                        <span>
+                          <i class="bi bi-send-check-fill"></i>Transfer your Domain </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="bulk-transfer-domain.html">
+                        <span>
+                          <i class="bi bi-menu-button"></i>Bulk Domain Transfer </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-database-add"></i>Add-ons </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="free-ads-one.html">
+                        <span>
+                          <i class="bi bi-life-preserver"></i>Free with every domain </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="domain-suggest.html">
+                        <span>
+                          <i class="bi bi-gear"></i>Name suggestion tool </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="whois.html">
+                        <span>
+                          <i class="bi bi-file-lock"></i>Whois lookup </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <span>Hosting</span>
+              </a>
+              <ul class="before">
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-hdd-rack"></i>Shared Hosting </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="shared-hosting.html">
+                        <span>
+                          <i class="bi bi-share-fill"></i>Linux Shared Hosting </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="windows-shared-hosting.html">
+                        <span>
+                          <i class="bi bi-windows"></i>Windows Shared Hosting </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="wordpress-hosting.html">
+                        <span>
+                          <i class="bi bi-wordpress"></i>WordPress Hosting </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-box2"></i>Server </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="vps-server.html">
+                        <span>
+                          <i class="bi bi-database-down"></i>Linux KVM VPS </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="dedicated-server.html">
+                        <span>
+                          <i class="bi bi-wifi"></i>Dedicated Servers </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="windows-dedicated-server.html">
+                        <span>
+                          <i class="bi bi-microsoft"></i>Windows Dedicated Servers </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-window-stack"></i>Reseller Hosting </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="reseller-hosting.html">
+                        <span>
+                          <i class="bi bi-window-plus"></i>Linux Reseller Hosting </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="windows-reseller-hosting.html">
+                        <span>
+                          <i class="bi bi-windows"></i>Windows Reseller Hosting </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-gear-wide-connected"></i>Tools </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="sitelock.html">
+                        <span>
+                          <i class="bi bi-shield-lock"></i>SiteLock </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="acronis-backup.html">
+                        <span>
+                          <i class="bi bi-incognito"></i>Acronis Cyber Backup </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <span>Security &amp; Website</span>
+              </a>
+              <ul class="before">
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-shield-lock"></i>Security </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="ssl-certificates.html">
+                        <span>
+                          <i class="bi bi-file-earmark-lock2"></i>SSL Certificates </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="codeguard.html">
+                        <span>
+                          <i class="bi bi-cloud-download"></i>Codeguard </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="cloud-hosting.html">
+                        <span>
+                          <i class="bi bi-cloud-check"></i>Cloud Hosting </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-envelope-at"></i>Email </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="business-email.html">
+                        <span>
+                          <i class="bi bi-envelope-check-fill"></i>Business Email </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="enterprise-email.html">
+                        <span>
+                          <i class="bi bi-envelope-open"></i>Enterprise Email </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="google-workspace.html">
+                        <span>
+                          <i class="bi bi-google"></i>Google Workspace </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-laptop"></i>Website </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="weebly.html">
+                        <span>
+                          <i class="bi bi-browser-chrome"></i> Weebly </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="website-builder.html">
+                        <span>
+                          <i class="bi bi-webcam"></i> Website Builder </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <span>Pages</span>
+              </a>
+              <ul class="before">
+                <li>
+                  <a href="affiliates.html">
+                    <span>
+                      <i class="bi bi-person-badge"></i>Affiliates </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="aboutus.html">
+                    <span>
+                      <i class="bi bi-person-lines-fill"></i>About us </span>
+                  </a>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-building-add"></i>Blog </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="bloggrid.html">
+                        <span>
+                          <i class="bi bi-newspaper"></i>Blog Grid </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="blogdetails.html">
+                        <span>
+                          <i class="bi bi-quote"></i>Blog Details </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-bank"></i>Princing </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="pricingdefault.html">
+                        <span>
+                          <i class="bi bi-tags"></i>Pricing Default </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="pricingpackages.html">
+                        <span>
+                          <i class="bi bi-box-seam"></i>Pricing Packages </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="webhostingpackage.html">
+                        <span>
+                          <i class="bi bi-person-workspace"></i>Web Hosting Packages </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="pricingcomparision.html">
+                        <span>
+                          <i class="bi bi-award"></i>Pricing Comparison </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-trophy"></i>Specialty </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="coverpage.html">
+                        <span>
+                          <i class="bi bi-file-earmark-break"></i>Cover Page </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="comingsoon.html">
+                        <span>
+                          <i class="bi bi-bus-front-fill"></i>Coming Soon </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="thanks.html">
+                        <span>
+                          <i class="bi bi-balloon-heart"></i>Thank You </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="404.html">
+                        <span>
+                          <i class="bi bi-file-earmark-easel"></i>404 Page </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#">
+                    <span>
+                      <i class="bi bi-buildings"></i>Company </span>
+                  </a>
+                  <ul>
+                    <li>
+                      <a href="contact.html">
+                        <span>
+                          <i class="bi bi-person-rolodex"></i>Contact Us </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="ourpartner.html">
+                        <span>
+                          <i class="bi bi-people"></i>Our Partner </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="network.html">
+                        <span>
+                          <i class="bi bi-reception-4"></i>Network </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="ourteam.html">
+                        <span>
+                          <i class="bi bi-microsoft-teams"></i>Our Team </span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#">
+                <span>Cloud</span>
+              </a>
+              <ul class="before">
+                <li>
+                  <a href="cloud-hosting.html">
+                    <span>
+                      <i class="bi bi-cloud-check"></i> Cloud </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="professional-cloud.html">
+                    <span>
+                      <i class="bi bi-cloud-plus"></i> Professional Cloud </span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="get-started right-sider">
+              <a class="nav-link scrollto" href="combo-offer.html">Combo Offer</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+      </div>
+    </header>
+    <section id="banner" class="banner7 mt-2 mt-lg-5 bg-white">
+      <div class="container">
+        <div class="row align-items-center justify-content-center gap-y-25">
+          <div class="col-lg-8 col-12">
+            <h1>Hosting Affiliate <span>Program</span></h1>
+            <p class="mb-0">We offer nice commissions, however most of our affiliates endorse US for a unique reason the standard of service. If you would like to advocate a number that will not fail your customers, readers, be part of our affiliate program!</p>
+            <a href="#plans" class="btn btn-primary my-3">
+              <i class="bi bi-eye"></i> View Plans </a>
+          </div>
+          <div class="col-lg-4 col-12">
+            <img src="images/banner19.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </section>
+    <main>
+      <section class="features5">
+   <div class="container">
+      <div class="row justify-content-center">
+         <div class="section-header">
+         <h2 class="text-center">Affiliate Program</h2>
+      </div>
+      </div>
+      <div class="row align-items-stretch justify-content-center gap-y-25">
+         <div class="col-lg-4 col-md-6 col-12">
+            <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M96 128a128 128 0 1 1 256 0A128 128 0 1 1 96 128zM0 482.3C0 383.8 79.8 304 178.3 304h91.4C368.2 304 448 383.8 448 482.3c0 16.4-13.3 29.7-29.7 29.7H29.7C13.3 512 0 498.7 0 482.3zM504 312V248H440c-13.3 0-24-10.7-24-24s10.7-24 24-24h64V136c0-13.3 10.7-24 24-24s24 10.7 24 24v64h64c13.3 0 24 10.7 24 24s-10.7 24-24 24H552v64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"></path></svg>
+               </div>
+               <div class="numbring">
+                  <h3>01</h3>
+                </div>            
+            <div>
+               <h4>Sign up Hostgrid</h4>
+               <p>Our product experts are available to help you find the perfect solution for your organization. We are or by phone from Monday to Friday.</p>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+            <div class="features5-bg-pri-color p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM384 160c0 35.3-28.7 64-64 64c-15.4 0-29.5-5.4-40.6-14.5L194.1 256l85.3 46.5c11-9.1 25.2-14.5 40.6-14.5c35.3 0 64 28.7 64 64s-28.7 64-64 64s-64-28.7-64-64c0-2.5 .1-4.9 .4-7.3L174.5 300c-11.7 12.3-28.2 20-46.5 20c-35.3 0-64-28.7-64-64s28.7-64 64-64c18.3 0 34.8 7.7 46.5 20l81.9-44.7c-.3-2.4-.4-4.9-.4-7.3c0-35.3 28.7-64 64-64s64 28.7 64 64z"></path></svg>
+               </div>
+               <div class="numbring">
+                  <h3>02</h3>
+                </div>             
+            <div>
+               <h4>Ad on your Website</h4>
+               <p>Our product experts are available to help you find the perfect solution for your organization. We are or by phone from Monday to Friday.</p>
+            </div>
+         </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-12">
+            <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M512 80c0 18-14.3 34.6-38.4 48c-29.1 16.1-72.5 27.5-122.3 30.9c-3.7-1.8-7.4-3.5-11.3-5C300.6 137.4 248.2 128 192 128c-8.3 0-16.4 .2-24.5 .6l-1.1-.6C142.3 114.6 128 98 128 80c0-44.2 86-80 192-80S512 35.8 512 80zM160.7 161.1c10.2-.7 20.7-1.1 31.3-1.1c62.2 0 117.4 12.3 152.5 31.4C369.3 204.9 384 221.7 384 240c0 4-.7 7.9-2.1 11.7c-4.6 13.2-17 25.3-35 35.5c0 0 0 0 0 0c-.1 .1-.3 .1-.4 .2l0 0 0 0c-.3 .2-.6 .3-.9 .5c-35 19.4-90.8 32-153.6 32c-59.6 0-112.9-11.3-148.2-29.1c-1.9-.9-3.7-1.9-5.5-2.9C14.3 274.6 0 258 0 240c0-34.8 53.4-64.5 128-75.4c10.5-1.5 21.4-2.7 32.7-3.5zM416 240c0-21.9-10.6-39.9-24.1-53.4c28.3-4.4 54.2-11.4 76.2-20.5c16.3-6.8 31.5-15.2 43.9-25.5V176c0 19.3-16.5 37.1-43.8 50.9c-14.6 7.4-32.4 13.7-52.4 18.5c.1-1.8 .2-3.5 .2-5.3zm-32 96c0 18-14.3 34.6-38.4 48c-1.8 1-3.6 1.9-5.5 2.9C304.9 404.7 251.6 416 192 416c-62.8 0-118.6-12.6-153.6-32C14.3 370.6 0 354 0 336V300.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 342.6 135.8 352 192 352s108.6-9.4 148.1-25.9c7.8-3.2 15.3-6.9 22.4-10.9c6.1-3.4 11.8-7.2 17.2-11.2c1.5-1.1 2.9-2.3 4.3-3.4V304v5.7V336zm32 0V304 278.1c19-4.2 36.5-9.5 52.1-16c16.3-6.8 31.5-15.2 43.9-25.5V272c0 10.5-5 21-14.9 30.9c-16.3 16.3-45 29.7-81.3 38.4c.1-1.7 .2-3.5 .2-5.3zM192 448c56.2 0 108.6-9.4 148.1-25.9c16.3-6.8 31.5-15.2 43.9-25.5V432c0 44.2-86 80-192 80S0 476.2 0 432V396.6c12.5 10.3 27.6 18.7 43.9 25.5C83.4 438.6 135.8 448 192 448z"></path></svg>
+               </div>             
+            <div>
+               <h4>Get Monthly Earning</h4>
+               <p>Our product experts are available to help you find the perfect solution for your organization. We are or by phone from Monday to Friday.</p>
+            </div>
+            <div class="numbring">
+                  <h3>03</h3>
+                </div>
+         </div>
+      </div>
+      </div>
+   </div>
+</section>
+    <section class="features3">
+   <div class="container">
+      <!-- <div class="section-header">
+         <h2 class="text-center">Free Migrate</h2>
+      </div> -->
+      <div class="row align-items-center justify-content-center gap-y-25">
+         <div class="col-lg-8 col-12">
+            <div>
+               <h3>Easy Ways to Refer Clients and Earn Commissions</h3>
+               <p>Phosfluorescently fashion front-end web-readiness vis-a-vis robust networks. Interactively redefine frictionless interfaces after timely benefits. Continually drive maintainable vortals via synergistic metrics. Intrinsicly fabricate scalable web-readiness before seamless technologies.</p>
+               <p>Credibly foster customer directed meta-services and cost effective process improvements. Monotonectally build adaptive catalysts for change rather than cost effective results.</p>
+               <div class="mt-3"><a href="register.html" class="btn btn-primary"><i class="bi bi-eye"></i> Sign Up Now </a></div>
+               <p></p>
+            </div>
+         </div>
+         <div class="col-lg-4 col-12">
+            <div class="bg-color">
+               <div class="p-2"><img src="images/about5.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid rounded-"></div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+<section class="features11">
+   <div class="container">
+      <div class="row">
+                  <div class="col-md-8 col-12 m-auto">
+                     <div class="section-header">
+                        <h2 class="text-center">Best Features For Affiliate Success</h2>
+                     </div>
+                  </div>
+               </div>
+      <div class="row justify-content-center align-items-stretch gap-y-25">
+         <div class="col-lg-6">
+            <div class="card-style-one p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 160v96C0 379.7 100.3 480 224 480s224-100.3 224-224V160H320v96c0 53-43 96-96 96s-96-43-96-96V160H0zm0-32H128V64c0-17.7-14.3-32-32-32H32C14.3 32 0 46.3 0 64v64zm320 0H448V64c0-17.7-14.3-32-32-32H352c-17.7 0-32 14.3-32 32v64z"></path></svg>
+                  <span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+               </div>
+               <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+                  <h4>Attractive visuals</h4>
+                  <p>Our intuitive control panel gives you admin access to all of your DreamHost products easily.</p>
+               </div>
+            </div>
+         </div>
+         <div class="col-lg-6">
+            <div class="card-style-one p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 96C0 60.7 28.7 32 64 32H512c35.3 0 64 28.7 64 64V416c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V96zM128 288a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm32-128a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zM128 384a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm96-248c-13.3 0-24 10.7-24 24s10.7 24 24 24H448c13.3 0 24-10.7 24-24s-10.7-24-24-24H224zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H448c13.3 0 24-10.7 24-24s-10.7-24-24-24H224zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H448c13.3 0 24-10.7 24-24s-10.7-24-24-24H224z"></path></svg>
+<span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+               </div>
+               <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+                  <h4>Complimentary hosting</h4>
+                  <p>Tech veterans, geeks, and nerds are all standing by to optimize your experience whether.</p>
+               </div>
+            </div>
+         </div>
+                  <div class="col-lg-6">
+            <div class="card-style-one p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M404.2 309.5L383.1 344h42.3l-21.1-34.5zM371.4 256l-54-88H194.6l-54 88 54 88H317.4l54-88zm65.7 0l53.4 87c3.6 5.9 5.5 12.7 5.5 19.6c0 20.7-16.8 37.4-37.4 37.4H348.7l-56.2 91.5C284.8 504.3 270.9 512 256 512s-28.8-7.7-36.6-20.5L163.3 400H53.4C32.8 400 16 383.2 16 362.6c0-6.9 1.9-13.7 5.5-19.6l53.4-87L21.5 169c-3.6-5.9-5.5-12.7-5.5-19.6C16 128.8 32.8 112 53.4 112H163.3l56.2-91.5C227.2 7.7 241.1 0 256 0s28.8 7.7 36.6 20.5L348.7 112H458.6c20.7 0 37.4 16.8 37.4 37.4c0 6.9-1.9 13.7-5.5 19.6l-53.4 87zm-54-88l21.1 34.5L425.4 168H383.1zM283 112L256 68l-27 44h54zM128.9 168H86.6l21.1 34.5L128.9 168zM107.8 309.5L86.6 344h42.3l-21.1-34.5zM229 400l27 44 27-44H229z"></path></svg>
+<span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+               </div>
+               <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+                  <h4>Reliable in-house tracking</h4>
+                  <p>No need to dig into a bunch of documentation. Simply install web apps like WordPress, Joomla!.</p>
+               </div>
+            </div>
+         </div>
+                           <div class="col-lg-6">
+            <div class="card-style-one p-3 p-lg-4 h-100">
+               <div class="feature-style-one-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M495.9 166.6c3.2 8.7 .5 18.4-6.4 24.6l-43.3 39.4c1.1 8.3 1.7 16.8 1.7 25.4s-.6 17.1-1.7 25.4l43.3 39.4c6.9 6.2 9.6 15.9 6.4 24.6c-4.4 11.9-9.7 23.3-15.8 34.3l-4.7 8.1c-6.6 11-14 21.4-22.1 31.2c-5.9 7.2-15.7 9.6-24.5 6.8l-55.7-17.7c-13.4 10.3-28.2 18.9-44 25.4l-12.5 57.1c-2 9.1-9 16.3-18.2 17.8c-13.8 2.3-28 3.5-42.5 3.5s-28.7-1.2-42.5-3.5c-9.2-1.5-16.2-8.7-18.2-17.8l-12.5-57.1c-15.8-6.5-30.6-15.1-44-25.4L83.1 425.9c-8.8 2.8-18.6 .3-24.5-6.8c-8.1-9.8-15.5-20.2-22.1-31.2l-4.7-8.1c-6.1-11-11.4-22.4-15.8-34.3c-3.2-8.7-.5-18.4 6.4-24.6l43.3-39.4C64.6 273.1 64 264.6 64 256s.6-17.1 1.7-25.4L22.4 191.2c-6.9-6.2-9.6-15.9-6.4-24.6c4.4-11.9 9.7-23.3 15.8-34.3l4.7-8.1c6.6-11 14-21.4 22.1-31.2c5.9-7.2 15.7-9.6 24.5-6.8l55.7 17.7c13.4-10.3 28.2-18.9 44-25.4l12.5-57.1c2-9.1 9-16.3 18.2-17.8C227.3 1.2 241.5 0 256 0s28.7 1.2 42.5 3.5c9.2 1.5 16.2 8.7 18.2 17.8l12.5 57.1c15.8 6.5 30.6 15.1 44 25.4l55.7-17.7c8.8-2.8 18.6-.3 24.5 6.8c8.1 9.8 15.5 20.2 22.1 31.2l4.7 8.1c6.1 11 11.4 22.4 15.8 34.3zM256 336a80 80 0 1 0 0-160 80 80 0 1 0 0 160z"></path></svg>
+<span class="dots"><i class="dot dot1"></i><i class="dot dot2"></i><i class="dot dot3"></i></span>
+               </div>
+               <div class="ms-0 ms-lg-3 mt-2 mt-lg-0">
+                  <h4>Campaign tools</h4>
+                  <p>With multiple datacenter locations, redundant cooling, emergency generators and monitoring.</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="faq">
+        <div class="container">
+          <div class="row justify-content-center mb-3">
+            <div class="col-md-8 col-12">
+              <div class="section-header">
+                <h2>Frequently Asked <span>Questions</span>
+                </h2>
+                <p>Don’t find your answer here? just send us a message for any query.</p>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-10 col-12">
+              <div id="accordion w-100">
+                <div class="card">
+                  <div class="hover">
+                    <div class="card-header" id="heading1">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                          <i class="bi bi-question-lg question-icon"></i> How does affiliate system work? </button>
+                      </h5>
+                    </div>
+                    <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion" style="">
+                      <div class="card-body">
+                        <span>Ans.</span> We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="hover">
+                    <div class="card-header" id="heading2">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                          <i class="bi bi-question-lg question-icon"></i> What Do I need to start Affiliate? </button>
+                      </h5>
+                    </div>
+                    <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion" style="">
+                      <div class="card-body">
+                        <span>Ans.</span> We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="hover">
+                    <div class="card-header" id="heading3">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                          <i class="bi bi-question-lg question-icon"></i> Will you access our server without first asking </button>
+                      </h5>
+                    </div>
+                    <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion" style="">
+                      <div class="card-body">
+                        <span>Ans.</span> We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="hover">
+                    <div class="card-header" id="heading4">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                          <i class="bi bi-question-lg question-icon"></i> Do you offer a 30 day money back guarantee with dedicated servers? </button>
+                      </h5>
+                    </div>
+                    <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion" style="">
+                      <div class="card-body">
+                        <span>Ans.</span> We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="hover">
+                    <div class="card-header" id="heading5">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                          <i class="bi bi-question-lg question-icon"></i> Do you provide full root access with your servers? </button>
+                      </h5>
+                    </div>
+                    <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion" style="">
+                      <div class="card-body">
+                        <span>Ans.</span> We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="hover">
+                    <div class="card-header" id="heading6">
+                      <h5 class="mb-0">
+                        <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                          <i class="bi bi-question-lg question-icon"></i> How long will my server take to be activated? </button>
+                      </h5>
+                    </div>
+                    <div id="collapse6" class="collapse" aria-labelledby="heading6" data-parent="#accordion" style="">
+                      <div class="card-body">
+                        <span>Ans.</span> We care about safety big time — and so do your site's visitors. With a Shared Hosting account, you get an SSL certificate for free to add to your site. In this day and age, having an SSL for your site is a no-brainer best practice. Not only does an SSL help your visitors feel safe interacting with your site — this is particularly important if you run an e-commerce site.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container customerslove p-3 p-lg-5">
+          <div class="row align-items-center gap-y-25">
+            <div class="col-lg-3 col-md-6">
+              <div class="text-md-start text-center">
+                <h4 class="mb-4">Customers love Digital Host</h4>
+                <img src="images/rating1.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid img-center">
+                <h6>31,000 reviews (4.9 out of 5)</h6>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+              <div>
+                <div>
+                  <h4 class="mb-0 my-2 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="3" class="purecounter"></span>K+
+                  </h4>
+                  <p class="text-center">Customers served</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+              <div>
+                <div>
+                  <h4 class="mb-0 my-2 text-center">
+                    <span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="3" class="purecounter"></span>K+
+                  </h4>
+                  <p class="text-center">Work Completed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6" data-aos="fade-up">
+              <div>
+                <div class="">
+                  <h4 class="mb-0 my-2 text-center ">
+                    <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="3" class="purecounter"></span>+
+                  </h4>
+                  <p class="text-center">Years In Business</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container testmonil p-3 p-lg-5">
+          <div class="swiper swiper-tesimonials-slider">
+            <div class="swiper-wrapper  pointer">
+              <div class="swiper-slide">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-lg-3">
+                    <div>
+                      <div class="review_img">
+                        <img src="images/clinte1.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+                      </div>
+                      <h5 class="mt-3 mb-0">William Anderson</h5>
+                      <p>DHPenguin</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="reviews">
+                      <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-lg-3">
+                    <div>
+                      <div class="review_img">
+                        <img src="images/clinte2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+                      </div>
+                      <h5 class="mt-3 mb-0">Amanda Jepson</h5>
+                      <p>TeamBuildr</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="reviews">
+                      <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-lg-3">
+                    <div>
+                      <div class="review_img">
+                        <img src="images/clinte3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+                      </div>
+                      <h5 class="mt-3 mb-0">William Anderson</h5>
+                      <p>Ceo.</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="reviews">
+                      <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="row align-items-center justify-content-center">
+                  <div class="col-lg-3">
+                    <div>
+                      <div class="review_img">
+                        <img src="images/clinte4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+                      </div>
+                      <h5 class="mt-3 mb-0">Saul Goodman</h5>
+                      <p>Chief Executive Officer</p>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="reviews">
+                      <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-navigation z-index-5 translate-middle position-absolute top-50 start-50 ">
+              <a href="#" onclick="return false;" class="navigation-arrow swiper-custom-prev">
+                <i class="bi bi-chevron-left"></i>
+              </a>
+              <a href="#" onclick="return false;" class="navigation-arrow swiper-custom-next">
+                <i class="bi bi-chevron-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row gap-y-25">
+          <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+            <div>
+              <div class="mb-3">
+                <a href="index.html" class="logo">
+                  <img src="images/logo2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid">
+                </a>
+              </div>
+              <p>We are a web hosting company with a mission to help everyone who goes online succeed.</p>
+              <div class="my-3">
+                <form class="shadow">
+                  <input type="text" placeholder="eg. example.com" class="example">
+                  <input type="submit" value="Search">
+                </form>
+                <p class="mt-3">Your email is safe with us. We don't spam.</p>
+              </div>
+              <h5>Follow Us on</h5>
+              <ul class="sosil-linl">
+                <li>
+                  <a href="javascript:void(0)" class="sosil-icon">
+                    <i class="bi bi-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="sosil-icon">
+                    <i class="bi bi-linkedin"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="sosil-icon">
+                    <i class="bi bi-skype"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="sosil-icon">
+                    <i class="bi bi-pinterest"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+            <div>
+              <h4>Domain</h4>
+              <ul class="list-tick-six">
+                <li>
+                  <a href="domain-search.html" class="text-link">Register a Domain</a>
+                </li>
+                <li>
+                  <a href="bulk-domain-search.html" class="text-link">Bulk Domain Registration</a>
+                </li>
+                <li>
+                  <a href="new-gtlds.html" class="text-link">New Domain Extensions</a>
+                </li>
+                <li>
+                  <a href="sunrise-domain.html" class="text-link">Sunrise Domains</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Quick Link</h4>
+              <ul class="list-tick-six">
+                <li>
+                  <a href="datacenter-details.html" class="text-link">Datacenter Details</a>
+                </li>
+                <li>
+                  <a href="hosting-security.html" class="text-link">Hosting Security</a>
+                </li>
+                <li>
+                  <a href="sever-monitroing.html" class="text-link">24 x 7 Servers Monitoring</a>
+                </li>
+                <li>
+                  <a href="backup&recover.html" class="text-link">Backup and Recovery</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+            <div>
+              <h4>Hosting</h4>
+              <ul class="list-tick-six">
+                <li>
+                  <a href="shared-hosting.html" class="text-link">Linux Shared Hosting</a>
+                </li>
+                <li>
+                  <a href="vps-server.html" class="text-link">Linux KVM VPS</a>
+                </li>
+                <li>
+                  <a href="windows-shared-hosting.html" class="text-link">Windows Hosting</a>
+                </li>
+                <li>
+                  <a href="wordpress-hosting.html" class="text-link">WordPress Hosting</a>
+                </li>
+                <li>
+                  <a href="reseller-hosting.html" class="text-link">Linux Reseller Hosting</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h4>Security</h4>
+              <ul class="list-tick-six">
+                <li>
+                  <a href="ssl-certificates.html" class="text-link">SSL Certificates</a>
+                </li>
+                <li>
+                  <a href="sitelock.html" class="text-link">Sitelock</a>
+                </li>
+                <li>
+                  <a href="codeguard.html" class="text-link">Codeguard</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+            <div>
+              <h4>Support</h4>
+              <ul class="list-tick-six">
+                <li>
+                  <a href="jawascript:void(0)" class="text-link">View Knowledge Base</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-link">Contact us</a>
+                </li>
+                <li>
+                  <a href="contact.html" class="text-link">Report Abuse </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)" class="text-link">Join Reseller Program</a>
+                </li>
+                <li>
+                  <a href="legal-agreement.html" class="text-link">Term &amp; Condition</a>
+                </li>
+                <li>
+                  <a href="privacy-policy.html" class="text-link">Privacy Policy</a>
+                </li>
+                <li>
+                  <a href="blog-grid.html" class="text-link"> Our Blog</a>
+                </li>
+                <li>
+                  <a href="affiliate.html" class="text-link"> Affiliate</a>
+                </li>
+                <li>
+                  <a href="legal-agreement.html" class="text-link"> Cancellation &amp; Refund Policy</a>
+                </li>
+                <li>
+                  <a href="payment.html" class="text-link"> Payment Options</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="bootom-footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-12">
+            <div class="payement text-center text-lg-start">
+              <ul class="d-flex">
+                <li>
+                  <a href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 64 64">
+                      <g data-name="Paypal card">
+                        <path fill="#fff" d="M47 25.23a2.91 2.91 0 0 0-1-1.1 4.63 4.63 0 0 0-1.63-.59 12.57 12.57 0 0 0-2.19-.17H38.3a1 1 0 0 0-.88.71L34.8 35.47a.56.56 0 0 0 .57.71h1.86a1 1 0 0 0 .89-.7l.63-2.77a1 1 0 0 1 .9-.7h.53a8.9 8.9 0 0 0 5.32-1.4 4.41 4.41 0 0 0 1.88-3.69 3.67 3.67 0 0 0-.38-1.69ZM43 29a4 4 0 0 1-2.35.61h-.45a.57.57 0 0 1-.57-.71l.57-2.41a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.26 1.26 0 0 1 .55 1.11A2.09 2.09 0 0 1 43 29Zm19.4-5.49h-1.65A1 1 0 0 0 60 24l-.09.15-.08.37-2.38 10.61-.08.33a.53.53 0 0 0 .46.67h1.77a.93.93 0 0 0 .8-.57l.1-.14L63 24.17a.54.54 0 0 0-.58-.7ZM56 26.82a7.12 7.12 0 0 0-3.32-.59 14.22 14.22 0 0 0-2.25.18c-.56.08-.61.1-1 .17a1.08 1.08 0 0 0-.81.87l-.23.93c-.13.59.21.57.37.52a9.45 9.45 0 0 1 1.1-.32 8.23 8.23 0 0 1 1.75-.24 4.66 4.66 0 0 1 1.69.24.86.86 0 0 1 .56.84v.27l-.27.16a33.3 33.3 0 0 0-2.74.3 9 9 0 0 0-2.37.65 3.73 3.73 0 0 0-1.6 1.26 3.5 3.5 0 0 0-.52 1.94 2.33 2.33 0 0 0 .76 1.78 2.89 2.89 0 0 0 2 .66 5.12 5.12 0 0 0 1.17-.1l.9-.31.77-.42.69-.47-.06.3a.54.54 0 0 0 .49.7h1.76a1 1 0 0 0 .79-.7L57 29.59l.07-.48v-.45A2 2 0 0 0 56 26.82Zm-3 6.61-.3.39-.72.37a2.66 2.66 0 0 1-1 .21 2.19 2.19 0 0 1-1-.2l-.37-.69a1.44 1.44 0 0 1 .27-.92 1.84 1.84 0 0 1 .8-.53 6.5 6.5 0 0 1 1.22-.28c.42-.05 1.27-.15 1.37-.15l.13.23c-.04.14-.28 1.14-.4 1.57Z"></path>
+                        <path fill="#fff" d="M34.86 26.37h-2.23a1.63 1.63 0 0 0-1.18.7s-2.66 4.58-2.92 5h-.31l-.83-5a1 1 0 0 0-1-.73h-1.68a.54.54 0 0 0-.55.71s1.26 7.2 1.51 8.9c.12.94 0 1.1 0 1.1L24 40c-.24.39-.11.71.29.71h1.93a1.55 1.55 0 0 0 1.16-.7l7.42-12.59s.72-1.07.06-1.05Zm-12.65.45a7 7 0 0 0-3.32-.59 14.42 14.42 0 0 0-2.26.17 8.18 8.18 0 0 0-.95.18 1.08 1.08 0 0 0-.82.86l-.22.93c-.13.6.22.58.35.52a10.88 10.88 0 0 1 1.12-.32 7.58 7.58 0 0 1 1.74-.23 4.47 4.47 0 0 1 1.7.24.83.83 0 0 1 .55.84v.26l-.27.17a27 27 0 0 0-2.74.3 8.7 8.7 0 0 0-2.36.64 3.63 3.63 0 0 0-1.6 1.27 3.38 3.38 0 0 0-.57 1.94 2.28 2.28 0 0 0 .77 1.77 2.83 2.83 0 0 0 2 .67 4.87 4.87 0 0 0 1.16-.11l.91-.31.76-.42.7-.47-.06.29a.55.55 0 0 0 .5.69H21a1 1 0 0 0 .8-.69l1.36-5.88.07-.47v-.45a2 2 0 0 0-1.02-1.8Zm-3 6.6-.3.38-.73.38a2.62 2.62 0 0 1-1 .21 2.17 2.17 0 0 1-1.06-.2l-.36-.7a1.4 1.4 0 0 1 .27-.9l.79-.54a7.54 7.54 0 0 1 1.23-.28c.42-.05 1.26-.15 1.38-.15l.12.22c.02.16-.22 1.16-.33 1.58Zm-6-8.23a2.71 2.71 0 0 0-1-1.09 4.54 4.54 0 0 0-1.62-.6 13.86 13.86 0 0 0-2.2-.17H4.53a1 1 0 0 0-.9.71L1 35.42a.55.55 0 0 0 .56.71h1.88a.94.94 0 0 0 .89-.71L5 32.66a.93.93 0 0 1 .88-.7h.52a8.88 8.88 0 0 0 5.3-1.4 4.38 4.38 0 0 0 1.9-3.69 3.42 3.42 0 0 0-.36-1.68Zm-4 3.72a3.91 3.91 0 0 1-2.35.62h-.44a.55.55 0 0 1-.56-.71l.56-2.42a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.24 1.24 0 0 1 .54 1.11 2 2 0 0 1-.84 1.75Z"></path>
+                      </g>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 24 24">
+                      <path fill="#FF5F00" d="M15.245 17.831h-6.49V6.168h6.49v11.663z"></path>
+                      <path fill="#EB001B" d="M9.167 12A7.404 7.404 0 0 1 12 6.169 7.417 7.417 0 0 0 0 12a7.417 7.417 0 0 0 11.999 5.831A7.406 7.406 0 0 1 9.167 12z"></path>
+                      <path fill="#F79E1B" d="M24 12a7.417 7.417 0 0 1-12 5.831c1.725-1.358 2.833-3.465 2.833-5.831S13.725 7.527 12 6.169A7.417 7.417 0 0 1 24 12z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 48 48" viewBox="0 0 48 48">
+                      <polygon fill="#fff" points="17.202 32.269 21.087 32.269 23.584 16.732 19.422 16.732"></polygon>
+                      <path fill="#fff" d="M13.873 16.454l-3.607 11.098-.681-3.126c-1.942-4.717-5.272-6.659-5.272-6.659l3.456 14.224h4.162l5.827-15.538H13.873zM44.948 16.454h-4.162l-6.382 15.538h3.884l.832-2.22h4.994l.555 2.22H48L44.948 16.454zM39.954 26.997l2.22-5.826 1.11 5.826H39.954zM28.855 20.893c0-.832.555-1.665 2.497-1.665 1.387 0 2.775 1.11 2.775 1.11l.832-3.329c0 0-1.942-.832-3.607-.832-4.162 0-6.104 2.22-6.104 4.717 0 4.994 5.549 4.162 5.549 6.659 0 .555-.277 1.387-2.497 1.387s-3.884-.832-3.884-.832l-.555 3.329c0 0 1.387.832 4.162.832 2.497.277 6.382-1.942 6.382-5.272C34.405 23.113 28.855 22.836 28.855 20.893z"></path>
+                      <path fill="#fff" d="M9.711,25.055l-1.387-6.936c0,0-0.555-1.387-2.22-1.387c-1.665,0-6.104,0-6.104,0
+                                        S8.046,19.229,9.711,25.055z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="javascript:void(0)">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="me-md-2 me-0 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                      <path fill="#fff" d="M3.093,14.964c1.18,0,2.55-0.431,2.79-1.711h-1.24c-0.213,0.625-0.85,0.923-1.568,0.923c-1.035,0-1.788-0.64-1.853-1.726h4.83v1.042c0,0.387-0.02,0.848-0.04,1.235h1.18c0.025-0.238,0.04-0.49,0.04-0.728c0.506,0.61,1.33,0.923,2.2,0.923c1.407,0,2.467-0.833,2.767-2.069c-0.022,0.12-0.037,0.253-0.037,0.402c0,0.908,0.792,1.682,2.272,1.682c1,0,1.717-0.224,2.32-0.952c0,0.253,0.016,0.506,0.046,0.759h1.114c-0.03-0.313-0.04-0.654-0.04-0.997v-2.44c0-0.372-0.07-0.67-0.2-0.923l2.33,4.345l-1.07,2.024h1.346L24,9.503h-1.243l-2.055,4.093l-2.055-4.092h-1.41l0.436,0.833c-0.42-0.744-1.351-1.012-2.415-1.012c-1.186,0-2.55,0.327-2.686,1.607h1.275c0.06-0.506,0.585-0.804,1.305-0.804c0.974,0,1.53,0.356,1.53,1.234v0.134c-0.465,0-1.05,0-1.56,0.018c-1.622,0.039-2.656,0.388-2.896,1.333c0.045-0.209,0.06-0.432,0.06-0.663c0-1.936-1.488-2.832-2.828-2.832c-0.8,0-1.612,0.201-2.202,0.899V7.25h-1.2v4.876c-0.01-1.904-1.252-2.783-2.94-2.783C0.982,9.343,0,10.49,0,12.23C0,13.808,0.95,14.985,3.093,14.964z M15.193,12.313l-0.002-0.002h-0.012c0.494-0.016,1.034-0.022,1.484-0.022v0.129c0,1.115-0.675,1.8-1.935,1.8c-0.945,0-1.305-0.501-1.305-0.962C13.423,12.544,14.098,12.346,15.193,12.313z M9.116,10.165c1.125,0,1.893,0.8,1.893,2.004c0,1.204-0.766,2.004-1.876,2.004H9.131h-0.03c-1.11,0-1.875-0.8-1.875-2.004C7.226,10.964,8.006,10.165,9.116,10.165z M3.058,10.145c0.871,0,1.681,0.418,1.725,1.534h-3.54C1.364,10.615,2.114,10.145,3.058,10.145z"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-6 col-12">
+            <div class="text-center text-lg-end">
+              <p>Copyright 2024 All Right Reserved. Design By<a href="#">RedCheap</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center">
+      <i class="bi bi-airplane-engines"></i>
+    </a>
+    
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/purecounter_vanilla.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/vanilla-tilt.min.js"></script>
+    <script src="js/cookies.js"></script>
+    <script src="js/custom-switcher.js"></script>
+    <script src="js/styleswitch.js"></script>
+    <script src="js/jquery.cookie.js"></script>
+    <script src="js/isotope.pkgd.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="description" content="Buy a hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="author" content="RedCheap Theme">
+<title>Digital Host | Web Hosting Templates, WHMCS Themes</title>
+<link href="images/favicon.png" rel="icon">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" type="text/css" href="css/style.css" id="style">
+<link rel="stylesheet" type="text/css" href="css/color/default.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="color">
+<link rel="stylesheet" href="css/style.css" data-name="mode">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+</head>
+<body>
+<a class="switcher-icon" role="button" onClick="tooggleSidebar()"> <i class="bi bi-gear-fill spin"></i> </a>
+<div class="offcanvas" id="switcher-canvas">
+  <div class="offcanvas-inner">
+    <div class="offcanvas-header border-bottom">
+      <h5>Switcher</h5>
+      <a role="button" onClick="tooggleSidebar()" class="style-swicher-close"> <i class="bi bi-x"></i> </a> </div>
+    <div class="offcanvas-body">
+      <div class="">
+        <p class="switcher-style-head">Directions:</p>
+        <div class="row switcher-style">
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-ltr"> LTR </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-ltr" checked="">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-rtl"> RTL </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-rtl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="theme-colors">
+        <div class="switcher"></div>
+      </div>
+      <div class="m-3 mt-2">
+        <div class="switcher-style bg-light">
+          <h6 class="fs-18"> <span class="color-secondary-dark">WHMCS - Latest Version</span> </h6>
+          <a href="https://www.rctheme.com/whmcsdemo/index.php?systpl=hostgrid" class="mb-0 color-primary fs-16">WHMCS Demo <i class="bi bi-arrow-right mx-2"></i> </a> </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between canvas-footer"> <a href="" role="button" class="btn btn-primary-two">Buy Now</a>
+      <button id="reset-all" class="btn btn-danger">Reset Now</button>
+    </div>
+  </div>
+</div>
+<div id="topbar" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="contact-info d-flex align-items-center"> <i class="bi bi-envelope d-flex align-items-center"> <a href="mailto:info@yourdemo.com">info@yourdemo.com</a> </i> <i class="bi bi-phone d-flex align-items-center ms-4"> <a href="tel:+911230001234" class="social-item"> <span>+91 123-000-1234</span> </a> </i> </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex justify-content-end">
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> Account</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0"> <a href="login.html" class="dropdown-item"> Login</a> </li>
+              <li class="m-0"> <a href="register.html" class="dropdown-item"> Register</a> </li>
+              <li class="m-0"> <a href="forgot-password.html" class="dropdown-item"> Forgot Password</a> </li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> INR</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0"> <a class="dropdown-item"> AUD</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> CAD</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> CNY</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> EUR</a> </li>
+              <li class="m-0"> <a class="dropdown-item"> GBP</a> </li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="lang-on" id="current_selected_language">English (English)</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Languages" id="change_language_header">
+              <li class="m-0"> <a class="dropdown-item">English (English)</a> </li>
+              <li class="m-0"> <a class="dropdown-item">العربية (Arabic)</a> </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between"> <a href="index.html" class="logo"> <img src="images/logo.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </a>
+    <nav id="navbar" class="navbar ">
+      <ul class="mainmenu">
+        <li class="dropdown"> <a href="#"> <span>Home</span> </a>
+          <ul class="before">
+            <li> <a href="index.html"> <span> <i class="bi bi-house"></i>Home Default Page </span> </a> </li>
+            <li> <a href="home2.html"> <span> <i class="bi bi-snow2"></i>Winter Sale Page </span> </a> </li>
+            <li> <a href="home3.html"> <span> <i class="bi bi-tree"></i>Christmas Sale Page </span> </a> </li>
+            <li> <a href="home4.html"> <span> <i class="bi bi-moon-stars"></i>New Year Sale Page </span> </a> </li>
+            <li> <a href="home5.html"> <span> <i class="bi bi-sliders"></i>Home Content Slider </span> </a> </li>
+            <li> <a href="home6.html"> <span> <i class="bi bi-cloud-sun"></i>Home Black Friday </span> </a> </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Domain</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-journal-bookmark"></i>Registration </span> </a>
+              <ul>
+                <li> <a href="domain-search.html"> <span> <i class="bi bi-hdd-stack"></i>Register A Domain </span> </a> </li>
+                <li> <a href="bulk-domain-search.html"> <span> <i class="bi bi-hdd-network"></i>Bulk Domain Registration </span> </a> </li>
+                <li> <a href="new-gtlds.html"> <span> <i class="bi bi-database-gear"></i>New Domain Extensions </span> </a> </li>
+                <li> <a href="sunrise-domain.html"> <span> <i class="bi bi-brightness-high"></i>Sunrise Domains </span> </a> </li>
+                <li> <a href="premium-domain.html"> <span> <i class="bi bi-gem"></i>Premium Domains </span> </a> </li>
+                <li> <a href="javascript:void(0)"> <span> <i class="bi bi-lightbulb"></i>IDN Domain Registration </span> </a> </li>
+                <li> <a href="domain-pricing.html"> <span> <i class="bi bi-tags"></i>View Domain Pricing </span> </a> </li>
+                <li> <a href="domain-promo.html"> <span> <i class="bi bi-hdd"></i>Domain Promos </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-router"></i>Transfer </span> </a>
+              <ul>
+                <li> <a href="transfer-domain.html"> <span> <i class="bi bi-send-check-fill"></i>Transfer your Domain </span> </a> </li>
+                <li> <a href="bulk-transfer-domain.html"> <span> <i class="bi bi-menu-button"></i>Bulk Domain Transfer </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-database-add"></i>Add-ons </span> </a>
+              <ul>
+                <li> <a href="free-ads-one.html"> <span> <i class="bi bi-life-preserver"></i>Free with every domain </span> </a> </li>
+                <li> <a href="domain-suggest.html"> <span> <i class="bi bi-gear"></i>Name suggestion tool </span> </a> </li>
+                <li> <a href="whois.html"> <span> <i class="bi bi-file-lock"></i>Whois lookup </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Hosting</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-hdd-rack"></i>Shared Hosting </span> </a>
+              <ul>
+                <li> <a href="shared-hosting.html"> <span> <i class="bi bi-share-fill"></i>Linux Shared Hosting </span> </a> </li>
+                <li> <a href="windows-shared-hosting.html"> <span> <i class="bi bi-windows"></i>Windows Shared Hosting </span> </a> </li>
+                <li> <a href="wordpress-hosting.html"> <span> <i class="bi bi-wordpress"></i>WordPress Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-box2"></i>Server </span> </a>
+              <ul>
+                <li> <a href="vps-server.html"> <span> <i class="bi bi-database-down"></i>Linux KVM VPS </span> </a> </li>
+                <li> <a href="dedicated-server.html"> <span> <i class="bi bi-wifi"></i>Dedicated Servers </span> </a> </li>
+                <li> <a href="windows-dedicated-server.html"> <span> <i class="bi bi-microsoft"></i>Windows Dedicated Servers </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-window-stack"></i>Reseller Hosting </span> </a>
+              <ul>
+                <li> <a href="reseller-hosting.html"> <span> <i class="bi bi-window-plus"></i>Linux Reseller Hosting </span> </a> </li>
+                <li> <a href="windows-reseller-hosting.html"> <span> <i class="bi bi-windows"></i>Windows Reseller Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-gear-wide-connected"></i>Tools </span> </a>
+              <ul>
+                <li> <a href="sitelock.html"> <span> <i class="bi bi-shield-lock"></i>SiteLock </span> </a> </li>
+                <li> <a href="acronis-backup.html"> <span> <i class="bi bi-incognito"></i>Acronis Cyber Backup </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Security &amp; Website</span> </a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-shield-lock"></i>Security </span> </a>
+              <ul>
+                <li> <a href="ssl-certificates.html"> <span> <i class="bi bi-file-earmark-lock2"></i>SSL Certificates </span> </a> </li>
+                <li> <a href="codeguard.html"> <span> <i class="bi bi-cloud-download"></i>Codeguard </span> </a> </li>
+                <li> <a href="cloud-hosting.html"> <span> <i class="bi bi-cloud-check"></i>Cloud Hosting </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-envelope-at"></i>Email </span> </a>
+              <ul>
+                <li> <a href="business-email.html"> <span> <i class="bi bi-envelope-check-fill"></i>Business Email </span> </a> </li>
+                <li> <a href="enterprise-email.html"> <span> <i class="bi bi-envelope-open"></i>Enterprise Email </span> </a> </li>
+                <li> <a href="google-workspace.html"> <span> <i class="bi bi-google"></i>Google Workspace </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-laptop"></i>Website </span> </a>
+              <ul>
+                <li> <a href="weebly.html"> <span> <i class="bi bi-browser-chrome"></i> Weebly </span> </a> </li>
+                <li> <a href="website-builder.html"> <span> <i class="bi bi-webcam"></i> Website Builder </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Pages</span> </a>
+          <ul class="before">
+            <li> <a href="affiliates.html"> <span> <i class="bi bi-person-badge"></i>Affiliates </span> </a> </li>
+            <li> <a href="aboutus.html"> <span> <i class="bi bi-person-lines-fill"></i>About us </span> </a> </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-building-add"></i>Blog </span> </a>
+              <ul>
+                <li> <a href="bloggrid.html"> <span> <i class="bi bi-newspaper"></i>Blog Grid </span> </a> </li>
+                <li> <a href="blogdetails.html"> <span> <i class="bi bi-quote"></i>Blog Details </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-bank"></i>Princing </span> </a>
+              <ul>
+                <li> <a href="pricingdefault.html"> <span> <i class="bi bi-tags"></i>Pricing Default </span> </a> </li>
+                <li> <a href="pricingpackages.html"> <span> <i class="bi bi-box-seam"></i>Pricing Packages </span> </a> </li>
+                <li> <a href="webhostingpackage.html"> <span> <i class="bi bi-person-workspace"></i>Web Hosting Packages </span> </a> </li>
+                <li> <a href="pricingcomparision.html"> <span> <i class="bi bi-award"></i>Pricing Comparison </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-trophy"></i>Specialty </span> </a>
+              <ul>
+                <li> <a href="coverpage.html"> <span> <i class="bi bi-file-earmark-break"></i>Cover Page </span> </a> </li>
+                <li> <a href="comingsoon.html"> <span> <i class="bi bi-bus-front-fill"></i>Coming Soon </span> </a> </li>
+                <li> <a href="thanks.html"> <span> <i class="bi bi-balloon-heart"></i>Thank You </span> </a> </li>
+                <li> <a href="404.html"> <span> <i class="bi bi-file-earmark-easel"></i>404 Page </span> </a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"> <span> <i class="bi bi-buildings"></i>Company </span> </a>
+              <ul>
+                <li> <a href="contact.html"> <span> <i class="bi bi-person-rolodex"></i>Contact Us </span> </a> </li>
+                <li> <a href="ourpartner.html"> <span> <i class="bi bi-people"></i>Our Partner </span> </a> </li>
+                <li> <a href="network.html"> <span> <i class="bi bi-reception-4"></i>Network </span> </a> </li>
+                <li> <a href="ourteam.html"> <span> <i class="bi bi-microsoft-teams"></i>Our Team </span> </a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"> <span>Cloud</span> </a>
+          <ul class="before">
+            <li> <a href="cloud-hosting.html"> <span> <i class="bi bi-cloud-check"></i> Cloud </span> </a> </li>
+            <li> <a href="professional-cloud.html"> <span> <i class="bi bi-cloud-plus"></i> Professional Cloud </span> </a> </li>
+          </ul>
+        </li>
+        <li class="get-started right-sider"> <a class="nav-link scrollto" href="combo-offer.html">Combo Offer</a> </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+  </div>
+</header>
+<section id="banner" class="banner29 bg-infoe mt-2 mt-lg-5">
+  <div class="container">
+    <div class="row align-items-center justify-content-center gap-y-25">
+      <div class="col-lg-8 col-12">
+        <h1> <span>Terms</span> and Conditions </h1>
+        <p class="mb-0">These Terms of Service ("Terms") govern the relationship between you ("User(s)") and RedCheap. Each User is subject to these Terms, and by using RedCheap's services, User agrees to be bound by the usage policies and other terms and conditions contained here in below. These Terms supplement the individual service agreement of each User, if any.</p>
+        <a href="#more" class="btn btn-primary my-3"> <i class="bi bi-eye"></i> View More </a> </div>
+      <div class="col-lg-4 col-12"> <img src="images/banner30.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+    </div>
+  </div>
+</section>
+<main>
+  <section class="privacypolcy" id="more">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div>
+            <h2>Terms and Conditions</h2>
+            <p>Donec sodales, nibh vel (the "Terms") tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla purus. Donec dolor magna, a suscipit in magna dignissim, porttitor an hendrerit diam. Nunc gravida ultrices faucibus. Aliquet lorem purus, quis mollis nisi laoreet at vitae. Mauris consequat tortor duis fermentum a massa</p>
+            <p>Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus efficitur and ipsum primis in cubilia laoreet augue egestas luctus donec diam. Libero curabitur dapibus quisque tristique neque blandit tristique justo aliquam. Aliquam molestie nunc sapien justo , aliquet non molestie sed, venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt tincidunt massa, et porttitor justo suscipit</p>
+            <h4>Processing of your data</h4>
+            <p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla ut purus. Donec dolor magna aliquet suscipit in magna dignissim, porttitor hendrerit. Nunc gravida ultrices a felis faucibus. Praesent lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor</p>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida and donec enim ipsum porta justo integer velna a purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec purus and blandit sodales</p>
+            <p>Email address : euismod purus pretium purus pretium ligula rutrum tempor mullam blandit tempor sapien and gravida donec ipsum at justo turpis urna augue, viverra a augue eget</p>
+            <p> <span>Payment data :</span> vitae auctor a congue magna tempor sapien gravida laoreet turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur ipsum primis in cubilia laoreet augue donec, dictum tempor </p>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida donec enim ipsum porta justo integer odio velna a purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec purus and blandit sodales</p>
+            <h4>Collection of information</h4>
+            <p>In at mauris vel nisl convallis porta at vitae dui. Nam lacus ligula, vulputate mullam molestie bibendum quis, aliquet massa elementum. Vestibulum ut sagittis massa lorem fusce cursus est. Fusce non nulla vitae massa placerat vulputate vel purus. Aliqum blandit tempor undo sapien pulvinar consectetur nibh, vel imperdiet dui varius viverra.</p>
+            <h4>Authorized user accounts and account security</h4>
+            <p>Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis eget faucibus. Praesent aliquet lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor . Duis fermentum a massa in convallis quisque eu interdum augue.</p>
+            <p>In at mauris vel nisl convallis porta at vitae dui. Nam lacus ligula, vulputate mullam molestie bibendum quis, aliquet massa elementum. Vestibulum ut sagittis massa lorem fusce cursus est. Fusce non nulla vitae massa placerat vulputate vel purus. Aliqum blandit tempor undo.</p>
+            <h4>Prohibited conduct and content</h4>
+            <p>Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec diam. Curabiturac dapibus libero. Quisque eu tristique neque. Phasellus blandit tristique justo ut aliquam. Aliquam vitae molestie nunc sapien justo , aliquet non molestie sed, venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt tincidunt massa, et porttitor justo.</p>
+            <p> <span>Quaerat sodales sapien undo euismod purus blandit velna :</span> vitae auctor a congue magna tempor sapien eget gravida laoreet turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur ipsum primis in cubilia laoreet augue donec </p>
+            <p> <span>Nemo ipsam egestas volute turpis dolores :</span> ut aliquam quaerat sodales sapien congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus efficitur ipsum primis in cubilia undo pretium a purus pretium ligula </p>
+            <h4>Your responsibilities</h4>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida donec enim ipsum porta justo integer odio velna a purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec purus and blandit sodales.</p>
+            <p>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis eget faucibus. Praesent aliquet tempus, blandit posuere ligula varius congue cursus</p>
+            <p>Aliquam varius neque commodo purus vulputate pharetra bibendum in ante ornare metus, Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien semper ultrices, Nulla tincidunt volutpat tincidunt. Pellentesque habitant morbi tristique senectus et netus and famesa malesuada augue suscipit, luctus neque purus ipsum neque dolor primis</p>
+            <h4>Availability of services</h4>
+            <p> <span>Nemo ipsam egestas volute turpis dolores :</span> ut aliquam quaerat sodales sapien congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus efficitur ipsum primis in cubilia undo pretium a purus pretium ligulac </p>
+            <p> <span>Quaerat sodales sapien undo euismod purus blandit velna :</span> vitae auctor a congue magna tempor sapien eget gravida laoreet turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur ipsum primis in cubilia laoreet augue donec </p>
+            <p> <span>Fringilla risus nec, luctus mauris orci auctor :</span> euismod purus pretium purus pretium ligula rutrum tempor mullam blandit tempor sapien and gravida donec ipsum at justo quis vehicula magna luctus tempor. Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur and placerat imperdiet dui varius viverra </p>
+            <h4>Term for storing personal data</h4>
+            <p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla purus. Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida</p>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor and congue magna impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor undo donec gravida enim ipsum porta justo integer odio velna a purus efficitur and ipsum primis cubilia laoreet augue egestas luctus donec purus and blandit sodales</p>
+            <h4>Warranty limitations</h4>
+            <p>Ut non mauris libero. Sed consequat posuere nunc, eu porttitor neque dignissim donec bibendum a sodales elit blandit. Suspendisse at finibus metus. Integer nulla quam, pulvinar fermentum a commodo undo pulvinar sed nisi. Sed augue turpis, mollis a vehicula ornare, dapibus</p>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida an donec enim ipsum porta justo integer odio velna a purus efficitur ipsum primis in cubilia laoreet egestas and luctus donec purus and blandit sodales</p>
+            <h4>Notices</h4>
+            <p>Maecenas gravida porttitor nunc, quis vehicula magna luctus tempor. Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur and placerat imperdiet dui varius viverra. Pellentesque ac massa lorem fusce cursus aliquet elementum</p>
+            <p> <span>Quaerat sodales sapien undo euismod purus blandit velna :</span> vitae auctor a congue magna tempor sapien eget gravida laoreet turpis urna augue, viverra a augue eget, dictum tempor diam pulvinar consectetur purus efficitur ipsum primis in cubilia laoreet augue donec </p>
+            <p> <span>Fringilla risus nec, luctus mauris orci auctor :</span> euismod purus pretium purus pretium ligula rutrum tempor mullam blandit tempor sapien and gravida donec ipsum at justo quis vehicula magna luctus tempor. Quisque laoreet turpis urna augue, viverra a augue eget, dictum tempor diam. Sed pulvinar consectetur and placerat imperdiet dui varius viverra </p>
+            <h4>Third Party Beneficiary</h4>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien sem congue tempor gravida at donec enim ipsum porta justo integer odio velna a purus ipsum primis in cubilia laoreet undo augue egestas luctus donec purus and blandit sodales</p>
+            <p>Donec sodales, nibh vel tristique aliquet, nisi libero suscipit diam, sed tempus ante nulla purus. Donec dolor suscipit and magna, in magna dignissim, porttitor hendrerit nunc gravida ultrices felis. Quisque eleifend arcu ac tellus cursus, nec vehicula diam tempus. Nam ut sapien et mi congue tincidunt. Phasellus in exneque.</p>
+            <h4>Other Terms</h4>
+            <p>Aliqum mullam blandit tempor sapien gravida donec ipsum, at porta justo. Velna vitae auctor congue magna nihil impedit ligula risus. Mauris donec ociis et magnis sapien sagittis sapien congue tempor gravida a donec enim ipsum porta justo integer velna a purus efficitur ipsum primis in cubilia laoreet an augue egestas luctus donec purus and blandit sodales</p>
+            <p>Sagittis congue augue egestas volutpat egestas magna suscipit egestas magna ipsum vitae purus efficitur ipsum primis in cubilia laoreet augue egestas luctus donec diam. Curabitur ac dapibus ibero. Quisque undo tristique neque phasellus blandit non tristique justo ut aliquam. Aliquam vitae molestie nunc sapien justo , aliquet molestie sed, venenatis nec purus. Aliquam eget lacinia elit. Vestibulum tincidunt tincidunt</p>
+            <p>Donec dolor magna, suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices a faucibus felis. Praesent aliquet tempus, blandit posuere ligula varius congue cursus, Aliquam varius neque commodo purus vulputate pharetra bibendum in ante ornare metus</p>
+            <p>Morbi dui lectus, lobortis sit amet felis nec, suscipit imperdiet sapien semper ultrices. Nulla tincidunt purus volutpat at tincidunt. Habitant morbi tristique senectus et netus malesuada famesa augue suscipit a luctus neque purus ipsum neque dolor</p>
+            <p>Suscipit in magna dignissim, porttitor hendrerit diam. Nunc gravida ultrices felis eget faucibus. Praesent and aliquet lorem purus, quis mollis nisi laoreet vitae. Mauris nec consequat tortor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <div class="row gap-y-25">
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <div class="mb-3"> <a href="index.html" class="logo"> <img src="images/logo2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </a> </div>
+          <p>We are a web hosting company with a mission to help everyone who goes online succeed.</p>
+          <div class="my-3">
+            <form class="shadow">
+              <input type="text" placeholder="eg. example.com" class="example">
+              <input type="submit" value="Search">
+            </form>
+            <p class="mt-3">Your email is safe with us. We don't spam.</p>
+          </div>
+          <h5>Follow Us on</h5>
+          <ul class="sosil-linl">
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-twitter"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-linkedin"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-skype"></i> </a> </li>
+            <li> <a href="javascript:void(0)" class="sosil-icon"> <i class="bi bi-pinterest"></i> </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Domain</h4>
+          <ul class="list-tick-six">
+            <li> <a href="domain-search.html" class="text-link">Register a Domain</a> </li>
+            <li> <a href="bulk-domain-search.html" class="text-link">Bulk Domain Registration</a> </li>
+            <li> <a href="new-gtlds.html" class="text-link">New Domain Extensions</a> </li>
+            <li> <a href="sunrise-domain.html" class="text-link">Sunrise Domains</a> </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Link</h4>
+          <ul class="list-tick-six">
+            <li> <a href="datacenter-details.html" class="text-link">Datacenter Details</a> </li>
+            <li> <a href="hosting-security.html" class="text-link">Hosting Security</a> </li>
+            <li> <a href="sever-monitroing.html" class="text-link">24 x 7 Servers Monitoring</a> </li>
+            <li> <a href="backup&recover.html" class="text-link">Backup and Recovery</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Hosting</h4>
+          <ul class="list-tick-six">
+            <li> <a href="shared-hosting.html" class="text-link">Linux Shared Hosting</a> </li>
+            <li> <a href="vps-server.html" class="text-link">Linux KVM VPS</a> </li>
+            <li> <a href="windows-shared-hosting.html" class="text-link">Windows Hosting</a> </li>
+            <li> <a href="wordpress-hosting.html" class="text-link">WordPress Hosting</a> </li>
+            <li> <a href="reseller-hosting.html" class="text-link">Linux Reseller Hosting</a> </li>
+          </ul>
+        </div>
+        <div>
+          <h4>Security</h4>
+          <ul class="list-tick-six">
+            <li> <a href="ssl-certificates.html" class="text-link">SSL Certificates</a> </li>
+            <li> <a href="sitelock.html" class="text-link">Sitelock</a> </li>
+            <li> <a href="codeguard.html" class="text-link">Codeguard</a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Support</h4>
+          <ul class="list-tick-six">
+            <li> <a href="jawascript:void(0)" class="text-link">View Knowledge Base</a> </li>
+            <li> <a href="contact.html" class="text-link">Contact us</a> </li>
+            <li> <a href="contact.html" class="text-link">Report Abuse </a> </li>
+            <li> <a href="javascript:void(0)" class="text-link">Join Reseller Program</a> </li>
+            <li> <a href="legal-agreement.html" class="text-link">Term &amp; Condition</a> </li>
+            <li> <a href="privacy-policy.html" class="text-link">Privacy Policy</a> </li>
+            <li> <a href="blog-grid.html" class="text-link"> Our Blog</a> </li>
+            <li> <a href="affiliate.html" class="text-link"> Affiliate</a> </li>
+            <li> <a href="legal-agreement.html" class="text-link"> Cancellation &amp; Refund Policy</a> </li>
+            <li> <a href="payment.html" class="text-link"> Payment Options</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<section class="bootom-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12">
+        <div class="payement text-center text-lg-start">
+          <ul class="d-flex">
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 64 64">
+                <g data-name="Paypal card">
+                  <path fill="#fff" d="M47 25.23a2.91 2.91 0 0 0-1-1.1 4.63 4.63 0 0 0-1.63-.59 12.57 12.57 0 0 0-2.19-.17H38.3a1 1 0 0 0-.88.71L34.8 35.47a.56.56 0 0 0 .57.71h1.86a1 1 0 0 0 .89-.7l.63-2.77a1 1 0 0 1 .9-.7h.53a8.9 8.9 0 0 0 5.32-1.4 4.41 4.41 0 0 0 1.88-3.69 3.67 3.67 0 0 0-.38-1.69ZM43 29a4 4 0 0 1-2.35.61h-.45a.57.57 0 0 1-.57-.71l.57-2.41a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.26 1.26 0 0 1 .55 1.11A2.09 2.09 0 0 1 43 29Zm19.4-5.49h-1.65A1 1 0 0 0 60 24l-.09.15-.08.37-2.38 10.61-.08.33a.53.53 0 0 0 .46.67h1.77a.93.93 0 0 0 .8-.57l.1-.14L63 24.17a.54.54 0 0 0-.58-.7ZM56 26.82a7.12 7.12 0 0 0-3.32-.59 14.22 14.22 0 0 0-2.25.18c-.56.08-.61.1-1 .17a1.08 1.08 0 0 0-.81.87l-.23.93c-.13.59.21.57.37.52a9.45 9.45 0 0 1 1.1-.32 8.23 8.23 0 0 1 1.75-.24 4.66 4.66 0 0 1 1.69.24.86.86 0 0 1 .56.84v.27l-.27.16a33.3 33.3 0 0 0-2.74.3 9 9 0 0 0-2.37.65 3.73 3.73 0 0 0-1.6 1.26 3.5 3.5 0 0 0-.52 1.94 2.33 2.33 0 0 0 .76 1.78 2.89 2.89 0 0 0 2 .66 5.12 5.12 0 0 0 1.17-.1l.9-.31.77-.42.69-.47-.06.3a.54.54 0 0 0 .49.7h1.76a1 1 0 0 0 .79-.7L57 29.59l.07-.48v-.45A2 2 0 0 0 56 26.82Zm-3 6.61-.3.39-.72.37a2.66 2.66 0 0 1-1 .21 2.19 2.19 0 0 1-1-.2l-.37-.69a1.44 1.44 0 0 1 .27-.92 1.84 1.84 0 0 1 .8-.53 6.5 6.5 0 0 1 1.22-.28c.42-.05 1.27-.15 1.37-.15l.13.23c-.04.14-.28 1.14-.4 1.57Z"></path>
+                  <path fill="#fff" d="M34.86 26.37h-2.23a1.63 1.63 0 0 0-1.18.7s-2.66 4.58-2.92 5h-.31l-.83-5a1 1 0 0 0-1-.73h-1.68a.54.54 0 0 0-.55.71s1.26 7.2 1.51 8.9c.12.94 0 1.1 0 1.1L24 40c-.24.39-.11.71.29.71h1.93a1.55 1.55 0 0 0 1.16-.7l7.42-12.59s.72-1.07.06-1.05Zm-12.65.45a7 7 0 0 0-3.32-.59 14.42 14.42 0 0 0-2.26.17 8.18 8.18 0 0 0-.95.18 1.08 1.08 0 0 0-.82.86l-.22.93c-.13.6.22.58.35.52a10.88 10.88 0 0 1 1.12-.32 7.58 7.58 0 0 1 1.74-.23 4.47 4.47 0 0 1 1.7.24.83.83 0 0 1 .55.84v.26l-.27.17a27 27 0 0 0-2.74.3 8.7 8.7 0 0 0-2.36.64 3.63 3.63 0 0 0-1.6 1.27 3.38 3.38 0 0 0-.57 1.94 2.28 2.28 0 0 0 .77 1.77 2.83 2.83 0 0 0 2 .67 4.87 4.87 0 0 0 1.16-.11l.91-.31.76-.42.7-.47-.06.29a.55.55 0 0 0 .5.69H21a1 1 0 0 0 .8-.69l1.36-5.88.07-.47v-.45a2 2 0 0 0-1.02-1.8Zm-3 6.6-.3.38-.73.38a2.62 2.62 0 0 1-1 .21 2.17 2.17 0 0 1-1.06-.2l-.36-.7a1.4 1.4 0 0 1 .27-.9l.79-.54a7.54 7.54 0 0 1 1.23-.28c.42-.05 1.26-.15 1.38-.15l.12.22c.02.16-.22 1.16-.33 1.58Zm-6-8.23a2.71 2.71 0 0 0-1-1.09 4.54 4.54 0 0 0-1.62-.6 13.86 13.86 0 0 0-2.2-.17H4.53a1 1 0 0 0-.9.71L1 35.42a.55.55 0 0 0 .56.71h1.88a.94.94 0 0 0 .89-.71L5 32.66a.93.93 0 0 1 .88-.7h.52a8.88 8.88 0 0 0 5.3-1.4 4.38 4.38 0 0 0 1.9-3.69 3.42 3.42 0 0 0-.36-1.68Zm-4 3.72a3.91 3.91 0 0 1-2.35.62h-.44a.55.55 0 0 1-.56-.71l.56-2.42a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.24 1.24 0 0 1 .54 1.11 2 2 0 0 1-.84 1.75Z"></path>
+                </g>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 24 24">
+                <path fill="#FF5F00" d="M15.245 17.831h-6.49V6.168h6.49v11.663z"></path>
+                <path fill="#EB001B" d="M9.167 12A7.404 7.404 0 0 1 12 6.169 7.417 7.417 0 0 0 0 12a7.417 7.417 0 0 0 11.999 5.831A7.406 7.406 0 0 1 9.167 12z"></path>
+                <path fill="#F79E1B" d="M24 12a7.417 7.417 0 0 1-12 5.831c1.725-1.358 2.833-3.465 2.833-5.831S13.725 7.527 12 6.169A7.417 7.417 0 0 1 24 12z"></path>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 48 48" viewBox="0 0 48 48">
+                <polygon fill="#fff" points="17.202 32.269 21.087 32.269 23.584 16.732 19.422 16.732"></polygon>
+                <path fill="#fff" d="M13.873 16.454l-3.607 11.098-.681-3.126c-1.942-4.717-5.272-6.659-5.272-6.659l3.456 14.224h4.162l5.827-15.538H13.873zM44.948 16.454h-4.162l-6.382 15.538h3.884l.832-2.22h4.994l.555 2.22H48L44.948 16.454zM39.954 26.997l2.22-5.826 1.11 5.826H39.954zM28.855 20.893c0-.832.555-1.665 2.497-1.665 1.387 0 2.775 1.11 2.775 1.11l.832-3.329c0 0-1.942-.832-3.607-.832-4.162 0-6.104 2.22-6.104 4.717 0 4.994 5.549 4.162 5.549 6.659 0 .555-.277 1.387-2.497 1.387s-3.884-.832-3.884-.832l-.555 3.329c0 0 1.387.832 4.162.832 2.497.277 6.382-1.942 6.382-5.272C34.405 23.113 28.855 22.836 28.855 20.893z"></path>
+                <path fill="#fff" d="M9.711,25.055l-1.387-6.936c0,0-0.555-1.387-2.22-1.387c-1.665,0-6.104,0-6.104,0
+                                        S8.046,19.229,9.711,25.055z"></path>
+              </svg>
+              </a> </li>
+            <li> <a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-md-2 me-0 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                <path fill="#fff" d="M3.093,14.964c1.18,0,2.55-0.431,2.79-1.711h-1.24c-0.213,0.625-0.85,0.923-1.568,0.923c-1.035,0-1.788-0.64-1.853-1.726h4.83v1.042c0,0.387-0.02,0.848-0.04,1.235h1.18c0.025-0.238,0.04-0.49,0.04-0.728c0.506,0.61,1.33,0.923,2.2,0.923c1.407,0,2.467-0.833,2.767-2.069c-0.022,0.12-0.037,0.253-0.037,0.402c0,0.908,0.792,1.682,2.272,1.682c1,0,1.717-0.224,2.32-0.952c0,0.253,0.016,0.506,0.046,0.759h1.114c-0.03-0.313-0.04-0.654-0.04-0.997v-2.44c0-0.372-0.07-0.67-0.2-0.923l2.33,4.345l-1.07,2.024h1.346L24,9.503h-1.243l-2.055,4.093l-2.055-4.092h-1.41l0.436,0.833c-0.42-0.744-1.351-1.012-2.415-1.012c-1.186,0-2.55,0.327-2.686,1.607h1.275c0.06-0.506,0.585-0.804,1.305-0.804c0.974,0,1.53,0.356,1.53,1.234v0.134c-0.465,0-1.05,0-1.56,0.018c-1.622,0.039-2.656,0.388-2.896,1.333c0.045-0.209,0.06-0.432,0.06-0.663c0-1.936-1.488-2.832-2.828-2.832c-0.8,0-1.612,0.201-2.202,0.899V7.25h-1.2v4.876c-0.01-1.904-1.252-2.783-2.94-2.783C0.982,9.343,0,10.49,0,12.23C0,13.808,0.95,14.985,3.093,14.964z M15.193,12.313l-0.002-0.002h-0.012c0.494-0.016,1.034-0.022,1.484-0.022v0.129c0,1.115-0.675,1.8-1.935,1.8c-0.945,0-1.305-0.501-1.305-0.962C13.423,12.544,14.098,12.346,15.193,12.313z M9.116,10.165c1.125,0,1.893,0.8,1.893,2.004c0,1.204-0.766,2.004-1.876,2.004H9.131h-0.03c-1.11,0-1.875-0.8-1.875-2.004C7.226,10.964,8.006,10.165,9.116,10.165z M3.058,10.145c0.871,0,1.681,0.418,1.725,1.534h-3.54C1.364,10.615,2.114,10.145,3.058,10.145z"></path>
+              </svg>
+              </a> </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="text-center text-lg-end">
+          <p>Copyright 2024 All Right Reserved. Design By<a href="#">RedCheap</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"> <i class="bi bi-airplane-engines"></i> </a> 
+<script src="js/jquery-3.2.1.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/purecounter_vanilla.js"></script> 
+<script src="js/main.js"></script> 
+<script src="js/aos.js"></script> 
+<script src="js/vanilla-tilt.min.js"></script> 
+<script src="js/cookies.js"></script> 
+<script src="js/custom-switcher.js"></script> 
+<script src="js/styleswitch.js"></script> 
+<script src="js/jquery.cookie.js"></script> 
+<script src="js/isotope.pkgd.js"></script> 
+<script src="js/isotope.pkgd.min.js"></script>
+</body>
+</html>

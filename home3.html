@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords" content="hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="description" content="Buy a hosting themes, web hosting themes, whmcs templates, whmcs themes, supersite Themes, resellerclub supersite themes">
+<meta name="author" content="RedCheap Theme">
+<title>Digital Host | Web Hosting Templates, WHMCS Themes</title>
+<link href="images/favicon.png" rel="icon">
+<link href="images/apple-touch-icon.png" rel="apple-touch-icon">
+<link rel="stylesheet" type="text/css" href="css/style.css" id="style">
+<link rel="stylesheet" type="text/css" href="css/color/default.css">
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" data-name="color">
+<link rel="stylesheet" href="css/style.css" data-name="mode">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+<link rel="stylesheet" href="css/layout/wide.css" data-name="layout">
+</head>
+<body>
+<a class="switcher-icon" role="button" onClick="tooggleSidebar()"> <i class="bi bi-gear-fill spin"></i> </a>
+<div class="offcanvas" id="switcher-canvas">
+  <div class="offcanvas-inner">
+    <div class="offcanvas-header border-bottom">
+      <h5>Switcher</h5>
+      <a role="button" onClick="tooggleSidebar()" class="style-swicher-close"> <i class="bi bi-x"></i> </a> </div>
+    <div class="offcanvas-body">
+      <div class="">
+        <p class="switcher-style-head">Directions:</p>
+        <div class="row switcher-style">
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-ltr"> LTR </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-ltr" checked="">
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="form-check switch-select">
+              <label class="form-check-label user-select-none" for="switcher-rtl"> RTL </label>
+              <input class="form-check-input" type="radio" name="direction" id="switcher-rtl">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="theme-colors">
+        <div class="switcher"> </div>
+      </div>
+      <div class="m-3 mt-2">
+        <div class="switcher-style bg-light">
+          <h6 class="fs-18"><span class="color-secondary-dark">WHMCS - Latest Version</span> </h6>
+          <a href="https://www.rctheme.com/whmcsdemo/index.php?systpl=hostgrid" class="mb-0 color-primary fs-16">WHMCS Demo <i class="bi bi-arrow-right mx-2"></i></a> </div>
+      </div>
+    </div>
+    <div class="d-flex justify-content-between canvas-footer"> <a href="" role="button" class="btn btn-primary-two">Buy Now</a>
+      <button id="reset-all" class="btn btn-danger">Reset Now</button>
+    </div>
+  </div>
+</div>
+<div id="topbar" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 d-none d-lg-block">
+        <div class="contact-info d-flex align-items-center"> <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:info@yourdemo.com">info@yourdemo.com</a></i> <i class="bi bi-phone d-flex align-items-center ms-4"><a href="tel:+911230001234" class="social-item"><span>+91 123-000-1234</span></a></i> </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="d-flex justify-content-end">
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> Account</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0" ><a href="login.html" class="dropdown-item"> Login</a></li>
+              <li class="m-0"><a  href="register.html" class="dropdown-item"> Register</a></li>
+              <li class="m-0"><a  href="forgot-password.html" class="dropdown-item"> Forgot Password</a></li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Currency" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span id="current_selected_currency"> INR</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Currency" id="currency_change">
+              <li class="m-0" ><a class="dropdown-item"> AUD</a></li>
+              <li class="m-0"><a class="dropdown-item"> CAD</a></li>
+              <li class="m-0"><a class="dropdown-item"> CNY</a></li>
+              <li class="m-0"><a class="dropdown-item"> EUR</a></li>
+              <li class="m-0"><a class="dropdown-item"> GBP</a></li>
+            </ul>
+          </div>
+          <div class="dropdown my-custom-dropdown ms-3">
+            <button class="btn  dropdown-toggle" type="button" id="Languages" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <span class="lang-on" id="current_selected_language">English (English)</span> </button>
+            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="Languages" id="change_language_header">
+              <li class="m-0"><a class="dropdown-item">English (English)</a></li>
+              <li class="m-0"><a class="dropdown-item">العربية (Arabic)</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<header id="header" class="d-flex align-items-center">
+  <div class="container d-flex align-items-center justify-content-between"> <a href="index.html" class="logo"><img src="images/logo.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"></a>
+    <nav id="navbar" class="navbar ">
+      <ul class="mainmenu">
+        <li class="dropdown"> <a href="#"><span>Home</span></a>
+          <ul class="before">
+            <li><a href="index.html"><span><i class="bi bi-house"></i>Home Default Page</span></a></li>
+            <li><a href="home2.html"><span><i class="bi bi-snow2"></i>Winter Sale Page</span></a></li>
+            <li><a href="home3.html"><span><i class="bi bi-tree"></i>Christmas Sale Page</span></a></li>
+            <li><a href="home4.html"><span><i class="bi bi-moon-stars"></i>New Year Sale Page</span></a></li>
+            <li><a href="home5.html"><span><i class="bi bi-sliders"></i>Home Content Slider</span> </a></li>
+            <li><a href="home6.html"><span><i class="bi bi-cloud-sun"></i>Home Black Friday</span></a></li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"><span>Domain</span></a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-journal-bookmark"></i>Registration</span></a>
+              <ul>
+                <li><a href="domain-search.html"><span><i class="bi bi-hdd-stack"></i>Register A Domain</span></a></li>
+                <li><a href="bulk-domain-search.html"><span><i class="bi bi-hdd-network"></i>Bulk Domain Registration</span></a></li>
+                <li><a href="new-gtlds.html"><span><i class="bi bi-database-gear"></i>New Domain Extensions</span></a></li>
+                <li><a href="sunrise-domain.html"><span><i class="bi bi-brightness-high"></i>Sunrise Domains</span></a></li>
+                <li><a href="premium-domain.html"><span><i class="bi bi-gem"></i>Premium Domains</span></a></li>
+                <li><a href="javascript:void(0)"><span><i class="bi bi-lightbulb"></i>IDN Domain Registration</span></a></li>
+                <li><a href="domain-pricing.html"><span><i class="bi bi-tags"></i>View Domain Pricing</span></a></li>
+                <li><a href="domain-promo.html"><span><i class="bi bi-hdd"></i>Domain Promos</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-router"></i>Transfer</span></a>
+              <ul>
+                <li><a href="transfer-domain.html"><span><i class="bi bi-send-check-fill"></i>Transfer your Domain</span></a></li>
+                <li><a href="bulk-transfer-domain.html"><span><i class="bi bi-menu-button"></i>Bulk Domain Transfer</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-database-add"></i>Add-ons</span></a>
+              <ul>
+                <li><a href="free-ads-one.html"><span><i class="bi bi-life-preserver"></i>Free with every domain</span></a></li>
+                <li><a href="domain-suggest.html"><span><i class="bi bi-gear"></i>Name suggestion tool</span></a></li>
+                <li><a href="whois.html"><span><i class="bi bi-file-lock"></i>Whois lookup</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"><span>Hosting</span></a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-hdd-rack"></i>Shared Hosting</span></a>
+              <ul>
+                <li><a href="shared-hosting.html"><span><i class="bi bi-share-fill"></i>Linux Shared Hosting</span></a></li>
+                <li><a href="windows-shared-hosting.html"><span><i class="bi bi-windows"></i>Windows Shared Hosting</span></a></li>
+                <li><a href="wordpress-hosting.html"><span><i class="bi bi-wordpress"></i>WordPress Hosting</span></a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-box2"></i>Server</span></a>
+              <ul>
+                <li><a href="vps-server.html"><span><i class="bi bi-database-down"></i>Linux KVM VPS</span></a></li>
+                <li><a href="dedicated-server.html"><span><i class="bi bi-wifi"></i>Dedicated Servers</span></a> </li>
+                <li><a href="windows-dedicated-server.html"><span><i class="bi bi-microsoft"></i>Windows Dedicated Servers</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-window-stack"></i>Reseller Hosting</span></a>
+              <ul>
+                <li><a href="reseller-hosting.html"><span><i class="bi bi-window-plus"></i>Linux Reseller Hosting</span></a></li>
+                <li><a href="windows-reseller-hosting.html"><span><i class="bi bi-windows"></i>Windows Reseller Hosting</span></a> </li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-gear-wide-connected"></i>Tools</span></a>
+              <ul>
+                <li><a href="sitelock.html"><span><i class="bi bi-shield-lock"></i>SiteLock</span></a> </li>
+                <li><a href="acronis-backup.html"><span><i class="bi bi-incognito"></i>Acronis Cyber Backup</span></a> </li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"><span>Security &amp; Website</span></a>
+          <ul class="before">
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-shield-lock"></i>Security</span></a>
+              <ul>
+                <li><a href="ssl-certificates.html"><span><i class="bi bi-file-earmark-lock2"></i>SSL Certificates</span></a></li>
+                <li><a href="codeguard.html"><span><i class="bi bi-cloud-download"></i>Codeguard</span></a></li>
+                <li><a href="cloud-hosting.html"><span><i class="bi bi-cloud-check"></i>Cloud Hosting</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-envelope-at"></i>Email</span></a>
+              <ul>
+                <li><a href="business-email.html"><span><i class="bi bi-envelope-check-fill"></i>Business Email</span></a></li>
+                <li><a href="enterprise-email.html"><span><i class="bi bi-envelope-open"></i>Enterprise Email</span></a></li>
+                <li><a href="google-workspace.html"><span><i class="bi bi-google"></i>Google Workspace</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-laptop"></i>Website</span></a>
+              <ul>
+                <li><a href="weebly.html"><span><i class="bi bi-browser-chrome"></i> Weebly</span> </a></li>
+                <li><a href="website-builder.html"><span><i class="bi bi-webcam"></i> Website Builder</span> </a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"><span>Pages</span></a>
+          <ul class="before">
+            <li><a href="affiliates.html"><span><i class="bi bi-person-badge"></i>Affiliates</span></a></li>
+            <li><a href="aboutus.html"><span><i class="bi bi-person-lines-fill"></i>About us</span></a></li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-building-add"></i>Blog</span></a>
+              <ul>
+                <li><a href="bloggrid.html"><span><i class="bi bi-newspaper"></i>Blog Grid</span></a></li>
+                <li><a href="blogdetails.html"><span><i class="bi bi-quote"></i>Blog Details</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-bank"></i>Princing</span></a>
+              <ul>
+                <li><a href="pricingdefault.html"><span><i class="bi bi-tags"></i>Pricing Default</span></a></li>
+                <li><a href="pricingpackages.html"><span><i class="bi bi-box-seam"></i>Pricing Packages</span></a></li>
+                <li><a href="webhostingpackage.html"><span><i class="bi bi-person-workspace"></i>Web Hosting Packages</span></a></li>
+                <li><a href="pricingcomparision.html"><span><i class="bi bi-award"></i>Pricing Comparison</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-trophy"></i>Specialty</span></a>
+              <ul>
+                <li><a href="coverpage.html"><span><i class="bi bi-file-earmark-break"></i>Cover Page</span></a></li>
+                <li><a href="comingsoon.html"><span><i class="bi bi-bus-front-fill"></i>Coming Soon</span></a></li>
+                <li><a href="thanks.html"><span><i class="bi bi-balloon-heart"></i>Thank You</span></a></li>
+                <li><a href="404.html"><span><i class="bi bi-file-earmark-easel"></i>404 Page</span></a></li>
+              </ul>
+            </li>
+            <li class="dropdown"> <a href="#"><span><i class="bi bi-buildings"></i>Company</span></a>
+              <ul>
+                <li><a href="contact.html"><span><i class="bi bi-person-rolodex"></i>Contact Us</span></a></li>
+                <li><a href="ourpartner.html"><span><i class="bi bi-people"></i>Our Partner</span></a></li>
+                <li><a href="network.html"><span><i class="bi bi-reception-4"></i>Network</span></a></li>
+                <li><a href="ourteam.html"><span><i class="bi bi-microsoft-teams"></i>Our Team</span></a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li class="dropdown"> <a href="#"><span>Cloud</span></a>
+          <ul class="before">
+            <li><a href="cloud-hosting.html"><span><i class="bi bi-cloud-check"></i> Cloud</span></a></li>
+            <li><a href="professional-cloud.html"><span><i class="bi bi-cloud-plus"></i> Professional Cloud</span> </a></li>
+          </ul>
+        </li>
+        <li class="get-started right-sider"> <a class="nav-link scrollto" href="combo-offer.html">Combo Offer</a> </li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i> </nav>
+  </div>
+</header>
+<section id="banner" class="christmassale">
+  <div class="container">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-7 col-12">
+        <h1 class="mb-0">CHRISTMAS <span>SALE</span></h1>
+        <h3 class="my-2 my-lg-3">Up to 50% off</h3>
+        <h3 class="mb-0">Free Domain and SSL</h3>
+        <a href="#plans" class="btn btn-primary mt-4"><i class="bi bi-eye"></i> Get Started</a> </div>
+      <div class="col-lg-5 col-12"> <img src="images/home3.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+    </div>
+  </div>
+</section>
+<main>
+  <section class="features5">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="section-header">
+          <h2 class="text-center">FREE Add-ons with every Domain Name!</h2>
+          <p class="text-center">Get over $100 worth of Free Services with every Domain you Register</p>
+        </div>
+      </div>
+      <div class="row align-items-stretch justify-content-center gap-y-25">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> 
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path d="M208 288C199.2 288 192 295.2 192 304v96C192 408.8 199.2 416 208 416s16-7.164 16-16v-96C224 295.2 216.8 288 208 288zM272 288C263.2 288 256 295.2 256 304v96c0 8.836 7.162 16 15.1 16S288 408.8 288 400l-.0013-96C287.1 295.2 280.8 288 272 288zM376.9 201.2c-13.74-17.12-34.8-27.45-56.92-27.45h-13.72c-3.713 0-7.412 .291-11.07 .8652C282.7 165.1 267.4 160 251.4 160h-11.44V72c0-39.7-32.31-72-72.01-72c-39.7 0-71.98 32.3-71.98 72v168.5C84.85 235.1 75.19 235.4 69.83 235.4c-44.35 0-69.83 37.23-69.83 69.85c0 14.99 4.821 29.51 13.99 41.69l78.14 104.2C120.7 489.3 166.2 512 213.7 512h109.7c6.309 0 12.83-.957 18.14-2.645c28.59-5.447 53.87-19.41 73.17-40.44C436.1 446.3 448 416.2 448 384.2V274.3C448 234.6 416.3 202.3 376.9 201.2zM400 384.2c0 19.62-7.219 38.06-20.44 52.06c-12.53 13.66-29.03 22.67-49.69 26.56C327.4 463.6 325.3 464 323.4 464H213.7c-32.56 0-63.65-15.55-83.18-41.59L52.36 318.2C49.52 314.4 48.02 309.8 48.02 305.2c0-16.32 14.5-21.75 21.72-21.75c4.454 0 12.01 1.55 17.34 8.703l28.12 37.5c3.093 4.105 7.865 6.419 12.8 6.419c11.94 0 16.01-10.7 16.01-16.01V72c0-13.23 10.78-24 23.1-24c13.22 0 24 10.77 24 24v130.7c0 6.938 5.451 16.01 16.03 16.01C219.5 218.7 220.1 208 237.7 208h13.72c21.5 0 18.56 19.21 34.7 19.21c8.063 0 9.805-5.487 20.15-5.487h13.72c26.96 0 17.37 27.43 40.77 27.43l14.07-.0037c13.88 0 25.16 11.28 25.16 25.14V384.2zM336 288C327.2 288 320 295.2 320 304v96c0 8.836 7.164 16 16 16s16-7.164 16-16v-96C352 295.2 344.8 288 336 288z"></path>
+              </svg>
+            </div>
+            <div class="numbring">
+              <h3>01</h3>
+            </div>
+            <div>
+              <h4>Domain Forwarding</h4>
+              <p>Point your domain name to another website for free! Redirect users when they type your domain name into a browser (with/without domain masking &amp; SEO)</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="features5-bg-pri-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"> 
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path d="M448 80v48c0 44.2-100.3 80-224 80S0 172.2 0 128V80C0 35.8 100.3 0 224 0S448 35.8 448 80zM393.2 214.7c20.8-7.4 39.9-16.9 54.8-28.6V288c0 44.2-100.3 80-224 80S0 332.2 0 288V186.1c14.9 11.8 34 21.2 54.8 28.6C99.7 230.7 159.5 240 224 240s124.3-9.3 169.2-25.3zM0 346.1c14.9 11.8 34 21.2 54.8 28.6C99.7 390.7 159.5 400 224 400s124.3-9.3 169.2-25.3c20.8-7.4 39.9-16.9 54.8-28.6V432c0 44.2-100.3 80-224 80S0 476.2 0 432V346.1z"></path>
+              </svg>
+            </div>
+            <div class="numbring">
+              <h3>02</h3>
+            </div>
+            <div>
+              <h4>DNS Management</h4>
+              <p>Free lifetime DNS service which allows you to manage your DNS records on our globally distributed and highly redundant DNS infrastructure.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="features5-bg-sec-color p-3 p-lg-4 h-100">
+            <div class="feature-style-one-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"> 
+                <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path d="M162.1 257.8c-7.812-7.812-20.47-7.812-28.28 0l-48 48c-7.812 7.812-7.812 20.5 0 28.31l48 48C137.8 386.1 142.9 388 148 388s10.23-1.938 14.14-5.844c7.812-7.812 7.812-20.5 0-28.31L128.3 320l33.86-33.84C169.1 278.3 169.1 265.7 162.1 257.8zM365.3 93.38l-74.63-74.64C278.6 6.742 262.3 0 245.4 0H64C28.65 0 0 28.65 0 64l.0065 384c0 35.34 28.65 64 64 64H320c35.2 0 64-28.8 64-64V138.6C384 121.7 377.3 105.4 365.3 93.38zM336 448c0 8.836-7.164 16-16 16H64.02c-8.838 0-16-7.164-16-16L48 64.13c0-8.836 7.164-16 16-16h160L224 128c0 17.67 14.33 32 32 32h79.1V448zM221.9 257.8c-7.812 7.812-7.812 20.5 0 28.31L255.7 320l-33.86 33.84c-7.812 7.812-7.812 20.5 0 28.31C225.8 386.1 230.9 388 236 388s10.23-1.938 14.14-5.844l48-48c7.812-7.812 7.812-20.5 0-28.31l-48-48C242.3 250 229.7 250 221.9 257.8z"></path>
+              </svg>
+            </div>
+            <div>
+              <h4>Easy to use Control Panel</h4>
+              <p>Use our intuitive Control Panel to manage your domain name, configure email accounts, renew your domain name and buy more services.</p>
+            </div>
+            <div class="numbring">
+              <h3>03</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="features4">
+    <div class="container">
+      <div class="row align-items-center justify-content-center gap-y-25">
+        <div class="col-lg-6 col-12">
+          <div>
+            <h3>Quick And Easy To Setup</h3>
+            <p>No gurus needed here! Easily setup your website on our high-speed private cloud without any previous or technical knowledge required. Manage all of your content, emails, and domains right inside of our platform. Build dynamic online stores secured by free and automatic SSL that rank higher in search engines! </p>
+            <div class="mt-3"><a href="#plans" class="btn btn-primary-two"><i class="bi bi-eye"></i> View Plans</a></div>
+            <p></p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-12">
+          <div class="bg-color">
+            <div class="p-2"><img src="images/about6.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="domain-search">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-12 m-auto">
+          <div class="section-header">
+            <h2>Domain Name <span>Registration</span></h2>
+            <p>Use Domain Checker to find unique domains!</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-8 m-auto">
+          <form class="shadow">
+            <input type="text" placeholder="eg. example.com" class="example">
+            <input type="submit" value="Search">
+          </form>
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center mt-3 mt-lg-4 gap-y-25">
+        <div class="col-lg-7">
+          <div class="">
+            <ul class="domain-lists gap-y-25">
+              <li>
+                <h5>.net</h5>
+                <p>$6.95/yr</p>
+              </li>
+              <li>
+                <h5>.live</h5>
+                <p>$6.95/yr</p>
+              </li>
+              <li>
+                <h5>.store</h5>
+                <p>$6.95/yr</p>
+              </li>
+              <li>
+                <h5>.xyz</h5>
+                <p>$6.95/yr</p>
+              </li>
+              <li>
+                <h5>.com</h5>
+                <p>$6.95/yr</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="plan-three bg-white" id="plans">
+    <div class="container">
+      <div class="row justify-content-center justify-content-center">
+        <div class="col-md-8 col-12 m-auto">
+          <div class="section-header">
+            <h2 class="text-center">Get your business online today</h2>
+            <p class="text-center">99% uptime for rock-solid performance</p>
+          </div>
+        </div>
+      </div>
+      <div class="row alig-items-strech gap-y-25">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="plan-name h-100">
+            <h4>Web Hosting</h4>
+            <div class="doller-price"> <sup>$</sup>3.29<sub>/Month</sub> </div>
+            <ul class="list-tick-seven">
+              <li>Single Domain</li>
+              <li>Unmetered Disk Space</li>
+              <li>Unmetered Data Transfer</li>
+              <li>Unmetered Email Accounts</li>
+              <li><a href="" onclick="return false;" class="free-ssl-tooltip-txt">Free SSL Certificate <span class="free-ssl-tooltip color-white">All our Shared Hosting servers now come with a pre-installed SSL by Let's Encrypt.<br>
+                This means your site will automatically be flagged as 'SECURE' and will ensure all information sent over the site is fully encrypted. </span></a> </li>
+              <select class="w-100 m-auto form-control mt-2" name="duration" id="1_duration">
+                <option>1  Month at $ 33.58/month</option>
+              </select>
+            </ul>
+            <div class="plan-btn"><a href="shared-hosting.html" class="btn btn-primary w-100 rounded-5">Buy Now</a></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="plan-name h-100">
+            <h4>Reseller Hosting</h4>
+            <div class="doller-price"> <sup>$</sup>33.58<sub>/Month</sub> </div>
+            <ul class="list-tick-seven">
+              <li>5 cPanel Accounts</li>
+              <li>40 GB SSD Disk Space</li>
+              <li>700 GB Data Transfer</li>
+              <li>Unlimited Websites</li>
+              <li><a href="" onclick="return false;" class="free-ssl-tooltip-txt"> Free SSL Certificate <span class="free-ssl-tooltip color-white">All our Shared Hosting servers now come with a pre-installed SSL by Let's Encrypt.<br>
+                This means your site will automatically be flagged as 'SECURE' and will ensure all information sent over the site is fully encrypted. </span></a> </li>
+              <select class="w-100 m-auto form-control mt-2" name="duration" id="1_duration">
+                <option>1  Month at $ 33.58/month</option>
+              </select>
+            </ul>
+            <div class="plan-btn"><a href="reseller-hosting.html" class="btn btn-primary w-100 rounded-5">Buy Now</a></div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="plan-name h-100">
+            <h4>SSL Certificate</h4>
+            <div class="doller-price"> <sup>$</sup>9.63<sub>/Year</sub> </div>
+            <ul class="list-tick-seven">
+              <li>Domain-validation</li>
+              <li>1 domain</li>
+              <li>Free additional server licenses</li>
+              <li>Issued within 2 days</li>
+              <li>$10,000 relying party warranty</li>
+              <select class="w-100 m-auto form-control mt-2" name="duration" id="1_duration">
+                <option>1  Year - $ 9.63</option>
+              </select>
+            </ul>
+            <div class="plan-btn"><a href="ssl-certificates.html" class="btn btn-primary w-100 rounded-5">Buy Now</a></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="suport">
+    <div class="container p-3 p-lg-5">
+      <div class="row align-items-center justify-content-center gap-y-25">
+        <div class="col-lg-4 clint">
+          <div class=""> <img src="images/suport.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+        </div>
+        <div class="col-lg-8">
+          <div class="">
+            <h2>Our Staff are Available 24/7 <span>Help to You.</span></h2>
+            <h4 class="my-2">Support and Guidance</h4>
+            <p>We are available 24/7 to help you with your queries, Our servers include semi-managed support.</p>
+            <div class="mt-3 two-buttons"> <a href="javascript:void(Tawk_API.toggle())" class="btn btn btn-primary"><i class="bi bi-chat-left-dots-fill"></i> Chat With an Expert</a> <a href="contact.html" class="btn btn-outline-primary-two"><i class="bi bi-telephone"></i> Contact Us</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="">
+    <div class="container just-one-click p-3 p-lg-5">
+      <div class="row justify-content-center mb-3">
+        <div class="col-lg-8 col-12">
+          <div class="section-header">
+            <h2>Install a <span>Shopping</span> Cart,Photo Gallery,</h2>
+            <p>50+ Plugins - Powered by Softaculous</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper swiper-oneclick-slider swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+        <div class="swiper-wrapper  " id="swiper-wrapper-4dacbdaaf3234bd9" aria-live="off" style="transform: translate3d(-3597px, 0px, 0px); transition-duration: 12000ms;">
+          <div class="swiper-slide swiper-slide-duplicate swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 1179px; margin-right: 20px;">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick8.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick10.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick7.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-duplicate-active" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 1179px; margin-right: 20px;">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick8.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick10.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick7.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" role="group" aria-label="2 / 2" style="width: 1179px; margin-right: 20px;">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick8.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick10.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick7.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide-duplicate swiper-slide-active" data-swiper-slide-index="0" role="group" aria-label="1 / 2" style="width: 1179px; margin-right: 20px;">
+            <div class="row align-items-center">
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick8.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick10.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+              <div class="col-lg-2 col-6">
+                <div> <img src="images/oneclick7.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"> </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span></div>
+        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
+    </div>
+  </section>
+  <section class="faq my-0">
+    <div class="container">
+      <div class="row justify-content-center mb-3">
+        <div class="col-md-8 col-12">
+          <div class="section-header">
+            <h2>Frequently Asked <span>Questions</span></h2>
+            <p>Don’t find your answer here? just send us a message for any query.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-10 col-12">
+          <div id="accordion w-100">
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading1">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1"> <i class="bi bi-question-lg question-icon"></i> Yes, your data is a 100% secure and is backed-up every 5 days. </button>
+                  </h5>
+                </div>
+                <div id="collapse1" class="collapse" aria-labelledby="heading1" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading2">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2"> <i class="bi bi-question-lg question-icon"></i> Is there a Money Back Guarantee? </button>
+                  </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Yes, we offer a 100% Risk Free, 30 day Money Back Guarantee. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading3">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3"> <i class="bi bi-question-lg question-icon"></i> Can I host multiple Web sites within one Shared Hosting plan? </button>
+                  </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Yes! Our Pro and Business shared hosting plans allow you to host more than one Website, by adding secondary domains through your hosting control panel i.e. cPanel. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading4">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4"> <i class="bi bi-question-lg question-icon"></i> Can I upgrade to a higher plan? </button>
+                  </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Yes, you can easily upgrade to one of our higher plans at any time. </div>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="hover">
+                <div class="card-header" id="heading5">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed w-100" data-toggle="collapse" data-target="#collapse5" aria-expanded="false" aria-controls="collapse5"> <i class="bi bi-question-lg question-icon"></i> Who do I get in touch with if I need help? </button>
+                  </h5>
+                </div>
+                <div id="collapse5" class="collapse" aria-labelledby="heading5" data-parent="#accordion" style="">
+                  <div class="card-body"> <span>Ans.</span> Our Support team is always at hand to assist you. You can take a look at all our contact details here. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container customerslove p-3 p-lg-5">
+      <div class="row align-items-center gap-y-25">
+        <div class="col-lg-3 col-md-6">
+          <div class="text-md-start text-center">
+            <h4 class="mb-4">Customers love Digital Host</h4>
+            <img src="images/rating1.svg" alt="Digital Host | Web Hosting Templates, WHMCS Themes"  class="img-fluid img-center">
+            <h6>31,000 reviews (4.9 out of 5)</h6>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div>
+            <div>
+              <h4 class="mb-0 my-2 text-center"><span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="3" class="purecounter"></span>K+</h4>
+              <p class="text-center">Customers served</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div>
+            <div>
+              <h4 class="mb-0 my-2 text-center"><span data-purecounter-start="0" data-purecounter-end="17" data-purecounter-duration="3" class="purecounter"></span>K+</h4>
+              <p class="text-center">Work Completed</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6" data-aos="fade-up">
+          <div>
+            <div class="">
+              <h4 class="mb-0 my-2 text-center "><span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="3" class="purecounter"></span>+</h4>
+              <p class="text-center">Years In Business</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container testmonil p-3 p-lg-5">
+      <div class="swiper swiper-tesimonials-slider">
+        <div class="swiper-wrapper  pointer">
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"><img src="images/clinte1.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes"  class="img-fluid"></div>
+                  <h5 class="mt-3 mb-0">William Anderson</h5>
+                  <p>DHPenguin</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"><img src="images/clinte2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes"  class="img-fluid"></div>
+                  <h5 class="mt-3 mb-0">Amanda Jepson</h5>
+                  <p>TeamBuildr</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"><img src="images/clinte3.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes"  class="img-fluid"></div>
+                  <h5 class="mt-3 mb-0">William Anderson</h5>
+                  <p>Ceo.</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="row align-items-center justify-content-center">
+              <div class="col-lg-3">
+                <div>
+                  <div class="review_img"><img src="images/clinte4.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes"  class="img-fluid"></div>
+                  <h5 class="mt-3 mb-0">Saul Goodman</h5>
+                  <p>Chief Executive Officer</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="reviews">
+                  <h4>We have used CodeGuard at TeamBuildr for a few years now and it is easily one of our greatest assets. Always backed up and easy recovery. I love CodeGuard! They make backing up, tracking changes, and rolling back to a previous backup SUPER simple. Easy to use and friendly”</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-navigation z-index-5 translate-middle position-absolute top-50 start-50 "> <a href="#" onclick="return false;" class="navigation-arrow swiper-custom-prev"><i class="bi bi-chevron-left"></i></a> <a href="#" onclick="return false;" class="navigation-arrow swiper-custom-next"><i class="bi bi-chevron-right"></i></a> </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="container">
+    <div class="row gap-y-25">
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <div class="mb-3"><a href="index.html" class="logo"><img src="images/logo2.png" alt="Digital Host | Web Hosting Templates, WHMCS Themes" class="img-fluid"></a></div>
+          <p>We are a web hosting company with a mission to help everyone who goes online succeed.</p>
+          <div class="my-3">
+            <form class="shadow">
+              <input type="text" placeholder="eg. example.com" class="example">
+              <input type="submit" value="Search">
+            </form>
+            <p class="mt-3">Your email is safe with us. We don't spam.</p>
+          </div>
+          <h5>Follow Us on</h5>
+          <ul class="sosil-linl">
+            <li><a href="javascript:void(0)" class="sosil-icon"><i class="bi bi-twitter"></i></a></li>
+            <li><a href="javascript:void(0)" class="sosil-icon"><i class="bi bi-linkedin"></i></a></li>
+            <li><a href="javascript:void(0)" class="sosil-icon"><i class="bi bi-skype"></i></a></li>
+            <li><a href="javascript:void(0)" class="sosil-icon"><i class="bi bi-pinterest"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Domain</h4>
+          <ul class="list-tick-six">
+            <li><a href="domain-search.html" class="text-link">Register a Domain</a></li>
+            <li><a href="bulk-domain-search.html" class="text-link">Bulk Domain Registration</a></li>
+            <li><a href="new-gtlds.html" class="text-link">New Domain Extensions</a></li>
+            <li><a href="sunrise-domain.html" class="text-link">Sunrise Domains</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Quick Link</h4>
+          <ul class="list-tick-six">
+            <li><a href="datacenter-details.html" class="text-link">Datacenter Details</a></li>
+            <li><a href="hosting-security.html" class="text-link">Hosting Security</a></li>
+            <li><a href="sever-monitroing.html" class="text-link">24 x 7 Servers Monitoring</a></li>
+            <li><a href="backup&recover.html" class="text-link">Backup and Recovery</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Hosting</h4>
+          <ul class="list-tick-six">
+            <li><a href="shared-hosting.html" class="text-link">Linux Shared Hosting</a></li>
+            <li><a href="vps-server.html" class="text-link">Linux KVM VPS</a></li>
+            <li><a href="windows-shared-hosting.html" class="text-link">Windows Hosting</a></li>
+            <li><a href="wordpress-hosting.html" class="text-link">WordPress Hosting</a></li>
+            <li><a href="reseller-hosting.html" class="text-link">Linux Reseller Hosting</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Security</h4>
+          <ul class="list-tick-six">
+            <li><a href="ssl-certificates.html" class="text-link">SSL Certificates</a></li>
+            <li><a href="sitelock.html" class="text-link">Sitelock</a></li>
+            <li><a href="codeguard.html" class="text-link">Codeguard</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12 col-sm-6">
+        <div>
+          <h4>Support</h4>
+          <ul class="list-tick-six">
+            <li><a href="jawascript:void(0)" class="text-link">View Knowledge Base</a></li>
+            <li><a href="contact.html" class="text-link">Contact us</a></li>
+            <li><a href="contact.html" class="text-link">Report Abuse </a></li>
+            <li><a href="javascript:void(0)" class="text-link">Join Reseller Program</a></li>
+            <li><a href="legal-agreement.html" class="text-link">Term &amp; Condition</a></li>
+            <li><a href="privacy-policy.html" class="text-link">Privacy Policy</a></li>
+            <li><a href="blog-grid.html" class="text-link"> Our Blog</a> </li>
+            <li><a href="affiliate.html" class="text-link"> Affiliate</a> </li>
+            <li><a href="legal-agreement.html" class="text-link"> Cancellation &amp; Refund Policy</a> </li>
+            <li><a href="payment.html" class="text-link"> Payment Options</a> </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<section class="bootom-footer">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-12">
+        <div class="payement text-center text-lg-start">
+          <ul class="d-flex">
+            <li><a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 64 64">
+                <g data-name="Paypal card">
+                  <path fill="#fff" d="M47 25.23a2.91 2.91 0 0 0-1-1.1 4.63 4.63 0 0 0-1.63-.59 12.57 12.57 0 0 0-2.19-.17H38.3a1 1 0 0 0-.88.71L34.8 35.47a.56.56 0 0 0 .57.71h1.86a1 1 0 0 0 .89-.7l.63-2.77a1 1 0 0 1 .9-.7h.53a8.9 8.9 0 0 0 5.32-1.4 4.41 4.41 0 0 0 1.88-3.69 3.67 3.67 0 0 0-.38-1.69ZM43 29a4 4 0 0 1-2.35.61h-.45a.57.57 0 0 1-.57-.71l.57-2.41a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.26 1.26 0 0 1 .55 1.11A2.09 2.09 0 0 1 43 29Zm19.4-5.49h-1.65A1 1 0 0 0 60 24l-.09.15-.08.37-2.38 10.61-.08.33a.53.53 0 0 0 .46.67h1.77a.93.93 0 0 0 .8-.57l.1-.14L63 24.17a.54.54 0 0 0-.58-.7ZM56 26.82a7.12 7.12 0 0 0-3.32-.59 14.22 14.22 0 0 0-2.25.18c-.56.08-.61.1-1 .17a1.08 1.08 0 0 0-.81.87l-.23.93c-.13.59.21.57.37.52a9.45 9.45 0 0 1 1.1-.32 8.23 8.23 0 0 1 1.75-.24 4.66 4.66 0 0 1 1.69.24.86.86 0 0 1 .56.84v.27l-.27.16a33.3 33.3 0 0 0-2.74.3 9 9 0 0 0-2.37.65 3.73 3.73 0 0 0-1.6 1.26 3.5 3.5 0 0 0-.52 1.94 2.33 2.33 0 0 0 .76 1.78 2.89 2.89 0 0 0 2 .66 5.12 5.12 0 0 0 1.17-.1l.9-.31.77-.42.69-.47-.06.3a.54.54 0 0 0 .49.7h1.76a1 1 0 0 0 .79-.7L57 29.59l.07-.48v-.45A2 2 0 0 0 56 26.82Zm-3 6.61-.3.39-.72.37a2.66 2.66 0 0 1-1 .21 2.19 2.19 0 0 1-1-.2l-.37-.69a1.44 1.44 0 0 1 .27-.92 1.84 1.84 0 0 1 .8-.53 6.5 6.5 0 0 1 1.22-.28c.42-.05 1.27-.15 1.37-.15l.13.23c-.04.14-.28 1.14-.4 1.57Z"></path>
+                  <path fill="#fff" d="M34.86 26.37h-2.23a1.63 1.63 0 0 0-1.18.7s-2.66 4.58-2.92 5h-.31l-.83-5a1 1 0 0 0-1-.73h-1.68a.54.54 0 0 0-.55.71s1.26 7.2 1.51 8.9c.12.94 0 1.1 0 1.1L24 40c-.24.39-.11.71.29.71h1.93a1.55 1.55 0 0 0 1.16-.7l7.42-12.59s.72-1.07.06-1.05Zm-12.65.45a7 7 0 0 0-3.32-.59 14.42 14.42 0 0 0-2.26.17 8.18 8.18 0 0 0-.95.18 1.08 1.08 0 0 0-.82.86l-.22.93c-.13.6.22.58.35.52a10.88 10.88 0 0 1 1.12-.32 7.58 7.58 0 0 1 1.74-.23 4.47 4.47 0 0 1 1.7.24.83.83 0 0 1 .55.84v.26l-.27.17a27 27 0 0 0-2.74.3 8.7 8.7 0 0 0-2.36.64 3.63 3.63 0 0 0-1.6 1.27 3.38 3.38 0 0 0-.57 1.94 2.28 2.28 0 0 0 .77 1.77 2.83 2.83 0 0 0 2 .67 4.87 4.87 0 0 0 1.16-.11l.91-.31.76-.42.7-.47-.06.29a.55.55 0 0 0 .5.69H21a1 1 0 0 0 .8-.69l1.36-5.88.07-.47v-.45a2 2 0 0 0-1.02-1.8Zm-3 6.6-.3.38-.73.38a2.62 2.62 0 0 1-1 .21 2.17 2.17 0 0 1-1.06-.2l-.36-.7a1.4 1.4 0 0 1 .27-.9l.79-.54a7.54 7.54 0 0 1 1.23-.28c.42-.05 1.26-.15 1.38-.15l.12.22c.02.16-.22 1.16-.33 1.58Zm-6-8.23a2.71 2.71 0 0 0-1-1.09 4.54 4.54 0 0 0-1.62-.6 13.86 13.86 0 0 0-2.2-.17H4.53a1 1 0 0 0-.9.71L1 35.42a.55.55 0 0 0 .56.71h1.88a.94.94 0 0 0 .89-.71L5 32.66a.93.93 0 0 1 .88-.7h.52a8.88 8.88 0 0 0 5.3-1.4 4.38 4.38 0 0 0 1.9-3.69 3.42 3.42 0 0 0-.36-1.68Zm-4 3.72a3.91 3.91 0 0 1-2.35.62h-.44a.55.55 0 0 1-.56-.71l.56-2.42a1 1 0 0 1 .89-.71h.6a3 3 0 0 1 1.62.36 1.24 1.24 0 0 1 .54 1.11 2 2 0 0 1-.84 1.75Z"></path>
+                </g>
+              </svg>
+              </a></li>
+            <li><a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" viewBox="0 0 24 24">
+                <path fill="#FF5F00" d="M15.245 17.831h-6.49V6.168h6.49v11.663z"></path>
+                <path fill="#EB001B" d="M9.167 12A7.404 7.404 0 0 1 12 6.169 7.417 7.417 0 0 0 0 12a7.417 7.417 0 0 0 11.999 5.831A7.406 7.406 0 0 1 9.167 12z"></path>
+                <path fill="#F79E1B" d="M24 12a7.417 7.417 0 0 1-12 5.831c1.725-1.358 2.833-3.465 2.833-5.831S13.725 7.527 12 6.169A7.417 7.417 0 0 1 24 12z"></path>
+              </svg>
+              </a></li>
+            <li><a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-2 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 48 48" viewBox="0 0 48 48">
+                <polygon fill="#fff" points="17.202 32.269 21.087 32.269 23.584 16.732 19.422 16.732"></polygon>
+                <path fill="#fff" d="M13.873 16.454l-3.607 11.098-.681-3.126c-1.942-4.717-5.272-6.659-5.272-6.659l3.456 14.224h4.162l5.827-15.538H13.873zM44.948 16.454h-4.162l-6.382 15.538h3.884l.832-2.22h4.994l.555 2.22H48L44.948 16.454zM39.954 26.997l2.22-5.826 1.11 5.826H39.954zM28.855 20.893c0-.832.555-1.665 2.497-1.665 1.387 0 2.775 1.11 2.775 1.11l.832-3.329c0 0-1.942-.832-3.607-.832-4.162 0-6.104 2.22-6.104 4.717 0 4.994 5.549 4.162 5.549 6.659 0 .555-.277 1.387-2.497 1.387s-3.884-.832-3.884-.832l-.555 3.329c0 0 1.387.832 4.162.832 2.497.277 6.382-1.942 6.382-5.272C34.405 23.113 28.855 22.836 28.855 20.893z"></path>
+                <path fill="#fff" d="M9.711,25.055l-1.387-6.936c0,0-0.555-1.387-2.22-1.387c-1.665,0-6.104,0-6.104,0
+                                        S8.046,19.229,9.711,25.055z"></path>
+              </svg>
+              </a></li>
+            <li><a href="javascript:void(0)">
+              <svg xmlns="http://www.w3.org/2000/svg" class="me-md-2 me-0 mb-2 mb-sm-0 payment-cards" width="80" height="50" enable-background="new 0 0 24 24" viewBox="0 0 24 24">
+                <path fill="#fff" d="M3.093,14.964c1.18,0,2.55-0.431,2.79-1.711h-1.24c-0.213,0.625-0.85,0.923-1.568,0.923c-1.035,0-1.788-0.64-1.853-1.726h4.83v1.042c0,0.387-0.02,0.848-0.04,1.235h1.18c0.025-0.238,0.04-0.49,0.04-0.728c0.506,0.61,1.33,0.923,2.2,0.923c1.407,0,2.467-0.833,2.767-2.069c-0.022,0.12-0.037,0.253-0.037,0.402c0,0.908,0.792,1.682,2.272,1.682c1,0,1.717-0.224,2.32-0.952c0,0.253,0.016,0.506,0.046,0.759h1.114c-0.03-0.313-0.04-0.654-0.04-0.997v-2.44c0-0.372-0.07-0.67-0.2-0.923l2.33,4.345l-1.07,2.024h1.346L24,9.503h-1.243l-2.055,4.093l-2.055-4.092h-1.41l0.436,0.833c-0.42-0.744-1.351-1.012-2.415-1.012c-1.186,0-2.55,0.327-2.686,1.607h1.275c0.06-0.506,0.585-0.804,1.305-0.804c0.974,0,1.53,0.356,1.53,1.234v0.134c-0.465,0-1.05,0-1.56,0.018c-1.622,0.039-2.656,0.388-2.896,1.333c0.045-0.209,0.06-0.432,0.06-0.663c0-1.936-1.488-2.832-2.828-2.832c-0.8,0-1.612,0.201-2.202,0.899V7.25h-1.2v4.876c-0.01-1.904-1.252-2.783-2.94-2.783C0.982,9.343,0,10.49,0,12.23C0,13.808,0.95,14.985,3.093,14.964z M15.193,12.313l-0.002-0.002h-0.012c0.494-0.016,1.034-0.022,1.484-0.022v0.129c0,1.115-0.675,1.8-1.935,1.8c-0.945,0-1.305-0.501-1.305-0.962C13.423,12.544,14.098,12.346,15.193,12.313z M9.116,10.165c1.125,0,1.893,0.8,1.893,2.004c0,1.204-0.766,2.004-1.876,2.004H9.131h-0.03c-1.11,0-1.875-0.8-1.875-2.004C7.226,10.964,8.006,10.165,9.116,10.165z M3.058,10.145c0.871,0,1.681,0.418,1.725,1.534h-3.54C1.364,10.615,2.114,10.145,3.058,10.145z"></path>
+              </svg>
+              </a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-6 col-12">
+        <div class="text-center text-lg-end">
+          <p>Copyright 2024 All Right Reserved. Design By<a href="#">RedCheap</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"> <i class="bi bi-airplane-engines"></i> </a> 
+<script src="js/jquery-3.2.1.js"></script> 
+<script src="js/bootstrap.bundle.min.js"></script> 
+<script src="js/swiper-bundle.min.js"></script> 
+<script src="js/purecounter_vanilla.js"></script> 
+<script src="js/main.js"></script> 
+<script src="js/aos.js"></script> 
+<script src="js/vanilla-tilt.min.js"></script> 
+<script src="js/cookies.js"></script> 
+<script src="js/custom-switcher.js"></script> 
+<script src="js/styleswitch.js"></script> 
+<script src="js/jquery.cookie.js"></script>
+</body>
+</html>
